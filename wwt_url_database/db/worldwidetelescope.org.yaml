@@ -1,4 +1,7 @@
 ---
+cnames:
+- www.worldwidetelescope.org
+---
 path: /
 ---
 path: /goodbye

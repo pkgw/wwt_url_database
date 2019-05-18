@@ -38,27 +38,57 @@ class Record(object):
 
 class Domain(object):
     _db = None
+    _domain = None
+    _metadata = None
     _path = None
 
-    def __init__(self, db, path):
+    def __init__(self, db, domain, path):
         self._db = db
+        self._domain = domain
         self._path = path
 
+        # The first YAML doc is the metadata header.
+        for doc in self._all_yaml_docs():
+            self._metadata = doc
+            break
+
+    def _all_yaml_docs(self):
+        with open(self._path, 'rt') as f:
+            for doc in yaml.safe_load_all(f):
+                assert doc is not None
+                yield doc
+
     def records(self):
-        try:
-            with open(self._path, 'rt') as f:
-                for doc in yaml.safe_load_all(f):
-                    assert doc is not None
-                    yield Record(self, doc)
-        except FileNotFoundError:
-            pass  # i.e., yield no results
+        first = True
+
+        for doc in self._all_yaml_docs():
+            if first:
+                first = False
+            else:
+                yield Record(self, doc)
 
     def _rewrite(self, records):
-        "Assumes that records are correctly formatted and sorted."
+        """Assumes that records are correctly formatted and sorted.
 
-        with tempfile.NamedTemporaryFile(mode='wt', dir=self._db._dbdir, delete=False) as f:
-            yaml.dump_all(
-                (rec.as_dict() for rec in records),
+        What does "correctly formatted" mean? Example: that the URL path is
+        properly normalized.
+
+        """
+        def all_dicts():
+            yield self._metadata
+
+            for rec in records:
+                yield rec.as_dict()
+
+        tf = tempfile.NamedTemporaryFile(
+            mode = 'wt',
+            dir = self._db._dbdir,
+            prefix = self._domain,
+            delete = False,
+        )
+
+        with tf as f:
+            yaml.dump_all(all_dicts(),
                 stream = f,
                 explicit_start = True,
                 sort_keys = True,
@@ -81,6 +111,7 @@ class Domain(object):
 class Database(object):
     _dbdir = None
     _domains = None
+    _domain_aliases = None
 
     def __init__(self, dbdir=None):
         if dbdir is None:
@@ -88,15 +119,21 @@ class Database(object):
 
         self._dbdir = dbdir
         self._domains = set()
+        self._domain_aliases = {}
 
         for entry in os.listdir(self._dbdir):
             if entry.endswith('.yaml'):
                 domain = entry[:-5]
                 self._domains.add(domain)
+                self._domain_aliases[domain] = domain
+
+        for domain in self.domains():
+            for cname in domain._metadata['cnames']:
+                self._domain_aliases[cname] = domain._domain
 
     def domains(self):
         for dname in self._domains:
-            yield Domain(self, os.path.join(self._dbdir, dname + '.yaml'))
+            yield Domain(self, dname, os.path.join(self._dbdir, dname + '.yaml'))
 
     def all_records(self):
         for domain in self.domains():
@@ -106,15 +143,16 @@ class Database(object):
     def normalize(self, url):
         """Normalize a URL.
 
-        Returns (domain, normpath), where both the domain and the path have
-        been normalized. The path includes a query string. Any URL fragment is
-        discarded.
+        Returns (domain, normpath), where both the domain and the path are
+        normalized strings. The path includes a query string if one was
+        provided in the source URL. Any URL fragment is discarded.
 
         """
         info = parse.urlsplit(url)
 
-        # TODO: normalize: e.g. www.worldwidetelescope.org => worldwidetelescope.org
-        domain = info.netloc
+        domain = self._domain_aliases.get(info.netloc)
+        if domain is None:
+            raise Exception(f'illegal domain name {info.netloc!r} for URL {url!r}')
 
         # Note that we discard the fragment (for now?).
         normpath = parse.SplitResult('', '', info.path, info.query, '')
@@ -133,7 +171,7 @@ class Database(object):
 
         """
         domain, normpath = self.normalize(url)
-        domain = Domain(self, os.path.join(self._dbdir, domain + '.yaml'))
+        domain = Domain(self, domain, os.path.join(self._dbdir, domain + '.yaml'))
 
         for rec in domain.records():
             if rec.path == normpath:
