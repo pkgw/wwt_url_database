@@ -2,8 +2,6 @@
 # Copyright 2019 the .Net Foundation
 # Distributed under the terms of the revised (3-clause) BSD license.
 
-from __future__ import absolute_import, division, print_function
-
 import six
 import warnings
 

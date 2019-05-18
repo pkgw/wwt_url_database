@@ -5,8 +5,6 @@
 """Entrypoint for the command-line interface.
 
 """
-from __future__ import absolute_import, division, print_function
-
 import argparse
 
 

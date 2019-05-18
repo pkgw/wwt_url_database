@@ -1,9 +1,7 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 # -*- mode: python; coding: utf-8 -*-
 # Copyright 2019 the .Net Foundation
 # Distributed under the terms of the revised (3-clause) BSD license.
-
-from __future__ import absolute_import, division, print_function
 
 from os.path import join as pjoin
 from setuptools import setup
@@ -40,10 +38,7 @@ setup_args = dict(
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
 

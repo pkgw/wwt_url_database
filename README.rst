@@ -21,6 +21,8 @@ operating correctly.
 
 The documentation can be found at http://wwt-url-database.readthedocs.io/.
 
+This package is only compatible with Python 3.
+
 
 Reporting issues
 ----------------
