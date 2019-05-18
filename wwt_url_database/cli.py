@@ -6,6 +6,7 @@
 
 """
 import argparse
+import requests
 import sys
 
 from . import Database
@@ -37,6 +38,24 @@ def add_impl(settings):
         return
 
     domain.insert_record(record)
+
+
+# "check" subcommand
+
+def check_getparser(parser):
+    pass
+
+def check_impl(settings):
+    session = requests.session()
+    db = Database()
+    errors = 0
+
+    for rec in db.all_records():
+        if rec.check(session):
+            errors += 1
+
+    if errors > 0:
+        die(f'found {errors} broken URLs')
 
 
 # The CLI driver:

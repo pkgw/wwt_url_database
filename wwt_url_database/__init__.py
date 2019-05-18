@@ -4,6 +4,7 @@
 
 from urllib import parse
 import os.path
+import requests
 import tempfile
 from url_normalize import url_normalize
 import warnings
@@ -34,6 +35,43 @@ class Record(object):
         d = self.extras.copy()
         d['path'] = self.path
         return d
+
+    def url(self):
+        """Get the full URL associated with this record.
+
+        TODO: may be semantically limited. E.g., test both HTTP and HTTPS. And
+        cnames. And methods.
+
+        """
+        scheme = 'http'
+        netloc = self._domain._domain
+        path = self.path  # XXX this can includes a query string!
+        query = ''  # ... but urllib doesn't escape magic characters, so we can fake it
+        fragment = ''
+        return parse.urlunsplit((scheme, netloc, path, query, fragment))
+
+    def check(self, session):
+        """Check this URL!
+
+        Returns True if the URL had a problem, False if it's OK.
+
+        This function prints things to stdout.
+
+        """
+        url = self.url()
+        print(url, '... ', end='')
+
+        try:
+            resp = session.get(url)
+            if not resp.ok:
+                print(f'error: {resp.status_code}', end='')
+                return True
+
+            print('ok', end='')
+        finally:
+            print()
+
+        return False
 
 
 class Domain(object):
@@ -118,14 +156,16 @@ class Database(object):
             dbdir = os.path.join(os.path.dirname(__file__), 'db')
 
         self._dbdir = dbdir
-        self._domains = set()
+        domains = set()
         self._domain_aliases = {}
 
         for entry in os.listdir(self._dbdir):
             if entry.endswith('.yaml'):
                 domain = entry[:-5]
-                self._domains.add(domain)
+                domains.add(domain)
                 self._domain_aliases[domain] = domain
+
+        self._domains = sorted(domains)  # => consistent ordering
 
         for domain in self.domains():
             for cname in domain._metadata['cnames']:

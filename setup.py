@@ -45,6 +45,7 @@ setup_args = dict(
     include_package_data = True,
 
     install_requires = [
+        'requests<3',
         'PyYAML>=5.0',
         'url-normalize>=1.4',
     ],
