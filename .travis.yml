@@ -1,0 +1,40 @@
+# Copyright 2019 the .Net Foundation
+# Distributed under the terms of the revised (3-clause) BSD license.
+
+language: c
+
+os:
+  - linux
+
+sudo: false
+
+notifications:
+  email: false
+
+# Don't test branches besides master -- note that PR's still get built! This
+# prevents PRs being built twice in the standard workflow.
+branches:
+  only:
+    - master
+
+env:
+  global:
+    - CONDA_DEPENDENCIES="pytest pytest-cov nomkl"
+    - PIP_DEPENDENCIES="sphinx-automodapi numpydoc sphinx_rtd_theme pytest-faulthandler codecov"
+  matrix:
+    - PYTHON_VERSION=2.7
+    - PYTHON_VERSION=3.6
+    - PYTHON_VERSION=3.7
+
+install:
+  - git clone git://github.com/astropy/ci-helpers.git
+  - source ci-helpers/travis/setup_conda.sh
+
+script:
+  - python setup.py sdist
+  - cd dist && pip install *.tar.gz --verbose && cd ..
+  - pytest wwt_url_database --cov wwt_url_database --doctest-modules
+  - make -C docs html linkcheck
+
+after_success:
+  - codecov
