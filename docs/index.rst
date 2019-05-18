@@ -9,10 +9,6 @@ survey data stored in the cloud. The ``wwt_url_database`` package is a utility
 for checking that the URLs exposed by the web service are functioning
 correctly.
 
-
-User guide
-----------
-
 .. toctree::
    :maxdepth: 2
 
