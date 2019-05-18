@@ -27,6 +27,13 @@ setup_args = dict(
     url              = 'https://github.com/WorldWideTelescope/wwt_url_database',
     license          = 'BSD',
     platforms        = "Linux, Mac OS X, Windows",
+
+    entry_points = {
+        'console_scripts': [
+            'wwturldb=wwt_url_database.cli:entrypoint',
+        ],
+    },
+
     keywords         = ['Science'],
     classifiers      = [
         'Intended Audience :: Developers',
@@ -39,7 +46,9 @@ setup_args = dict(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
+
     include_package_data = True,
+
     install_requires = [
         'six',
     ],
@@ -54,8 +63,6 @@ setup_args = dict(
             'numpydoc',
             'sphinx_rtd_theme',
         ],
-    },
-    entry_points = {
     },
 )
 
