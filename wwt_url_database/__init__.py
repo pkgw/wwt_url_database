@@ -126,8 +126,10 @@ class Database(object):
     def get_record(self, url):
         """Obtain a preexisting record for a given URL.
 
-        Uses the :meth:`normalize` method. If a matching record is found,
-        return ``(domain, record)``, otherwise returns ``(domain, None)``.
+        Uses the :meth:`normalize` method. Returns ``(domain, record,
+        existed)``, where ``existed`` is True if the record was already in the
+        file. If False, a new Record object was created and
+        ``domain.insert_record()`` needs to be called to save it to disk.
 
         """
         domain, normpath = self.normalize(url)
@@ -135,6 +137,7 @@ class Database(object):
 
         for rec in domain.records():
             if rec.path == normpath:
-                return (domain, rec)
+                return (domain, rec, True)
 
-        return (domain, None)
+        rec = Record(domain, dict(path=normpath))
+        return (domain, rec, False)

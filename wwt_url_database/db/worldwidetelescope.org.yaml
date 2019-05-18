@@ -1,4 +1,6 @@
 ---
-path: /hello
+path: /
 ---
 path: /goodbye
+---
+path: /hello
