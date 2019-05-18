@@ -5,6 +5,8 @@ include setupbase.py
 include pytest.ini
 include .coveragerc
 
+graft wwt_url_database/db
+
 graft docs
 prune docs/build
 prune docs/gh-pages
