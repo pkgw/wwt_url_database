@@ -58,6 +58,18 @@ def check_impl(settings):
         die(f'found {errors} broken URLs')
 
 
+# "dump_urls" subcommand
+
+def dump_urls_getparser(parser):
+    pass
+
+def dump_urls_impl(settings):
+    db = Database()
+
+    for rec in db.all_records():
+        print(rec.url())
+
+
 # The CLI driver:
 
 def entrypoint():
