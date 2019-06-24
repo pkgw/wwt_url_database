@@ -24,6 +24,11 @@ def warn(msg):
 
 def add_getparser(parser):
     parser.add_argument(
+        '--static',
+        action = 'store_true',
+        help = 'Indicate that this URL should return static, unchanging content',
+    )
+    parser.add_argument(
         'url',
         metavar = 'URL',
         help = 'The URL to add to the database',
@@ -36,6 +41,10 @@ def add_impl(settings):
     if existed:
         warn(f'URL {settings.url} already registered; doing nothing')
         return
+
+    if settings.static:
+        session = requests.session()
+        record.lock_static_content(session)
 
     domain.insert_record(record)
 

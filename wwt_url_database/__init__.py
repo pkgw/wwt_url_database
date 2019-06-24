@@ -2,6 +2,7 @@
 # Copyright 2019 the .Net Foundation
 # Distributed under the terms of the revised (3-clause) BSD license.
 
+import hashlib
 from urllib import parse
 import os.path
 import requests
@@ -25,15 +26,29 @@ class Record(object):
     _domain = None
     extras = None
     path = None
+    content_length = None
+
+    content_sha256 = None
+    "This is a bytes object with binary digest data."
 
     def __init__(self, domain, doc):
         self._domain = domain
         self.path = doc.pop('_path')
+
+        self.content_length = doc.pop('content-length', None)
+        if self.content_length is not None:
+            self.content_sha256 = bytes.fromhex(doc.pop('content-sha256'))
+
         self.extras = doc
 
     def as_dict(self):
         d = self.extras.copy()
         d['_path'] = self.path
+
+        if self.content_length is not None:
+            d['content-length'] = self.content_length
+            d['content-sha256'] = self.content_sha256.hex()
+
         return d
 
     def url(self):
@@ -50,7 +65,33 @@ class Record(object):
         fragment = ''
         return parse.urlunsplit((scheme, netloc, path, query, fragment))
 
-    def check(self, session):
+    def lock_static_content(self, session):
+        """"Lock in" static content associated with this URL.
+
+        Calling this function asserts that this URL is associated with some
+        kind of static data file that should not change. In order to check
+        changes, we record the byte length and SHA256 digest associated with
+        the URL at the moment. Subsequent checks might re-download the file
+        and check that things still agree.
+
+        """
+        url = self.url()
+        resp = session.get(url, stream=True)
+        if not resp.ok:
+            raise Exception('failed to fetch {url}: HTTP status {resp.status_code}')
+
+        d = hashlib.sha256()
+        count = 0
+
+        for chunk in resp.iter_content(chunk_size=None):
+            d.update(chunk)
+            count += len(chunk)
+
+        self.content_length = count
+        self.content_sha256 = d.digest()  # this is a bytes of the binary digest data
+
+
+    def check(self, session, content=True):
         """Check this URL!
 
         Returns True if the URL had a problem, False if it's OK.
@@ -62,10 +103,26 @@ class Record(object):
         print(url, '... ', end='')
 
         try:
-            resp = session.get(url)
+            resp = session.get(url, stream=True)
             if not resp.ok:
                 print(f'error: {resp.status_code}', end='')
                 return True
+
+            if content and self.content_length is not None:
+                d = hashlib.sha256()
+                count = 0
+
+                for chunk in resp.iter_content(chunk_size=None):
+                    d.update(chunk)
+                    count += len(chunk)
+
+                if count != self.content_length:
+                    print(f'error: content length changed from {self.content_length} to {count}', end='')
+                    return True
+
+                if d.digest() != self.content_sha256:
+                    print(f'error: content SHA256 changed', end='')
+                    return True
 
             print('ok', end='')
         finally:
