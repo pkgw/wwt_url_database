@@ -28,12 +28,12 @@ class Record(object):
 
     def __init__(self, domain, doc):
         self._domain = domain
-        self.path = doc.pop('path')
+        self.path = doc.pop('_path')
         self.extras = doc
 
     def as_dict(self):
         d = self.extras.copy()
-        d['path'] = self.path
+        d['_path'] = self.path
         return d
 
     def url(self):
@@ -217,5 +217,5 @@ class Database(object):
             if rec.path == normpath:
                 return (domain, rec, True)
 
-        rec = Record(domain, dict(path=normpath))
+        rec = Record(domain, dict(_path=normpath))
         return (domain, rec, False)
