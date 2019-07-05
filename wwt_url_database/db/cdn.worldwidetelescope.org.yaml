@@ -1,6 +1,18 @@
 ---
 https: false
 ---
+_path: /webclient/images/SaturnRingsStrip.png
+content-length: 7410
+content-sha256: ca8abf4e234808dc87bb86536964e91433766a9490ec5b34eafcd91840ad9713
+---
+_path: /webclient/images/milkywaybar.jpg
+content-length: 1119385
+content-sha256: a9f412219f6929513601d580c8655e10b2d5332442ee550986e341a1137199a4
+---
+_path: /webclient/images/pins.png
+content-length: 437185
+content-sha256: 20fd87f785e0b360353a6671ff1f577b01a34a2ff5ed0a65e7bfb85fa3076e15
+---
 _path: /wwtweb/GetTour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
 content-length: 2711468
 content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8

@@ -24,3 +24,7 @@ content-sha256: 10ca7d95ee564e0cc3156bb6859d9f695639709ea9b6b494df2cda5c14615342
 _path: /webclient/wwtlogo.png
 content-length: 70543
 content-sha256: b7f1857c04950e29ca6c90dead72186be4ec690d657bfc04b93dc3eca59b823f
+---
+_path: /wtml/WMAP.xml
+content-length: 2894
+content-sha256: 229d7829f6df4169fba2b7d38404b3dd369d98c8a9ceb7f4c00a3f765bed8775

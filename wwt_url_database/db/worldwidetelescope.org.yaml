@@ -1,5 +1,7 @@
 ---
 cnames:
+- content.worldwidetelescope.org
+- openwwt.com
 - www.worldwidetelescope.org
 ---
 _path: /
@@ -8,7 +10,33 @@ _path: /About
 ---
 _path: /About/Acknowledgments
 ---
+_path: /About/Data
+---
+_path: /About/FAQ
+---
+_path: /About/FurtherDetails
+---
 _path: /Community
+---
+_path: /Docs/WWTSDKFactSheet.pdf
+---
+_path: /Docs/WorldWideTelescopeDataFilesReference.html
+---
+_path: /Docs/WorldWideTelescopeDataToolsGuide.html
+---
+_path: /Docs/WorldWideTelescopeLocalizationTool.html
+---
+_path: /Docs/WorldWideTelescopePlanetarium.html
+---
+_path: /Docs/WorldWideTelescopeProjectionReference.html
+---
+_path: /Docs/WorldWideTelescopeSDKOverview.html
+---
+_path: /Docs/WorldWideTelescopeUserGuide.html
+---
+_path: /Docs/WorldWideTelescopeWebControlScriptReference.html
+---
+_path: /Docs/WorldWideTelescope_lcapi.html
 ---
 _path: /Docs/worldwide-telescope-advanced-guides.epub
 ---
@@ -36,6 +64,8 @@ _path: /Docs/worldwide-telescope-layer-control-api.pdf
 ---
 _path: /Download
 ---
+_path: /Download/Tools
+---
 _path: /GetInvolved
 ---
 _path: /GetInvolved/Develop
@@ -52,9 +82,19 @@ _path: /GetInvolved/Spectrum
 ---
 _path: /Home
 ---
+_path: /Home.aspx
+---
 _path: /Learn
 ---
+_path: /Learn/Authoring
+---
+_path: /Learn/Exploring
+---
+_path: /Learn/SettingUp
+---
 _path: /Learn/UserGuide
+---
+_path: /Learn/WhatsNew
 ---
 _path: /Resource/Service/Payload
 content-length: 3332
@@ -63,6 +103,8 @@ content-sha256: fe6b7f71e63c6ab6881ab2c86c1506481fbab61b078fced261154ba85c32af7a
 _path: /Support/IssuesAndBugs
 ---
 _path: /Support/Localization
+---
+_path: /Terms
 ---
 _path: /Use
 ---
@@ -92,6 +134,8 @@ _path: /data/iss.wtt
 content-length: 40566181
 content-sha256: 0ea8598a952fe701cc4ea3078e43bc46d63fbcd64992e1bfa189537774ecccf6
 ---
+_path: /docs/Samples/wwtwebclientmessiercatalogHtml5.html
+---
 _path: /embedded-webcontrol.js
 ---
 _path: /favicon.ico
@@ -107,6 +151,86 @@ content-sha256: fd3589aa8a72beb48939de884e3ee5324b510c145003f375c77cd4ecb1a79672
 _path: /thumbnails/DSS.png
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
+---
+_path: /webclient/ESO.wtml
+content-length: 910271
+content-sha256: 9ad52da1434c03783bf3043c17b1928fc19986600eb1b82b2c35abe45ea5156f
+---
+_path: /webclient/Hubble.wtml
+content-length: 1105826
+content-sha256: e091d837988780d351d058cec8efd0fe1e5889575a7effb5348e5e63da697ad1
+---
+_path: /webclient/Images/StarProfileAlpha.png
+content-length: 10284
+content-sha256: d5fb840c68b712cdd30529620c1d482c2c774c0c9493b20312a37d4195d894c2
+---
+_path: /webclient/Images/callisto.png
+content-length: 138124
+content-sha256: 8746bdb1d7e2e1321773616138cfdce97cfe0c753e79eeeb258066a5f24b9e04
+---
+_path: /webclient/Images/earth.png
+content-length: 340331
+content-sha256: f6280ed408d33f30834a42227a3d0b76455406e96ef2d1b3c40f75ddc42bc253
+---
+_path: /webclient/Images/europa.png
+content-length: 119144
+content-sha256: 05c43166530ef053997d34ef06208b682b1bd1f9b2f8be71db43ecdfb26cd0c6
+---
+_path: /webclient/Images/ganymede.png
+content-length: 103365
+content-sha256: 9366ae6f4f47f401c960ac05ab7e68e0fe88ea79e1f2b75bcaea15d64f5b4d6e
+---
+_path: /webclient/Images/io.png
+content-length: 126194
+content-sha256: 6c710418ba36b7c04de7c84d25c8d9394bd2e1906832e004f6d8c1be82c8b5e2
+---
+_path: /webclient/Images/jupiter.png
+content-length: 309089
+content-sha256: 9fc689ede3170898b848e7a0ac22a7f16849d81f3cb6f1e3c500dcabe7d80c99
+---
+_path: /webclient/Images/layersButton.png
+content-length: 4386
+content-sha256: 76350b91ec0a7bde960db69843453a663f7ee54f53f5c2123717917efbea70c9
+---
+_path: /webclient/Images/mars.png
+content-length: 375782
+content-sha256: 6848f83f244769cc0b1d2380719952342ad33a2e8010832649c450fc3f274609
+---
+_path: /webclient/Images/mercury.png
+content-length: 455833
+content-sha256: c97929358061d4fcffb37a065cecb03b277eed705af26752c05f3c5fe0426e67
+---
+_path: /webclient/Images/moon.png
+content-length: 364661
+content-sha256: 74455670eeae5c9db4214b0083006b47987db1de182bdf922bb529d206bf779d
+---
+_path: /webclient/Images/neptune.png
+content-length: 193919
+content-sha256: 88eb0078e2e0f6772e7dbaa6366353c973ff5f8cbadcbc34ec8df8c66e03ca13
+---
+_path: /webclient/Images/pluto.png
+content-length: 103820
+content-sha256: 190f5527a7fa36b65d6a8578d663f9ce2cb41553f96f3b883616e1955644d3e4
+---
+_path: /webclient/Images/saturn.png
+content-length: 145683
+content-sha256: 6769a3b1b8ce472c2a45e46a5b0283e277119c512ac6fe73b543d23a8fca3280
+---
+_path: /webclient/Images/sun.png
+content-length: 250540
+content-sha256: a34500f849959bac4f469e6cbbfd6dd12378c8574262f8e93f89ad9992fa483c
+---
+_path: /webclient/Images/uranus.png
+content-length: 133632
+content-sha256: 81907623c7923d1a78c0bbdfc49dc00791a64037b2134e6e6cd978c2ac696615
+---
+_path: /webclient/Images/venus.png
+content-length: 430577
+content-sha256: 57d9d547ef3c7f78e1b2deb1348783252fe8517efcc5ce166a46fa34e708e27b
+---
+_path: /webclient/Wise.wtml
+content-length: 110918
+content-sha256: e6752918f39d8e4e9e945d787f2d1ea4464e02bf54b23de164c227c8e59b2323
 ---
 _path: /webclient/default.aspx
 ---
@@ -147,6 +271,8 @@ content-sha256: 15d79cd879cefea6a815bb971e74546c6691f22a783f21f4336a7b4f938b05a5
 _path: /wwtweb/catalog.aspx?Q=moons
 content-length: 24099
 content-sha256: 2c4170bed2a6855bceae471e57d7c0d2485185ac885cd44c99ce47b67b4d3c5b
+---
+_path: /wwtweb/catalog.aspx?Q=mpcbin
 ---
 _path: /wwtweb/catalog.aspx?Q=orbitsbin
 content-length: 55296
@@ -196,7 +322,13 @@ _path: /wwtweb/glimpse.aspx?q=1,1,1
 content-length: 5998
 content-sha256: c86f8fbdee5526ba9df8704085af1766ffecf910c86cc096bc9a6b73e4ea21f2
 ---
+_path: /wwtweb/goto.aspx?dec=-5.8&object=M48&ra=8.23&wtml=true&zoom=1.40625
+content-length: 149
+content-sha256: 4618e474e95288a2384f9c2132287070c5eed4a219fef223f395facdcc95e9e6
+---
 _path: /wwtweb/isstle.aspx
+---
+_path: /wwtweb/sdsstoast.aspx?q=1,1,1
 ---
 _path: /wwtweb/thumbnail.aspx?Name=SolarSystem
 content-length: 3501
@@ -213,6 +345,10 @@ content-sha256: e261506b79c5db7cf01c0dceb343785f55e28edef89360e2bc107699a3dfd65a
 _path: /wwtweb/thumbnail.aspx?Name=wise
 content-length: 1107
 content-sha256: edb757592cbee2bf48cd3a0b86cccb323ebf19be1f149debb708e89f7b4ca981
+---
+_path: /wwtweb/thumbnail.aspx?name=chandra
+content-length: 1729
+content-sha256: 7f86af8b551707bbc9d23af04ed1813b3b8769173455a4764eb0c68ff60b70b3
 ---
 _path: /wwtweb/thumbnail.aspx?name=earth
 content-length: 931
