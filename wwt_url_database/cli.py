@@ -35,8 +35,14 @@ def add_getparser(parser):
     )
 
 def add_impl(settings):
+    url = settings.url
+
+    if not url.startswith('http'):
+        warn('prepending "http://" since I don\'t see a scheme and the URL parser is picky')
+        url = 'http://' + url
+
     db = Database()
-    domain, record, existed = db.get_record(settings.url)
+    domain, record, existed = db.get_record(url)
 
     if existed:
         warn(f'URL {settings.url} already registered; doing nothing')
