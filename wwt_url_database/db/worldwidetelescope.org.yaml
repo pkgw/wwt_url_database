@@ -319,213 +319,331 @@ content-sha256: e6752918f39d8e4e9e945d787f2d1ea4464e02bf54b23de164c227c8e59b2323
 _path: /webcontrol.aspx
 ---
 _path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
+categories:
+- backend
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 ---
 _path: /wwtweb/2massoct.aspx?q=2,1,2
+categories:
+- backend
 content-length: 72711
 content-sha256: 7275be31bffd9933a3c489426f07ccddc85ae8e68c1bb9fa240082623b5c8d64
 ---
 _path: /wwtweb/bingdemtile.aspx?Q=1,1,1
+categories:
+- backend
 content-length: 4356
 content-sha256: 024074f0a74bb6440cd496ab144c79834c105a2f0634e80d9f9f1ba4132fd589
 ---
 _path: /wwtweb/catalog.aspx?Q=cosmosnewbin
+categories:
+- backend
 content-length: 10781575
 content-sha256: 633a528d47d837625d4b90223f296c04ac89607148df7dc3b6f76fc4811fa305
 ---
 _path: /wwtweb/catalog.aspx?Q=hipparcos
+categories:
+- backend
 content-length: 6753804
 content-sha256: 01e4433a1d52936105fb4ffebd4041cff27d4414a3ec199d689c0d4d7f6d73e7
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_en
+categories:
+- backend
 content-length: 81660
 content-sha256: 15d79cd879cefea6a815bb971e74546c6691f22a783f21f4336a7b4f938b05a5
 ---
 _path: /wwtweb/catalog.aspx?Q=moons
+categories:
+- backend
 content-length: 24099
 content-sha256: 2c4170bed2a6855bceae471e57d7c0d2485185ac885cd44c99ce47b67b4d3c5b
 ---
 _path: /wwtweb/catalog.aspx?Q=mpcbin
+categories:
+- backend
 ---
 _path: /wwtweb/catalog.aspx?Q=orbitsbin
+categories:
+- backend
 content-length: 55296
 content-sha256: e8c04f297384e231c95212bb0fe1db1e32ecb66be6f613edd1009332720a0316
 ---
 _path: /wwtweb/catalog.aspx?W=ExploreRoot
+categories:
+- backend
 content-length: 3489
 content-sha256: 412f248efd9c041dcf9996a554cb5b2fc289dd7adeea9cbcb15a58672a2a73e5
 ---
 _path: /wwtweb/catalog.aspx?W=NewExploreRoot
+categories:
+- backend
 content-length: 1323
 content-sha256: 3fa2a346b96ab38c4fb21becede4411c47930c3732de99eb1ae7ef1a9ddfaad0
 ---
 _path: /wwtweb/catalog.aspx?W=WCExploreRoot
+categories:
+- backend
 content-length: 3694
 content-sha256: f4252da9b3e44fcd02d0f54b2b32bd52fd2abccbf188d953e3897799ae762a2f
 ---
 _path: /wwtweb/catalog.aspx?W=and
+categories:
+- backend
 content-length: 1139
 content-sha256: 98e17899e51f3caf491e903723a369904803547e3b14c6d2dd78a97439ac8e9f
 ---
 _path: /wwtweb/catalog.aspx?W=hevelius
+categories:
+- backend
 content-length: 70508
 content-sha256: ffc7ca373e5f9902d9b4ea2baa8fd35773e42523b6b369e576a492074f8b10e2
 ---
 _path: /wwtweb/catalog.aspx?W=vampfeeds
+categories:
+- backend
 content-length: 1139
 content-sha256: d85aac355e22449edb41956ca61a499cefa95a3ec2a6d4dbd26fd39af4ce9b17
 ---
 _path: /wwtweb/catalog.aspx?X=ImageSets5
+categories:
+- backend
 content-length: 86238
 content-sha256: 50556b0e4d570a9ffe3d1bc86fd78207997f48186e62a632360824e03d672eb1
 ---
 _path: /wwtweb/catalog.aspx?X=Languages
+categories:
+- backend
 content-length: 2033
 content-sha256: 3decadd504a74e55269e2ff1fec6c0b0f2662cd2113ed5cf28aaf52a8877fd39
 ---
 _path: /wwtweb/catalog.aspx?q=ConstellationNamePositions_EN
+categories:
+- backend
 content-length: 3296
 content-sha256: 9a99f89aa85b09b7afaf565f4d9bcb0cfa279ea60633c58526d8810c1f10c1ec
 ---
 _path: /wwtweb/demmars.aspx?q=3,7,7
+categories:
+- backend
 content-length: 2052
 content-sha256: 6ff010f352f1693de55111dcf648351a40cb8f0d9a56c0b2593078d4a7eba550
 ---
 _path: /wwtweb/dss.aspx?q=4,10,4
+categories:
+- backend
 content-length: 43947
 content-sha256: 678897b7ac28a7bcec951383f236517fd162f70303d687b7c81a70f9a5812566
 ---
 _path: /wwtweb/dusttoast.aspx?q=1,1,1
+categories:
+- backend
 content-length: 99217
 content-sha256: 0b35158e0e8d45e8d25212bf513baf182dd3940023c5585f18a4f52f6ba0248e
 ---
 _path: /wwtweb/exceladdinupdate.aspx
+categories:
+- backend
 ---
 _path: /wwtweb/g360.aspx?q=1,1,1
+categories:
+- backend
 content-length: 10284
 content-sha256: abf95f05f232be98b8f109e55391398b7191bdacdb5378ac04c954aa679ccf75
 ---
 _path: /wwtweb/galex4far.aspx?q=1,1,1
+categories:
+- backend
 content-length: 48160
 content-sha256: 9c149a3bf1a1192f03c32029e5c96cf3342fbede2b43c6c49bd82febd73237d1
 ---
 _path: /wwtweb/galex4near.aspx?q=1,1,1
+categories:
+- backend
 content-length: 50605
 content-sha256: 170d3d895c7058ef51a1b7012e3b56538265f2fb95caaa52061d60ac65f0753e
 ---
 _path: /wwtweb/galextoast.aspx?q=1,1,1
+categories:
+- backend
 content-length: 67538
 content-sha256: 8bb8dda26c5c58b7400e2a2955c073a98e206fe86af3e337271e3061be0d660e
 ---
 _path: /wwtweb/getauthorthumbnail.aspx?GUID=3bf16be6-93d7-48f5-972e-7224cad3d4cb
+categories:
+- backend
 content-length: 14166
 content-sha256: 137b9b1ede749c88c732b86f0b6678590336f3fead7655845f6e7609428894d6
 ---
 _path: /wwtweb/gettour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+categories:
+- backend
 content-length: 2711468
 content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8
 ---
 _path: /wwtweb/gettours.aspx
+categories:
+- backend
 ---
 _path: /wwtweb/gettourthumbnail.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+categories:
+- backend
 content-length: 10720
 content-sha256: e4377e862d31c5bd8eebdaf6ed87d1e057a46f948b3d78e3116e4a26e634e9a3
 ---
 _path: /wwtweb/gettourthumbnail.aspx?GUID=b8255095-2eff-44af-a622-3013e41bbbfe
+categories:
+- backend
 content-length: 6947
 content-sha256: 0c4573d8aed2af11fbf0d9a0183fa79d8390d307d5a5e5b5d358a74d5bfdf72b
 ---
 _path: /wwtweb/glimpse.aspx?q=1,1,1
+categories:
+- backend
 content-length: 5998
 content-sha256: c86f8fbdee5526ba9df8704085af1766ffecf910c86cc096bc9a6b73e4ea21f2
 ---
 _path: /wwtweb/goto.aspx?dec=-22.75&object=ViewShortcut&ra=20.625&zoom=3
+categories:
+- backend
 ---
 _path: /wwtweb/goto.aspx?dec=-5.8&object=M48&ra=8.23&wtml=true&zoom=1.40625
+categories:
+- backend
 content-length: 149
 content-sha256: 4618e474e95288a2384f9c2132287070c5eed4a219fef223f395facdcc95e9e6
 ---
+_path: /wwtweb/hirisedem.aspx?q=1,1,1
+categories:
+- backend
+content-length: 2052
+content-sha256: 0044c7f0562396363c300c52f5041fca679600d4761936c81788652715699799
+---
 _path: /wwtweb/isstle.aspx
+categories:
+- backend
 ---
 _path: /wwtweb/mandel.aspx?q=1,1,1
+categories:
+- backend
 content-length: 10264
 content-sha256: e02503772811ddf5886387e66461670acb388b4bcff4036233ee9c8ee6d6d246
 ---
 _path: /wwtweb/marsdem.aspx?new&q=1,1,1,T
+categories:
+- backend
 content-length: 1026
 content-sha256: 0e1950d7d34c1a9789ba1666c1e1e754351b559a8030ca421c4af424dee463f2
 ---
 _path: /wwtweb/marshirise.aspx?q=1,1,1
+categories:
+- backend
 content-length: 166641
 content-sha256: 4563155d96a12dd9e0f87840a37e935396ccfeef42cf0f7735111a3a0e48185f
 ---
 _path: /wwtweb/marsmoc.aspx?q=1,1,1&v=2
+categories:
+- backend
 content-length: 170518
 content-sha256: a053bc7ce1bc2c9a1075828149de3b799c783a81730f4ebcde4a008175f1e4d7
 ---
 _path: /wwtweb/martiantile.aspx?q=1,1,1,mars_base_map
+categories:
+- backend
 content-length: 139877
 content-sha256: a4ee08ac646dc49b2005d9ad5f370a1ff27cc04a9edcc5b264f949e4034f347f
 ---
 _path: /wwtweb/mipsgal.aspx?q=1,1,1
+categories:
+- backend
 content-length: 5672
 content-sha256: a783c686745eeaf9592be8c1f7c33d3068638babdc96b86cf68367c0f492dba2
 ---
 _path: /wwtweb/moontoast.aspx?q=1,1,1
+categories:
+- backend
 content-length: 89409
 content-sha256: e3e5705f4ee6f1b0bfa5e24ffb161da87782a4a467a16ba2294dc2f20a9f4140
 ---
 _path: /wwtweb/moontoastdem.aspx?q=1,1,1
+categories:
+- backend
 content-length: 2052
 content-sha256: 0a94fc631534ad8a8f04c774be3b8cb37366934db849b1db3bae8b870524ef0a
 ---
 _path: /wwtweb/sdsstoast.aspx?q=1,1,1
+categories:
+- backend
 ---
 _path: /wwtweb/thumbnail.aspx?Name=SolarSystem
+categories:
+- backend
 content-length: 3501
 content-sha256: 465cc5e664fb4d7717a1932de648ef6ab14c25dbd88d18446ee29232cc44d97c
 ---
 _path: /wwtweb/thumbnail.aspx?Name=folderup
+categories:
+- backend
 content-length: 2911
 content-sha256: 96c88fadab2741f126b99e0ec1fc6cca94a38d69b4e8857c81fe90767a042ff4
 ---
 _path: /wwtweb/thumbnail.aspx?Name=glimpsetn
+categories:
+- backend
 content-length: 1179
 content-sha256: e261506b79c5db7cf01c0dceb343785f55e28edef89360e2bc107699a3dfd65a
 ---
 _path: /wwtweb/thumbnail.aspx?Name=wise
+categories:
+- backend
 content-length: 1107
 content-sha256: edb757592cbee2bf48cd3a0b86cccb323ebf19be1f149debb708e89f7b4ca981
 ---
 _path: /wwtweb/thumbnail.aspx?name=chandra
+categories:
+- backend
 content-length: 1729
 content-sha256: 7f86af8b551707bbc9d23af04ed1813b3b8769173455a4764eb0c68ff60b70b3
 ---
 _path: /wwtweb/thumbnail.aspx?name=earth
+categories:
+- backend
 content-length: 931
 content-sha256: 93d7c775c2336b8d39a53a12dba985b6363da24951a0057d196feb942987d6ab
 ---
 _path: /wwtweb/thumbnail.aspx?name=folder
+categories:
+- backend
 content-length: 2143
 content-sha256: b99fca0f662df719b6a8493454adff0ae2bffde32ebe208e30a00687aa044c92
 ---
 _path: /wwtweb/thumbnail.aspx?name=star
+categories:
+- backend
 content-length: 4804
 content-sha256: 675ca0f37d7e64da9c6268e29cfccca5c7618fddf6b5d7b1e18157d6ae27073e
 ---
 _path: /wwtweb/tiles.aspx?q=1,1,1,USNOBToast_6
+categories:
+- backend
 content-length: 60820
 content-sha256: c96bf5cb396c01947357277768a9b2ddaadc1c27fc6a7c8762200c5f27e3b941
 ---
 _path: /wwtweb/tiles.aspx?q=1,1,1,wise
+categories:
+- backend
 content-length: 178899
 content-sha256: 86c6a74649ad67d83e5ce214057cbeb90955b1edd1a607f4a179158829268e44
 ---
 _path: /wwtweb/tiles2.aspx?q=1,1,1,messenger2
+categories:
+- backend
 content-length: 78441
 content-sha256: c7b5014a9e591c1ea0b645c77c47dc539a7d36c72fdf8b29a1d69b5c23424280
 ---
 _path: /wwtweb/twomasstoast.aspx?q=1,1,1
+categories:
+- backend
 content-length: 116511
 content-sha256: e602d2e13e87b630bad164055a0b641acb1eddfdc91eddad5ec65198f109f4d4
