@@ -140,6 +140,18 @@ _path: /getinvolved/planetexplorer
 ---
 _path: /getinvolved/spectrum
 ---
+_path: /gettourfile.aspx?filename=Sample%20Tour.wwtxml&targeturl=http://worldwidetelescope.org/docs/wtml/tourtwo.wtt
+categories:
+- backend
+content-length: 14572
+content-sha256: cbbf8f2eb815adcc0f8221d518397b2825c6731f147f57480af41d3b50bcdff6
+---
+_path: /gettourfile2.aspx?filename=Sample%20Tour.wwtxml&targeturl=http://worldwidetelescope.org/docs/wtml/tourtwo.wtt
+categories:
+- backend
+content-length: 14572
+content-sha256: cbbf8f2eb815adcc0f8221d518397b2825c6731f147f57480af41d3b50bcdff6
+---
 _path: /home
 ---
 _path: /home.aspx
