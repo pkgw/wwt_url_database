@@ -76,6 +76,10 @@ contain the following keys.
   Then the URLs ``http://example.com/`` and ``http://www.example.com/`` should
   both function equivalently.
 
+``https``
+  A boolean. If ``true``, the webserver for this domain is expected to support
+  HTTPS access as well as unencrypted HTTP.
+
 
 URL Record Document
 -------------------

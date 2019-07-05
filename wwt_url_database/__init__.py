@@ -58,7 +58,12 @@ class Record(object):
         cnames. And methods.
 
         """
-        scheme = 'http'
+
+        if self._domain._metadata.get('https', False):
+            scheme = 'https'
+        else:
+            scheme = 'http'
+
         netloc = self._domain._domain
         path = self.path  # XXX this can includes a query string!
         query = ''  # ... but urllib doesn't escape magic characters, so we can fake it
