@@ -8,151 +8,47 @@ cnames:
 ---
 _path: /
 ---
-_path: /About
+_path: /about
 ---
-_path: /About/Acknowledgments
+_path: /about/acknowledgments
 ---
-_path: /About/Data
+_path: /about/data
 ---
-_path: /About/FAQ
+_path: /about/faq
 ---
-_path: /About/FurtherDetails
----
-_path: /COMPLETE/WWTCoverageTool.htm
-content-length: 18599
-content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
----
-_path: /COMPLETE/wwtcomplete.wtml
-content-length: 34245
-content-sha256: 5f383f44dc567a52ecd1ed82a78983c0e775b04e1c4804de02e42502d603cc91
----
-_path: /Community
----
-_path: /Community/AuthorThumbnail/c82902cd-234b-4c39-bd14-8a2a3849949d
-content-length: 17135
-content-sha256: 5d488c76c5b9f09fe8ded1f01757e3df639e5e57ef9d16ff2ab4b3c88bde4f44
----
-_path: /Community/TourThumbnail/46ed68e5-e0cb-4092-9bc8-07a05b518856
-content-length: 3296
-content-sha256: 5fe469f22637472769d280dddbee8bf9ef2082c0414f977ceb9a3adfe265be7e
----
-_path: /Content/Detail/81896
----
-_path: /Content/Images/Planetariums/go-dome.png
-content-length: 112128
-content-sha256: ee044331190b9206394c0e63e5ce8a08666226717d97247647b0e7035649c368
----
-_path: /Content/OpenWWT/OpenWWT_Development.pdf
----
-_path: /Docs/WWTSDKFactSheet.pdf
----
-_path: /Docs/WorldWideTelescopeDataFilesReference.html
----
-_path: /Docs/WorldWideTelescopeDataToolsGuide.html
----
-_path: /Docs/WorldWideTelescopeLocalizationTool.html
----
-_path: /Docs/WorldWideTelescopePlanetarium.html
----
-_path: /Docs/WorldWideTelescopeProjectionReference.html
----
-_path: /Docs/WorldWideTelescopeSDKOverview.html
----
-_path: /Docs/WorldWideTelescopeUserGuide.html
----
-_path: /Docs/WorldWideTelescopeWebControlScriptReference.html
----
-_path: /Docs/WorldWideTelescope_lcapi.html
----
-_path: /Docs/worldwide-telescope-advanced-guides.epub
----
-_path: /Docs/worldwide-telescope-advanced-guides.mobi
----
-_path: /Docs/worldwide-telescope-advanced-guides.pdf
----
-_path: /Docs/worldwide-telescope-data-files-reference.epub
----
-_path: /Docs/worldwide-telescope-data-files-reference.mobi
----
-_path: /Docs/worldwide-telescope-data-files-reference.pdf
----
-_path: /Docs/worldwide-telescope-data-tools-guide.epub
----
-_path: /Docs/worldwide-telescope-data-tools-guide.mobi
----
-_path: /Docs/worldwide-telescope-data-tools-guide.pdf
----
-_path: /Docs/worldwide-telescope-layer-control-api.epub
----
-_path: /Docs/worldwide-telescope-layer-control-api.mobi
----
-_path: /Docs/worldwide-telescope-layer-control-api.pdf
----
-_path: /Download
----
-_path: /Download/Features
----
-_path: /Download/Tools
----
-_path: /GetInvolved
----
-_path: /GetInvolved/Develop
----
-_path: /GetInvolved/GreatObservatories
----
-_path: /GetInvolved/HelpOthers
----
-_path: /GetInvolved/ImportImage
----
-_path: /GetInvolved/PlanetExplorer
----
-_path: /GetInvolved/Spectrum
----
-_path: /Home
----
-_path: /Home.aspx
----
-_path: /Learn
----
-_path: /Learn/Authoring
----
-_path: /Learn/Exploring
----
-_path: /Learn/SettingUp
----
-_path: /Learn/UserGuide
----
-_path: /Learn/WhatsNew
----
-_path: /Resource/Service/Payload
-content-length: 3332
-content-sha256: fe6b7f71e63c6ab6881ab2c86c1506481fbab61b078fced261154ba85c32af7a
----
-_path: /Support/IssuesAndBugs
----
-_path: /Support/Localization
----
-_path: /Terms
----
-_path: /Use
----
-_path: /Use/Educators
----
-_path: /Use/Embed
----
-_path: /Use/Planetariums
----
-_path: /Use/Researchers
----
-_path: /Use/TourAssets
----
-_path: /WebControl.aspx
+_path: /about/furtherdetails
 ---
 _path: /clientaccesspolicy.xml
 content-length: 340
 content-sha256: c4d1ff7bb220b39f6c3cb364b437cf881ec9aa77cddf3438d9ca5fedf56a7be3
 ---
-_path: /data/constellationNames_RADEC_EN.txt
+_path: /community
+---
+_path: /community/authorthumbnail/c82902cd-234b-4c39-bd14-8a2a3849949d
+content-length: 17135
+content-sha256: 5d488c76c5b9f09fe8ded1f01757e3df639e5e57ef9d16ff2ab4b3c88bde4f44
+---
+_path: /community/tourthumbnail/46ed68e5-e0cb-4092-9bc8-07a05b518856
+content-length: 3296
+content-sha256: 5fe469f22637472769d280dddbee8bf9ef2082c0414f977ceb9a3adfe265be7e
+---
+_path: /complete/wwtcomplete.wtml
+content-length: 34245
+content-sha256: 5f383f44dc567a52ecd1ed82a78983c0e775b04e1c4804de02e42502d603cc91
+---
+_path: /complete/wwtcoveragetool.htm
+content-length: 18599
+content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
+---
+_path: /content/detail/81896
+---
+_path: /content/images/planetariums/go-dome.png
+content-length: 112128
+content-sha256: ee044331190b9206394c0e63e5ce8a08666226717d97247647b0e7035649c368
+---
+_path: /content/openwwt/openwwt_development.pdf
+---
+_path: /data/constellationNames_radec_en.txt
 content-length: 3530
 content-sha256: ed68a56ea00d9effcd28508a4c3a654f0dd220d31132f9c260c1d8d21fc911b2
 ---
@@ -172,7 +68,57 @@ _path: /data/iss.zip
 content-length: 30459330
 content-sha256: e3cc4fc6be7e81f68e1296999db0043fd4af21d7d411ae8d948c6c8f98e80d0d
 ---
-_path: /docs/Samples/wwtwebclientmessiercatalogHtml5.html
+_path: /docs/samples/wwtwebclientmessiercataloghtml5.html
+---
+_path: /docs/worldwide-telescope-advanced-guides.epub
+---
+_path: /docs/worldwide-telescope-advanced-guides.mobi
+---
+_path: /docs/worldwide-telescope-advanced-guides.pdf
+---
+_path: /docs/worldwide-telescope-data-files-reference.epub
+---
+_path: /docs/worldwide-telescope-data-files-reference.mobi
+---
+_path: /docs/worldwide-telescope-data-files-reference.pdf
+---
+_path: /docs/worldwide-telescope-data-tools-guide.epub
+---
+_path: /docs/worldwide-telescope-data-tools-guide.mobi
+---
+_path: /docs/worldwide-telescope-data-tools-guide.pdf
+---
+_path: /docs/worldwide-telescope-layer-control-api.epub
+---
+_path: /docs/worldwide-telescope-layer-control-api.mobi
+---
+_path: /docs/worldwide-telescope-layer-control-api.pdf
+---
+_path: /docs/worldwidetelescope_lcapi.html
+---
+_path: /docs/worldwidetelescopedatafilesreference.html
+---
+_path: /docs/worldwidetelescopedatatoolsguide.html
+---
+_path: /docs/worldwidetelescopelocalizationtool.html
+---
+_path: /docs/worldwidetelescopeplanetarium.html
+---
+_path: /docs/worldwidetelescopeprojectionreference.html
+---
+_path: /docs/worldwidetelescopesdkoverview.html
+---
+_path: /docs/worldwidetelescopeuserguide.html
+---
+_path: /docs/worldwidetelescopewebcontrolscriptreference.html
+---
+_path: /docs/wwtsdkfactsheet.pdf
+---
+_path: /download
+---
+_path: /download/features
+---
+_path: /download/tools
 ---
 _path: /embedded-webcontrol.js
 ---
@@ -180,13 +126,45 @@ _path: /favicon.ico
 content-length: 9062
 content-sha256: b9959ff16082a4daa15d6553b04c31e07d1560973ca17772b98f2321d90edefa
 ---
+_path: /getinvolved
+---
+_path: /getinvolved/develop
+---
+_path: /getinvolved/greatobservatories
+---
+_path: /getinvolved/helpothers
+---
+_path: /getinvolved/importimage
+---
+_path: /getinvolved/planetexplorer
+---
+_path: /getinvolved/spectrum
+---
 _path: /home
 ---
+_path: /home.aspx
+---
 _path: /html5sdk/wwtsdk.min.js
+---
+_path: /learn
+---
+_path: /learn/authoring
+---
+_path: /learn/exploring
+---
+_path: /learn/settingup
+---
+_path: /learn/userguide
+---
+_path: /learn/whatsnew
 ---
 _path: /m51.txt
 content-length: 1650240
 content-sha256: fd3589aa8a72beb48939de884e3ee5324b510c145003f375c77cd4ecb1a79672
+---
+_path: /resource/service/payload
+content-length: 3332
+content-sha256: fe6b7f71e63c6ab6881ab2c86c1506481fbab61b078fced261154ba85c32af7a
 ---
 _path: /robots.txt
 content-length: 322
@@ -194,95 +172,53 @@ content-sha256: 31b06b9d8d7ba2c31db2dc51bd04993d5c3d5f10fb01cc21cf4b8a8825b9505a
 ---
 _path: /sitemap.xml
 ---
-_path: /thumbnails/DSS.png
+_path: /support/issuesandbugs
+---
+_path: /support/localization
+---
+_path: /terms
+---
+_path: /thumbnails/dss.png
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 ---
-_path: /webclient/ESO.wtml
-content-length: 910271
-content-sha256: 9ad52da1434c03783bf3043c17b1928fc19986600eb1b82b2c35abe45ea5156f
+_path: /use
 ---
-_path: /webclient/Hubble.wtml
-content-length: 1105826
-content-sha256: e091d837988780d351d058cec8efd0fe1e5889575a7effb5348e5e63da697ad1
+_path: /use/educators
 ---
-_path: /webclient/Images/StarProfileAlpha.png
-content-length: 10284
-content-sha256: d5fb840c68b712cdd30529620c1d482c2c774c0c9493b20312a37d4195d894c2
+_path: /use/embed
 ---
-_path: /webclient/Images/callisto.png
-content-length: 138124
-content-sha256: 8746bdb1d7e2e1321773616138cfdce97cfe0c753e79eeeb258066a5f24b9e04
+_path: /use/planetariums
 ---
-_path: /webclient/Images/earth.png
-content-length: 340331
-content-sha256: f6280ed408d33f30834a42227a3d0b76455406e96ef2d1b3c40f75ddc42bc253
+_path: /use/researchers
 ---
-_path: /webclient/Images/europa.png
-content-length: 119144
-content-sha256: 05c43166530ef053997d34ef06208b682b1bd1f9b2f8be71db43ecdfb26cd0c6
----
-_path: /webclient/Images/ganymede.png
-content-length: 103365
-content-sha256: 9366ae6f4f47f401c960ac05ab7e68e0fe88ea79e1f2b75bcaea15d64f5b4d6e
----
-_path: /webclient/Images/io.png
-content-length: 126194
-content-sha256: 6c710418ba36b7c04de7c84d25c8d9394bd2e1906832e004f6d8c1be82c8b5e2
----
-_path: /webclient/Images/jupiter.png
-content-length: 309089
-content-sha256: 9fc689ede3170898b848e7a0ac22a7f16849d81f3cb6f1e3c500dcabe7d80c99
----
-_path: /webclient/Images/layersButton.png
-content-length: 4386
-content-sha256: 76350b91ec0a7bde960db69843453a663f7ee54f53f5c2123717917efbea70c9
----
-_path: /webclient/Images/mars.png
-content-length: 375782
-content-sha256: 6848f83f244769cc0b1d2380719952342ad33a2e8010832649c450fc3f274609
----
-_path: /webclient/Images/mercury.png
-content-length: 455833
-content-sha256: c97929358061d4fcffb37a065cecb03b277eed705af26752c05f3c5fe0426e67
----
-_path: /webclient/Images/moon.png
-content-length: 364661
-content-sha256: 74455670eeae5c9db4214b0083006b47987db1de182bdf922bb529d206bf779d
----
-_path: /webclient/Images/neptune.png
-content-length: 193919
-content-sha256: 88eb0078e2e0f6772e7dbaa6366353c973ff5f8cbadcbc34ec8df8c66e03ca13
----
-_path: /webclient/Images/pluto.png
-content-length: 103820
-content-sha256: 190f5527a7fa36b65d6a8578d663f9ce2cb41553f96f3b883616e1955644d3e4
----
-_path: /webclient/Images/saturn.png
-content-length: 145683
-content-sha256: 6769a3b1b8ce472c2a45e46a5b0283e277119c512ac6fe73b543d23a8fca3280
----
-_path: /webclient/Images/sun.png
-content-length: 250540
-content-sha256: a34500f849959bac4f469e6cbbfd6dd12378c8574262f8e93f89ad9992fa483c
----
-_path: /webclient/Images/uranus.png
-content-length: 133632
-content-sha256: 81907623c7923d1a78c0bbdfc49dc00791a64037b2134e6e6cd978c2ac696615
----
-_path: /webclient/Images/venus.png
-content-length: 430577
-content-sha256: 57d9d547ef3c7f78e1b2deb1348783252fe8517efcc5ce166a46fa34e708e27b
----
-_path: /webclient/Wise.wtml
-content-length: 110918
-content-sha256: e6752918f39d8e4e9e945d787f2d1ea4464e02bf54b23de164c227c8e59b2323
+_path: /use/tourassets
 ---
 _path: /webclient/default.aspx
+---
+_path: /webclient/eso.wtml
+content-length: 910271
+content-sha256: 9ad52da1434c03783bf3043c17b1928fc19986600eb1b82b2c35abe45ea5156f
 ---
 _path: /webclient/gettours_webclient.xml
 content-length: 103403
 content-sha256: 561972a6b2364d569b353a8cec25f524431940d431018c062fed7287996d7aeb
+---
+_path: /webclient/hubble.wtml
+content-length: 1105826
+content-sha256: e091d837988780d351d058cec8efd0fe1e5889575a7effb5348e5e63da697ad1
+---
+_path: /webclient/images/callisto.png
+content-length: 138124
+content-sha256: 8746bdb1d7e2e1321773616138cfdce97cfe0c753e79eeeb258066a5f24b9e04
+---
+_path: /webclient/images/earth.png
+content-length: 340331
+content-sha256: f6280ed408d33f30834a42227a3d0b76455406e96ef2d1b3c40f75ddc42bc253
+---
+_path: /webclient/images/europa.png
+content-length: 119144
+content-sha256: 05c43166530ef053997d34ef06208b682b1bd1f9b2f8be71db43ecdfb26cd0c6
 ---
 _path: /webclient/images/finder-scope.png
 content-length: 27555
@@ -296,6 +232,10 @@ _path: /webclient/images/gal_0255.jpg
 content-length: 10623
 content-sha256: 8d900525d37596c957feffbbea319eb2956cfaac35a2c04e786d14bb1eb3584e
 ---
+_path: /webclient/images/ganymede.png
+content-length: 103365
+content-sha256: 9366ae6f4f47f401c960ac05ab7e68e0fe88ea79e1f2b75bcaea15d64f5b4d6e
+---
 _path: /webclient/images/glyphs1.png
 content-length: 106013
 content-sha256: c7eadb637df213bf859eb2d719d5d4183eb0c16e5226760efe4cb96837f78c54
@@ -304,23 +244,81 @@ _path: /webclient/images/glyphs1.xml
 content-length: 9745
 content-sha256: 46c270c565f1d386a52d1d2a7dbc5838a63facaee9119ad0a268ba1e582b64ad
 ---
+_path: /webclient/images/io.png
+content-length: 126194
+content-sha256: 6c710418ba36b7c04de7c84d25c8d9394bd2e1906832e004f6d8c1be82c8b5e2
+---
+_path: /webclient/images/jupiter.png
+content-length: 309089
+content-sha256: 9fc689ede3170898b848e7a0ac22a7f16849d81f3cb6f1e3c500dcabe7d80c99
+---
+_path: /webclient/images/layersbutton.png
+content-length: 4386
+content-sha256: 76350b91ec0a7bde960db69843453a663f7ee54f53f5c2123717917efbea70c9
+---
+_path: /webclient/images/mars.png
+content-length: 375782
+content-sha256: 6848f83f244769cc0b1d2380719952342ad33a2e8010832649c450fc3f274609
+---
+_path: /webclient/images/mercury.png
+content-length: 455833
+content-sha256: c97929358061d4fcffb37a065cecb03b277eed705af26752c05f3c5fe0426e67
+---
 _path: /webclient/images/milkywaybar.jpg
 content-length: 1119385
 content-sha256: a9f412219f6929513601d580c8655e10b2d5332442ee550986e341a1137199a4
+---
+_path: /webclient/images/moon.png
+content-length: 364661
+content-sha256: 74455670eeae5c9db4214b0083006b47987db1de182bdf922bb529d206bf779d
+---
+_path: /webclient/images/neptune.png
+content-length: 193919
+content-sha256: 88eb0078e2e0f6772e7dbaa6366353c973ff5f8cbadcbc34ec8df8c66e03ca13
 ---
 _path: /webclient/images/pins.png
 content-length: 437185
 content-sha256: 20fd87f785e0b360353a6671ff1f577b01a34a2ff5ed0a65e7bfb85fa3076e15
 ---
+_path: /webclient/images/pluto.png
+content-length: 103820
+content-sha256: 190f5527a7fa36b65d6a8578d663f9ce2cb41553f96f3b883616e1955644d3e4
+---
+_path: /webclient/images/saturn.png
+content-length: 145683
+content-sha256: 6769a3b1b8ce472c2a45e46a5b0283e277119c512ac6fe73b543d23a8fca3280
+---
 _path: /webclient/images/saturnringsstrip.png
 content-length: 7410
 content-sha256: ca8abf4e234808dc87bb86536964e91433766a9490ec5b34eafcd91840ad9713
+---
+_path: /webclient/images/starprofilealpha.png
+content-length: 10284
+content-sha256: d5fb840c68b712cdd30529620c1d482c2c774c0c9493b20312a37d4195d894c2
+---
+_path: /webclient/images/sun.png
+content-length: 250540
+content-sha256: a34500f849959bac4f469e6cbbfd6dd12378c8574262f8e93f89ad9992fa483c
+---
+_path: /webclient/images/uranus.png
+content-length: 133632
+content-sha256: 81907623c7923d1a78c0bbdfc49dc00791a64037b2134e6e6cd978c2ac696615
+---
+_path: /webclient/images/venus.png
+content-length: 430577
+content-sha256: 57d9d547ef3c7f78e1b2deb1348783252fe8517efcc5ce166a46fa34e708e27b
 ---
 _path: /webclient/sdk/wwtsdk.js
 ---
 _path: /webclient/sdk/wwtsdk.min.js
 ---
-_path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/DSS.png
+_path: /webclient/wise.wtml
+content-length: 110918
+content-sha256: e6752918f39d8e4e9e945d787f2d1ea4464e02bf54b23de164c227c8e59b2323
+---
+_path: /webcontrol.aspx
+---
+_path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 ---
@@ -328,25 +326,9 @@ _path: /wwtweb/2massoct.aspx?q=2,1,2
 content-length: 72711
 content-sha256: 7275be31bffd9933a3c489426f07ccddc85ae8e68c1bb9fa240082623b5c8d64
 ---
-_path: /wwtweb/BingDemTile.aspx?Q=1,1,1
+_path: /wwtweb/bingdemtile.aspx?Q=1,1,1
 content-length: 4356
 content-sha256: 024074f0a74bb6440cd496ab144c79834c105a2f0634e80d9f9f1ba4132fd589
----
-_path: /wwtweb/GetAuthorThumbnail.aspx?GUID=3bf16be6-93d7-48f5-972e-7224cad3d4cb
-content-length: 14166
-content-sha256: 137b9b1ede749c88c732b86f0b6678590336f3fead7655845f6e7609428894d6
----
-_path: /wwtweb/GetTour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
-content-length: 2711468
-content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8
----
-_path: /wwtweb/GetTourThumbnail.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
-content-length: 10720
-content-sha256: e4377e862d31c5bd8eebdaf6ed87d1e057a46f948b3d78e3116e4a26e634e9a3
----
-_path: /wwtweb/GetTourThumbnail.aspx?GUID=b8255095-2eff-44af-a622-3013e41bbbfe
-content-length: 6947
-content-sha256: 0c4573d8aed2af11fbf0d9a0183fa79d8390d307d5a5e5b5d358a74d5bfdf72b
 ---
 _path: /wwtweb/catalog.aspx?Q=cosmosnewbin
 content-length: 10781575
@@ -414,6 +396,10 @@ _path: /wwtweb/dss.aspx?q=4,10,4
 content-length: 43947
 content-sha256: 678897b7ac28a7bcec951383f236517fd162f70303d687b7c81a70f9a5812566
 ---
+_path: /wwtweb/dusttoast.aspx?q=1,1,1
+content-length: 99217
+content-sha256: 0b35158e0e8d45e8d25212bf513baf182dd3940023c5585f18a4f52f6ba0248e
+---
 _path: /wwtweb/exceladdinupdate.aspx
 ---
 _path: /wwtweb/g360.aspx?q=1,1,1
@@ -428,11 +414,27 @@ _path: /wwtweb/galex4near.aspx?q=1,1,1
 content-length: 50605
 content-sha256: 170d3d895c7058ef51a1b7012e3b56538265f2fb95caaa52061d60ac65f0753e
 ---
-_path: /wwtweb/galexTOAST.aspx?q=1,1,1
+_path: /wwtweb/galextoast.aspx?q=1,1,1
 content-length: 67538
 content-sha256: 8bb8dda26c5c58b7400e2a2955c073a98e206fe86af3e337271e3061be0d660e
 ---
+_path: /wwtweb/getauthorthumbnail.aspx?GUID=3bf16be6-93d7-48f5-972e-7224cad3d4cb
+content-length: 14166
+content-sha256: 137b9b1ede749c88c732b86f0b6678590336f3fead7655845f6e7609428894d6
+---
+_path: /wwtweb/gettour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+content-length: 2711468
+content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8
+---
 _path: /wwtweb/gettours.aspx
+---
+_path: /wwtweb/gettourthumbnail.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+content-length: 10720
+content-sha256: e4377e862d31c5bd8eebdaf6ed87d1e057a46f948b3d78e3116e4a26e634e9a3
+---
+_path: /wwtweb/gettourthumbnail.aspx?GUID=b8255095-2eff-44af-a622-3013e41bbbfe
+content-length: 6947
+content-sha256: 0c4573d8aed2af11fbf0d9a0183fa79d8390d307d5a5e5b5d358a74d5bfdf72b
 ---
 _path: /wwtweb/glimpse.aspx?q=1,1,1
 content-length: 5998
