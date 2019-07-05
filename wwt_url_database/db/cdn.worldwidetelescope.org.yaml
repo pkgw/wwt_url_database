@@ -1,0 +1,18 @@
+---
+https: false
+---
+_path: /wwtweb/GetTour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+content-length: 2711468
+content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8
+---
+_path: /wwtweb/GetTourThumbnail.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+content-length: 10720
+content-sha256: e4377e862d31c5bd8eebdaf6ed87d1e057a46f948b3d78e3116e4a26e634e9a3
+---
+_path: /wwtweb/thumbnail.aspx?name=folder
+content-length: 2143
+content-sha256: b99fca0f662df719b6a8493454adff0ae2bffde32ebe208e30a00687aa044c92
+---
+_path: /wwtweb/thumbnail.aspx?name=star
+content-length: 4804
+content-sha256: 675ca0f37d7e64da9c6268e29cfccca5c7618fddf6b5d7b1e18157d6ae27073e
