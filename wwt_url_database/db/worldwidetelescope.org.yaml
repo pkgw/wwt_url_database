@@ -17,7 +17,31 @@ _path: /About/FAQ
 ---
 _path: /About/FurtherDetails
 ---
+_path: /COMPLETE/WWTCoverageTool.htm
+content-length: 18599
+content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
+---
+_path: /COMPLETE/wwtcomplete.wtml
+content-length: 34245
+content-sha256: 5f383f44dc567a52ecd1ed82a78983c0e775b04e1c4804de02e42502d603cc91
+---
 _path: /Community
+---
+_path: /Community/AuthorThumbnail/c82902cd-234b-4c39-bd14-8a2a3849949d
+content-length: 17135
+content-sha256: 5d488c76c5b9f09fe8ded1f01757e3df639e5e57ef9d16ff2ab4b3c88bde4f44
+---
+_path: /Community/TourThumbnail/46ed68e5-e0cb-4092-9bc8-07a05b518856
+content-length: 3296
+content-sha256: 5fe469f22637472769d280dddbee8bf9ef2082c0414f977ceb9a3adfe265be7e
+---
+_path: /Content/Detail/81896
+---
+_path: /Content/Images/Planetariums/go-dome.png
+content-length: 112128
+content-sha256: ee044331190b9206394c0e63e5ce8a08666226717d97247647b0e7035649c368
+---
+_path: /Content/OpenWWT/OpenWWT_Development.pdf
 ---
 _path: /Docs/WWTSDKFactSheet.pdf
 ---
@@ -64,6 +88,8 @@ _path: /Docs/worldwide-telescope-layer-control-api.mobi
 _path: /Docs/worldwide-telescope-layer-control-api.pdf
 ---
 _path: /Download
+---
+_path: /Download/Features
 ---
 _path: /Download/Tools
 ---
@@ -119,6 +145,12 @@ _path: /Use/Researchers
 ---
 _path: /Use/TourAssets
 ---
+_path: /WebControl.aspx
+---
+_path: /clientaccesspolicy.xml
+content-length: 340
+content-sha256: c4d1ff7bb220b39f6c3cb364b437cf881ec9aa77cddf3438d9ca5fedf56a7be3
+---
 _path: /data/constellationNames_RADEC_EN.txt
 content-length: 3530
 content-sha256: ed68a56ea00d9effcd28508a4c3a654f0dd220d31132f9c260c1d8d21fc911b2
@@ -145,9 +177,17 @@ content-sha256: b9959ff16082a4daa15d6553b04c31e07d1560973ca17772b98f2321d90edefa
 ---
 _path: /home
 ---
+_path: /html5sdk/wwtsdk.min.js
+---
 _path: /m51.txt
 content-length: 1650240
 content-sha256: fd3589aa8a72beb48939de884e3ee5324b510c145003f375c77cd4ecb1a79672
+---
+_path: /robots.txt
+content-length: 322
+content-sha256: 31b06b9d8d7ba2c31db2dc51bd04993d5c3d5f10fb01cc21cf4b8a8825b9505a
+---
+_path: /sitemap.xml
 ---
 _path: /thumbnails/DSS.png
 content-length: 6471
@@ -239,11 +279,33 @@ _path: /webclient/gettours_webclient.xml
 content-length: 103403
 content-sha256: 561972a6b2364d569b353a8cec25f524431940d431018c062fed7287996d7aeb
 ---
+_path: /webclient/images/gal_0000.jpg
+content-length: 4174
+content-sha256: 5172b5e66f47a51dc529906c220834ee0110f1cc9fee3bad4dbd3141eec1f151
+---
+_path: /webclient/images/gal_0255.jpg
+content-length: 10623
+content-sha256: 8d900525d37596c957feffbbea319eb2956cfaac35a2c04e786d14bb1eb3584e
+---
+_path: /webclient/images/glyphs1.png
+content-length: 106013
+content-sha256: c7eadb637df213bf859eb2d719d5d4183eb0c16e5226760efe4cb96837f78c54
+---
+_path: /webclient/images/glyphs1.xml
+content-length: 9745
+content-sha256: 46c270c565f1d386a52d1d2a7dbc5838a63facaee9119ad0a268ba1e582b64ad
+---
 _path: /webclient/sdk/wwtsdk.js
+---
+_path: /webclient/sdk/wwtsdk.min.js
 ---
 _path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/DSS.png
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
+---
+_path: /wwtweb/2massoct.aspx?q=2,1,2
+content-length: 72711
+content-sha256: 7275be31bffd9933a3c489426f07ccddc85ae8e68c1bb9fa240082623b5c8d64
 ---
 _path: /wwtweb/BingDemTile.aspx?Q=1,1,1
 content-length: 4356
@@ -354,3 +416,7 @@ content-sha256: 7f86af8b551707bbc9d23af04ed1813b3b8769173455a4764eb0c68ff60b70b3
 _path: /wwtweb/thumbnail.aspx?name=earth
 content-length: 931
 content-sha256: 93d7c775c2336b8d39a53a12dba985b6363da24951a0057d196feb942987d6ab
+---
+_path: /wwtweb/tiles.aspx?q=1,1,1,USNOBToast_6
+content-length: 60820
+content-sha256: c96bf5cb396c01947357277768a9b2ddaadc1c27fc6a7c8762200c5f27e3b941

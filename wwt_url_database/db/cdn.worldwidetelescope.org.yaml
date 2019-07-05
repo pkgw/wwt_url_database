@@ -1,9 +1,17 @@
 ---
 https: false
 ---
+_path: /data/iss.zip
+content-length: 30459330
+content-sha256: e3cc4fc6be7e81f68e1296999db0043fd4af21d7d411ae8d948c6c8f98e80d0d
+---
 _path: /webclient/images/SaturnRingsStrip.png
 content-length: 7410
 content-sha256: ca8abf4e234808dc87bb86536964e91433766a9490ec5b34eafcd91840ad9713
+---
+_path: /webclient/images/finder-scope.png
+content-length: 27555
+content-sha256: f3750943d33f3834dcdefe010024899fc18f78436628e179130e9277928728f3
 ---
 _path: /webclient/images/milkywaybar.jpg
 content-length: 1119385
