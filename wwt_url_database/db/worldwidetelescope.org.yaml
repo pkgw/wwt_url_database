@@ -377,19 +377,77 @@ _path: /wwtweb/catalog.aspx?q=ConstellationNamePositions_EN
 content-length: 3296
 content-sha256: 9a99f89aa85b09b7afaf565f4d9bcb0cfa279ea60633c58526d8810c1f10c1ec
 ---
+_path: /wwtweb/demmars.aspx?q=3,7,7
+content-length: 2052
+content-sha256: 6ff010f352f1693de55111dcf648351a40cb8f0d9a56c0b2593078d4a7eba550
+---
 _path: /wwtweb/dss.aspx?q=4,10,4
 content-length: 43947
 content-sha256: 678897b7ac28a7bcec951383f236517fd162f70303d687b7c81a70f9a5812566
 ---
+_path: /wwtweb/exceladdinupdate.aspx
+---
+_path: /wwtweb/g360.aspx?q=1,1,1
+content-length: 10284
+content-sha256: abf95f05f232be98b8f109e55391398b7191bdacdb5378ac04c954aa679ccf75
+---
+_path: /wwtweb/galex4far.aspx?q=1,1,1
+content-length: 48160
+content-sha256: 9c149a3bf1a1192f03c32029e5c96cf3342fbede2b43c6c49bd82febd73237d1
+---
+_path: /wwtweb/galex4near.aspx?q=1,1,1
+content-length: 50605
+content-sha256: 170d3d895c7058ef51a1b7012e3b56538265f2fb95caaa52061d60ac65f0753e
+---
+_path: /wwtweb/galexTOAST.aspx?q=1,1,1
+content-length: 67538
+content-sha256: 8bb8dda26c5c58b7400e2a2955c073a98e206fe86af3e337271e3061be0d660e
+---
+_path: /wwtweb/gettours.aspx
+---
 _path: /wwtweb/glimpse.aspx?q=1,1,1
 content-length: 5998
 content-sha256: c86f8fbdee5526ba9df8704085af1766ffecf910c86cc096bc9a6b73e4ea21f2
+---
+_path: /wwtweb/goto.aspx?dec=-22.75&object=ViewShortcut&ra=20.625&zoom=3
 ---
 _path: /wwtweb/goto.aspx?dec=-5.8&object=M48&ra=8.23&wtml=true&zoom=1.40625
 content-length: 149
 content-sha256: 4618e474e95288a2384f9c2132287070c5eed4a219fef223f395facdcc95e9e6
 ---
 _path: /wwtweb/isstle.aspx
+---
+_path: /wwtweb/mandel.aspx?q=1,1,1
+content-length: 10264
+content-sha256: e02503772811ddf5886387e66461670acb388b4bcff4036233ee9c8ee6d6d246
+---
+_path: /wwtweb/marsdem.aspx?new&q=1,1,1,T
+content-length: 1026
+content-sha256: 0e1950d7d34c1a9789ba1666c1e1e754351b559a8030ca421c4af424dee463f2
+---
+_path: /wwtweb/marshirise.aspx?q=1,1,1
+content-length: 166641
+content-sha256: 4563155d96a12dd9e0f87840a37e935396ccfeef42cf0f7735111a3a0e48185f
+---
+_path: /wwtweb/marsmoc.aspx?q=1,1,1&v=2
+content-length: 170518
+content-sha256: a053bc7ce1bc2c9a1075828149de3b799c783a81730f4ebcde4a008175f1e4d7
+---
+_path: /wwtweb/martiantile.aspx?q=1,1,1,mars_base_map
+content-length: 139877
+content-sha256: a4ee08ac646dc49b2005d9ad5f370a1ff27cc04a9edcc5b264f949e4034f347f
+---
+_path: /wwtweb/mipsgal.aspx?q=1,1,1
+content-length: 5672
+content-sha256: a783c686745eeaf9592be8c1f7c33d3068638babdc96b86cf68367c0f492dba2
+---
+_path: /wwtweb/moontoast.aspx?q=1,1,1
+content-length: 89409
+content-sha256: e3e5705f4ee6f1b0bfa5e24ffb161da87782a4a467a16ba2294dc2f20a9f4140
+---
+_path: /wwtweb/moontoastdem.aspx?q=1,1,1
+content-length: 2052
+content-sha256: 0a94fc631534ad8a8f04c774be3b8cb37366934db849b1db3bae8b870524ef0a
 ---
 _path: /wwtweb/sdsstoast.aspx?q=1,1,1
 ---
@@ -420,3 +478,15 @@ content-sha256: 93d7c775c2336b8d39a53a12dba985b6363da24951a0057d196feb942987d6ab
 _path: /wwtweb/tiles.aspx?q=1,1,1,USNOBToast_6
 content-length: 60820
 content-sha256: c96bf5cb396c01947357277768a9b2ddaadc1c27fc6a7c8762200c5f27e3b941
+---
+_path: /wwtweb/tiles.aspx?q=1,1,1,wise
+content-length: 178899
+content-sha256: 86c6a74649ad67d83e5ce214057cbeb90955b1edd1a607f4a179158829268e44
+---
+_path: /wwtweb/tiles2.aspx?q=1,1,1,messenger2
+content-length: 78441
+content-sha256: c7b5014a9e591c1ea0b645c77c47dc539a7d36c72fdf8b29a1d69b5c23424280
+---
+_path: /wwtweb/twomasstoast.aspx?q=1,1,1
+content-length: 116511
+content-sha256: e602d2e13e87b630bad164055a0b641acb1eddfdc91eddad5ec65198f109f4d4
