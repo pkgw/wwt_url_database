@@ -1,5 +1,5 @@
 ---
-case_sensitive_paths: false
+case-sensitive-paths: false
 cnames:
 - cdn.worldwidetelescope.org
 - content.worldwidetelescope.org

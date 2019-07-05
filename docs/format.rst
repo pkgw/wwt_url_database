@@ -58,6 +58,13 @@ Domain Metadata Document
 The domain metadata YAML document is a dictionary at its top level. It can
 contain the following keys.
 
+``case-sensitive-paths``
+  A boolean, defaulting to ``true``. If ``false``, the webserver for this
+  domain is case-insensitive in how it handles URL paths:
+  ``example.com/hello`` and ``example.com/HeLlo`` are equivalent. For such
+  servers, the capitalization of URL paths should be normalized in the
+  database.
+  
 ``cnames``
   A sorted list of aliases to the domain in question, *not* including the
   “primary” domain as defined by the filename of the domain file. The
@@ -77,8 +84,8 @@ contain the following keys.
   both function equivalently.
 
 ``https``
-  A boolean. If ``true``, the webserver for this domain is expected to support
-  HTTPS access as well as unencrypted HTTP.
+  A boolean, defaulting to ``false``. If ``true``, the webserver for this
+  domain is expected to support HTTPS access as well as unencrypted HTTP.
 
 
 URL Record Document

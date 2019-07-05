@@ -59,7 +59,7 @@ class Record(object):
 
         """
 
-        if self._domain._metadata.get('https', False):
+        if self._domain.has_https():
             scheme = 'https'
         else:
             scheme = 'http'
@@ -216,6 +216,12 @@ class Domain(object):
         by_path[rec.path] = rec
         self._rewrite(by_path[p] for p in sorted(by_path.keys()))
 
+    def has_https(self):
+        return self._metadata.get('https', False)
+
+    def has_case_sensitive_paths(self):
+        return self._metadata.get('case-sensitive-paths', True)
+
 
 class Database(object):
     _dbdir = None
@@ -242,9 +248,12 @@ class Database(object):
             for cname in domain._metadata.get('cnames', ()):
                 self._domain_aliases[cname] = domain._domain
 
+    def _get_domain(self, dname):
+        return Domain(self, dname, os.path.join(self._dbdir, dname + '.yaml'))
+
     def domains(self):
         for dname in self._domains:
-            yield Domain(self, dname, os.path.join(self._dbdir, dname + '.yaml'))
+            yield self._get_domain(dname)
 
     def all_records(self):
         for domain in self.domains():
@@ -261,16 +270,26 @@ class Database(object):
         """
         info = parse.urlsplit(url)
 
-        domain = self._domain_aliases.get(info.netloc)
-        if domain is None:
+        dname = self._domain_aliases.get(info.netloc)
+        if dname is None:
             raise Exception(f'illegal domain name {info.netloc!r} for URL {url!r}')
 
+        # The main WWT web server, being IIS, is case-insensitive in its URL
+        # paths. We define the downcased path as the normal form. We do not
+        # currently normalize the query parts of the URL, which *might* be
+        # case-insensitive depending on how a given API is implemented.
+        normpath = info.path
+        domain = self._get_domain(dname)
+
+        if not domain.has_case_sensitive_paths():
+            normpath = normpath.lower()
+
         # Note that we discard the fragment (for now?).
-        normpath = parse.SplitResult('', '', info.path, info.query, '')
+        normpath = parse.SplitResult('', '', normpath, info.query, '')
         normpath = normpath.geturl()
         normpath = url_normalize(normpath)
 
-        return (domain, normpath)
+        return (dname, normpath)
 
     def get_record(self, url):
         """Obtain a preexisting record for a given URL.
@@ -282,7 +301,7 @@ class Database(object):
 
         """
         domain, normpath = self.normalize(url)
-        domain = Domain(self, domain, os.path.join(self._dbdir, domain + '.yaml'))
+        domain = self._get_domain(domain)
 
         for rec in domain.records():
             if rec.path == normpath:
