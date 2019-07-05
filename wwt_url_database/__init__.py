@@ -83,7 +83,7 @@ class Record(object):
         url = self.url()
         resp = session.get(url, stream=True)
         if not resp.ok:
-            raise Exception('failed to fetch {url}: HTTP status {resp.status_code}')
+            raise Exception(f'failed to fetch {url}: HTTP status {resp.status_code}')
 
         d = hashlib.sha256()
         count = 0
