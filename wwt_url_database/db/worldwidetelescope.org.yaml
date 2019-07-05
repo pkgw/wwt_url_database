@@ -1,6 +1,7 @@
 ---
 case_sensitive_paths: false
 cnames:
+- cdn.worldwidetelescope.org
 - content.worldwidetelescope.org
 - openwwt.com
 - www.worldwidetelescope.org
@@ -167,6 +168,10 @@ _path: /data/iss.wtt
 content-length: 40566181
 content-sha256: 0ea8598a952fe701cc4ea3078e43bc46d63fbcd64992e1bfa189537774ecccf6
 ---
+_path: /data/iss.zip
+content-length: 30459330
+content-sha256: e3cc4fc6be7e81f68e1296999db0043fd4af21d7d411ae8d948c6c8f98e80d0d
+---
 _path: /docs/Samples/wwtwebclientmessiercatalogHtml5.html
 ---
 _path: /embedded-webcontrol.js
@@ -279,6 +284,10 @@ _path: /webclient/gettours_webclient.xml
 content-length: 103403
 content-sha256: 561972a6b2364d569b353a8cec25f524431940d431018c062fed7287996d7aeb
 ---
+_path: /webclient/images/finder-scope.png
+content-length: 27555
+content-sha256: f3750943d33f3834dcdefe010024899fc18f78436628e179130e9277928728f3
+---
 _path: /webclient/images/gal_0000.jpg
 content-length: 4174
 content-sha256: 5172b5e66f47a51dc529906c220834ee0110f1cc9fee3bad4dbd3141eec1f151
@@ -294,6 +303,18 @@ content-sha256: c7eadb637df213bf859eb2d719d5d4183eb0c16e5226760efe4cb96837f78c54
 _path: /webclient/images/glyphs1.xml
 content-length: 9745
 content-sha256: 46c270c565f1d386a52d1d2a7dbc5838a63facaee9119ad0a268ba1e582b64ad
+---
+_path: /webclient/images/milkywaybar.jpg
+content-length: 1119385
+content-sha256: a9f412219f6929513601d580c8655e10b2d5332442ee550986e341a1137199a4
+---
+_path: /webclient/images/pins.png
+content-length: 437185
+content-sha256: 20fd87f785e0b360353a6671ff1f577b01a34a2ff5ed0a65e7bfb85fa3076e15
+---
+_path: /webclient/images/saturnringsstrip.png
+content-length: 7410
+content-sha256: ca8abf4e234808dc87bb86536964e91433766a9490ec5b34eafcd91840ad9713
 ---
 _path: /webclient/sdk/wwtsdk.js
 ---
@@ -314,6 +335,14 @@ content-sha256: 024074f0a74bb6440cd496ab144c79834c105a2f0634e80d9f9f1ba4132fd589
 _path: /wwtweb/GetAuthorThumbnail.aspx?GUID=3bf16be6-93d7-48f5-972e-7224cad3d4cb
 content-length: 14166
 content-sha256: 137b9b1ede749c88c732b86f0b6678590336f3fead7655845f6e7609428894d6
+---
+_path: /wwtweb/GetTour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+content-length: 2711468
+content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8
+---
+_path: /wwtweb/GetTourThumbnail.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
+content-length: 10720
+content-sha256: e4377e862d31c5bd8eebdaf6ed87d1e057a46f948b3d78e3116e4a26e634e9a3
 ---
 _path: /wwtweb/GetTourThumbnail.aspx?GUID=b8255095-2eff-44af-a622-3013e41bbbfe
 content-length: 6947
@@ -474,6 +503,14 @@ content-sha256: 7f86af8b551707bbc9d23af04ed1813b3b8769173455a4764eb0c68ff60b70b3
 _path: /wwtweb/thumbnail.aspx?name=earth
 content-length: 931
 content-sha256: 93d7c775c2336b8d39a53a12dba985b6363da24951a0057d196feb942987d6ab
+---
+_path: /wwtweb/thumbnail.aspx?name=folder
+content-length: 2143
+content-sha256: b99fca0f662df719b6a8493454adff0ae2bffde32ebe208e30a00687aa044c92
+---
+_path: /wwtweb/thumbnail.aspx?name=star
+content-length: 4804
+content-sha256: 675ca0f37d7e64da9c6268e29cfccca5c7618fddf6b5d7b1e18157d6ae27073e
 ---
 _path: /wwtweb/tiles.aspx?q=1,1,1,USNOBToast_6
 content-length: 60820
