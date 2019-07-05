@@ -148,8 +148,17 @@ class Domain(object):
             break
 
     def _all_yaml_docs(self):
+        first = True
+
         with open(self._path, 'rt') as f:
             for doc in yaml.safe_load_all(f):
+                if first:
+                    # Hack to allow empty domain metadata.
+                    first = False
+
+                    if doc is None:
+                        doc = {}
+
                 assert doc is not None
                 yield doc
 
@@ -225,7 +234,7 @@ class Database(object):
         self._domains = sorted(domains)  # => consistent ordering
 
         for domain in self.domains():
-            for cname in domain._metadata['cnames']:
+            for cname in domain._metadata.get('cnames', ()):
                 self._domain_aliases[cname] = domain._domain
 
     def domains(self):
