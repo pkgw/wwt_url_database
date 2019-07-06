@@ -7,22 +7,36 @@ cnames:
 - www.worldwidetelescope.org
 ---
 _path: /
+categories:
+- frontend
 ---
 _path: /about
+categories:
+- frontend
 ---
 _path: /about/acknowledgments
+categories:
+- frontend
 ---
 _path: /about/data
+categories:
+- frontend
 ---
 _path: /about/faq
+categories:
+- frontend
 ---
 _path: /about/furtherdetails
+categories:
+- frontend
 ---
 _path: /clientaccesspolicy.xml
 content-length: 340
 content-sha256: c4d1ff7bb220b39f6c3cb364b437cf881ec9aa77cddf3438d9ca5fedf56a7be3
 ---
 _path: /community
+categories:
+- frontend
 ---
 _path: /community/authorthumbnail/c82902cd-234b-4c39-bd14-8a2a3849949d
 content-length: 17135
@@ -69,76 +83,144 @@ content-length: 30459330
 content-sha256: e3cc4fc6be7e81f68e1296999db0043fd4af21d7d411ae8d948c6c8f98e80d0d
 ---
 _path: /docs/samples/wwtwebclientmessiercataloghtml5.html
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-advanced-guides.epub
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-advanced-guides.mobi
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-advanced-guides.pdf
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-data-files-reference.epub
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-data-files-reference.mobi
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-data-files-reference.pdf
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.epub
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.mobi
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.pdf
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-layer-control-api.epub
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-layer-control-api.mobi
+categories:
+- frontend
 ---
 _path: /docs/worldwide-telescope-layer-control-api.pdf
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescope_lcapi.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopedatafilesreference.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopedatatoolsguide.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopelocalizationtool.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopeplanetarium.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopeprojectionreference.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopesdkoverview.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopeuserguide.html
+categories:
+- frontend
 ---
 _path: /docs/worldwidetelescopewebcontrolscriptreference.html
+categories:
+- frontend
 ---
 _path: /docs/wwtsdkfactsheet.pdf
+categories:
+- frontend
 ---
 _path: /download
+categories:
+- frontend
 ---
 _path: /download/features
+categories:
+- frontend
 ---
 _path: /download/tools
+categories:
+- frontend
 ---
 _path: /embedded-webcontrol.js
 ---
 _path: /favicon.ico
+categories:
+- frontend
 content-length: 9062
 content-sha256: b9959ff16082a4daa15d6553b04c31e07d1560973ca17772b98f2321d90edefa
 ---
 _path: /getinvolved
+categories:
+- frontend
 ---
 _path: /getinvolved/develop
+categories:
+- frontend
 ---
 _path: /getinvolved/greatobservatories
+categories:
+- frontend
 ---
 _path: /getinvolved/helpothers
+categories:
+- frontend
 ---
 _path: /getinvolved/importimage
+categories:
+- frontend
 ---
 _path: /getinvolved/planetexplorer
+categories:
+- frontend
 ---
 _path: /getinvolved/spectrum
+categories:
+- frontend
 ---
 _path: /gettourfile.aspx?filename=Sample%20Tour.wwtxml&targeturl=http://worldwidetelescope.org/docs/wtml/tourtwo.wtt
 categories:
@@ -153,22 +235,38 @@ content-length: 14572
 content-sha256: cbbf8f2eb815adcc0f8221d518397b2825c6731f147f57480af41d3b50bcdff6
 ---
 _path: /home
+categories:
+- frontend
 ---
 _path: /home.aspx
+categories:
+- frontend
 ---
 _path: /html5sdk/wwtsdk.min.js
 ---
 _path: /learn
+categories:
+- frontend
 ---
 _path: /learn/authoring
+categories:
+- frontend
 ---
 _path: /learn/exploring
+categories:
+- frontend
 ---
 _path: /learn/settingup
+categories:
+- frontend
 ---
 _path: /learn/userguide
+categories:
+- frontend
 ---
 _path: /learn/whatsnew
+categories:
+- frontend
 ---
 _path: /m51.txt
 content-length: 1650240
@@ -185,26 +283,44 @@ content-sha256: 31b06b9d8d7ba2c31db2dc51bd04993d5c3d5f10fb01cc21cf4b8a8825b9505a
 _path: /sitemap.xml
 ---
 _path: /support/issuesandbugs
+categories:
+- frontend
 ---
 _path: /support/localization
+categories:
+- frontend
 ---
 _path: /terms
+categories:
+- frontend
 ---
 _path: /thumbnails/dss.png
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 ---
 _path: /use
+categories:
+- frontend
 ---
 _path: /use/educators
+categories:
+- frontend
 ---
 _path: /use/embed
+categories:
+- frontend
 ---
 _path: /use/planetariums
+categories:
+- frontend
 ---
 _path: /use/researchers
+categories:
+- frontend
 ---
 _path: /use/tourassets
+categories:
+- frontend
 ---
 _path: /webclient/default.aspx
 ---
