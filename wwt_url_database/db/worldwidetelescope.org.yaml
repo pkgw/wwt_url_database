@@ -636,6 +636,10 @@ categories:
 content-length: 4804
 content-sha256: 675ca0f37d7e64da9c6268e29cfccca5c7618fddf6b5d7b1e18157d6ae27073e
 ---
+_path: /wwtweb/tileimage.aspx?dec=0&imageurl=http://www.spitzer.caltech.edu/uploaded_files/images/0009/0848/sig12-011.jpg&ra=0&rotation=180&scale=1&x=0&y=0
+content-length: 951
+content-sha256: 6915a63cc614370afbaa3df0019c4fb2fdd9e6dc8e9ef04e348dedc408ae79f8
+---
 _path: /wwtweb/tiles.aspx?q=1,1,1,USNOBToast_6
 categories:
 - backend
