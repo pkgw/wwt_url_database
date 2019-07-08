@@ -280,6 +280,10 @@ _path: /robots.txt
 content-length: 322
 content-sha256: 31b06b9d8d7ba2c31db2dc51bd04993d5c3d5f10fb01cc21cf4b8a8825b9505a
 ---
+_path: /scripts/wwtsdk.aspx
+content-length: 686946
+content-sha256: 5a756767a8c802d4694ca3bbfbc861195aee4984cbf06a630c4441f09086d3fa
+---
 _path: /sitemap.xml
 ---
 _path: /support/issuesandbugs
