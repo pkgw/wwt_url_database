@@ -77,6 +77,20 @@ content-type: image/png
 _path: /content/openwwt/openwwt_development.pdf
 content-type: application/pdf
 ---
+_path: /data/bigclouds.dds.png
+categories:
+- frontend
+content-length: 44739408
+content-sha256: 9e9a82550c018d04e3aa8a3d6f67b791eb967e99965b24fb9a4593da308e12d0
+content-type: image/png
+---
+_path: /data/bigclouds.png
+categories:
+- frontend
+content-length: 2173104
+content-sha256: 9f028db975f024d28d752f401742bf2a44efabc4254d6de5668f8bbf3326186b
+content-type: image/png
+---
 _path: /data/constellationNames_radec_en.txt
 content-length: 3530
 content-sha256: ed68a56ea00d9effcd28508a4c3a654f0dd220d31132f9c260c1d8d21fc911b2
@@ -86,6 +100,20 @@ _path: /data/constellations.txt
 content-length: 401698
 content-sha256: bf5a8f96dbd327fef108b25dada832b603e7a627cf246f12d619c96b599dd163
 content-type: text/plain
+---
+_path: /data/crab.wtt
+categories:
+- frontend
+content-length: 393881
+content-sha256: 09b32517d0ec99fcb97ded3da9fec219361e907f5e0762783d16de26f24c5258
+content-type: application/x-wtt
+---
+_path: /data/equinoxalphademo.wtt
+categories:
+- frontend
+content-length: 7548247
+content-sha256: ada0561004bd0c305d62af3ac5599e65fc76dc952c074c6ec2d653ad12517c57
+content-type: application/x-wtt
 ---
 _path: /data/figures.txt
 content-length: 21421
@@ -101,6 +129,41 @@ _path: /data/iss.zip
 content-length: 30459330
 content-sha256: e3cc4fc6be7e81f68e1296999db0043fd4af21d7d411ae8d948c6c8f98e80d0d
 content-type: application/x-zip-compressed
+---
+_path: /data/isstour.wtt
+categories:
+- frontend
+content-length: 40567200
+content-sha256: 40975894f02fa33eef54a2bd99823d75b3a6d2ce5857814e7e6f51506e23f9d6
+content-type: application/x-wtt
+---
+_path: /data/owens.png
+categories:
+- frontend
+content-length: 2654539
+content-sha256: c9c3ff69949eae4bf8694672efe97a80aabb75e351d17ea1b037451646761065
+content-type: image/png
+---
+_path: /data/roberts.xml
+categories:
+- frontend
+content-length: 3639
+content-sha256: 13fbbfaf3c450b5e422549a7328d806b75c0edb8edbf0f267b93cde2aa8ae55d
+content-type: text/xml
+---
+_path: /data/walle2nddraft.wtt
+categories:
+- frontend
+content-length: 7249970
+content-sha256: 083bd7c03bd9ba057e22d2536b05d0e38b148c2d76a621703b1c61e417121aee
+content-type: application/x-wtt
+---
+_path: /data/wallefinaldraft.wtt
+categories:
+- frontend
+content-length: 7480036
+content-sha256: 3694b908056f90be7c27308bb474c9f669fe971ffed87c834d9805c23266e412
+content-type: application/x-wtt
 ---
 _path: /docs/samples/wwtwebclientmessiercataloghtml5.html
 categories:
