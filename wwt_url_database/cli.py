@@ -64,11 +64,29 @@ def check_getparser(parser):
         metavar = 'DOMAIN',
         help = 'A specific domain to check',
     )
+    parser.add_argument(
+        '--map',
+        action = 'append',
+        metavar = 'ORIGINAL=ALIAS',
+        help = 'Rewrite requests for the domain ORIGINAL to point to ALIAS instead',
+    )
 
 def check_impl(settings):
     session = requests.session()
     db = Database()
     errors = 0
+
+    for mapspec in settings.map:
+        pieces = mapspec.split('=', 1)
+        if len(pieces) != 2:
+            die(f'invalid "--map" specification {mapspec!r}: should contain one equals sign')
+
+        original, alias = pieces
+
+        if original not in db._domains:
+            die(f'invalid "--map" specification {mapspec!r}: original domain name {original} not recognized')
+
+        db.activate_map(original, alias)
 
     for rec in db.get_records(domain=settings.domain):
         if rec.check(session):

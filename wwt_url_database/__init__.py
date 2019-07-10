@@ -65,6 +65,14 @@ class Record(object):
             scheme = 'http'
 
         netloc = self._domain._domain
+
+        # Map the domain name if the user has requested it. The intention is
+        # that this functionality should only be used when checking URLs, to
+        # allow us to check prototype sites. Trying to activate this
+        # functionality in broader circumstances sounds like a recipe for
+        # confusion everywhere.
+        netloc = self._domain._db._active_maps.get(netloc, netloc)
+
         path = self.path  # XXX this can includes a query string!
         query = ''  # ... but urllib doesn't escape magic characters, so we can fake it
         fragment = ''
@@ -227,6 +235,7 @@ class Database(object):
     _dbdir = None
     _domains = None
     _domain_aliases = None
+    _active_maps = None
 
     def __init__(self, dbdir=None):
         if dbdir is None:
@@ -235,6 +244,7 @@ class Database(object):
         self._dbdir = dbdir
         domains = set()
         self._domain_aliases = {}
+        self._active_maps = {}
 
         for entry in os.listdir(self._dbdir):
             if entry.endswith('.yaml'):
@@ -323,3 +333,17 @@ class Database(object):
 
         rec = Record(domain, dict(_path=normpath))
         return (domain, rec, False)
+
+    def activate_map(self, original, alias):
+        """When fetching URLs, map *original* to *alias*
+
+        Requests for the domain *original* will be directed to the domain
+        *alias* instead.
+
+        This functionality is so that we can deploy prototype versions of the
+        website on alternative domain names, and check that everything is
+        working. It is important to only use this mapping functionality in
+        very limited cases, otherwise things are gonna get super confusing.
+
+        """
+        self._active_maps[original] = alias
