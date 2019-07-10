@@ -1749,6 +1749,20 @@ content-length: 4403
 content-sha256: e0efa7ac5492c4a0dc224cdd704eba55d401a56b59155e9693bcdff983a4a277
 content-type: text/plain
 ---
+_path: /wwtweb/catalog.aspx?X=CanadianCities
+categories:
+- backend
+content-length: 1490
+content-sha256: dce2beb583b8193c1f38b3bd86ba40aa63993c533e80b9993e4dee39393f228d
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=DPOSS
+categories:
+- backend
+content-length: 845771
+content-sha256: 1630a8d03f91d87c84baeafff8365190db8ce262b32295e55b78903d7865eb1a
+content-type: text/plain
+---
 _path: /wwtweb/catalog.aspx?X=ImageSets5
 categories:
 - backend
@@ -1761,6 +1775,160 @@ categories:
 - backend
 content-length: 2033
 content-sha256: 3decadd504a74e55269e2ff1fec6c0b0f2662cd2113ed5cf28aaf52a8877fd39
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=Spitzer
+categories:
+- backend
+content-length: 59189
+content-sha256: abcbba9660832bda331a5f2c2ba8d24bc9d05b7c25db73bc938e2d0512471345
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=Surveys
+categories:
+- backend
+content-length: 43932
+content-sha256: 353b67b17981e75f964a77fef5d103ab91cce2ae1c1b9c1636e903222f3dfa61
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=USCities
+categories:
+- backend
+content-length: 5208
+content-sha256: f6952638474f22b366bbe493d41106f107ae4fd6ce23cbaf320bf73397de4184
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=WorldCities
+categories:
+- backend
+content-length: 257
+content-sha256: 300115fdda5a1eac3a06037146b877e3f12a2c9a8f088cd842fa66062f0bd580
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=chandra
+categories:
+- backend
+content-length: 32423
+content-sha256: 8d949bd3b9556b68c8fdbcf314050611c7dc158eaed3adc2de2216a7cc9850c4
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=citiesdata
+categories:
+- backend
+content-length: 486
+content-sha256: ff61a416536ac0fdd9a3a7c8e507772c936ba9fe62686461c121a53edb906d9d
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=const
+categories:
+- backend
+content-length: 359
+content-sha256: 1836bea78bb4802a1593c18879880e0732cada06148ea470bfa3518e83cc7912
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=deepsky
+categories:
+- backend
+content-length: 794
+content-sha256: b41c50fdc909a603fd3957db81b868deefbb1c2164874f6727bf588e0578c3f9
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=deepskysearch
+categories:
+- backend
+content-length: 374
+content-sha256: e7640a41f271bfd2ae69d03836ea44f14b9c6fa31bd66cfeaecacf624bb12ef5
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=hst
+categories:
+- backend
+content-length: 198051
+content-sha256: 0d3fa55dbaccb7ebef2dd6a8a8f4ea29b562c7eaa75c320530526631cfcd2729
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=imagesets
+categories:
+- backend
+content-length: 56771
+content-sha256: db8beacc7f9525d90aac223e094476d86833e5de73005940f5ae8e8c5e75bc6c
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=imagesets5
+categories:
+- backend
+content-length: 86238
+content-sha256: 50556b0e4d570a9ffe3d1bc86fd78207997f48186e62a632360824e03d672eb1
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=imagesetseclipse
+categories:
+- backend
+content-length: 78029
+content-sha256: b958c9704a88d0394442e3b11f257f18982231a69d8169c1bd03ebae13d5c788
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=imagesetsmars
+categories:
+- backend
+content-length: 63695
+content-sha256: 09f7cbedb92f67668e8d5e2fae85bcf84ea82a041108de3c3ce031eb9c544f1d
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=imagesetsnew
+categories:
+- backend
+content-length: 78014
+content-sha256: 77ac41418fcf0fb56bead5abf513b76ab4a397aa04b12b9977586a12fa0e5682
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=instruments
+categories:
+- backend
+content-length: 49674
+content-sha256: 88df3c4145374d0765bce207c5ed75767de3cab6160c33cf8c2c1d13178ff153
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=observatories
+categories:
+- backend
+content-length: 1294
+content-sha256: 448ca2052ff86150265d24e076908536e20af40ea3952f2ed932d34098bf70f0
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=other
+categories:
+- backend
+content-length: 10492
+content-sha256: af258282690cbab10ea5fce782e7527fbec08ff95af99f0a94c585cba4d90dd6
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=solarsystem
+categories:
+- backend
+content-length: 351
+content-sha256: d15f03069cae01a6dee135a8b291b9153346fb1741556e6fc9ed3e37fb9366ab
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=spacecatalogs
+categories:
+- backend
+content-length: 350
+content-sha256: 96661f78d9723e211e986f5bf7a2ec22791f6298be9a9962db106ab85639f5bf
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=spacedata
+categories:
+- backend
+content-length: 737
+content-sha256: c90f3fd90e6388778230eca5b2bf0b320e1119c810229e9f892bd7d881a4f101
+content-type: text/plain
+---
+_path: /wwtweb/catalog.aspx?X=stars
+categories:
+- backend
+content-length: 486
+content-sha256: 544d645fe044ae3b6490d113691344b710f8929c51fcf4447257bddd1e76d1ac
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?q=ConstellationNamePositions_EN
