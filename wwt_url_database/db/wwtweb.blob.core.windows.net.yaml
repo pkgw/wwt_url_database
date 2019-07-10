@@ -4,27 +4,34 @@ https: true
 _path: /drops/WWTExcelAddin.msi
 content-length: 4636672
 content-sha256: 83784bb76d0bf5ffa2d95652c4d7f93c8160fa3b20f25d5912532a5d2fd3ebf1
+content-type: application/octet-stream
 ---
 _path: /drops/WWTSDK.msi
 content-length: 3052032
 content-sha256: 0989398a96dfc11856d5fe20582916071fed4f70f1b1e8d1721538e3856fd2ed
+content-type: application/octet-stream
 ---
 _path: /drops/WWTSetup.5.5.03.msi
 content-length: 98273280
 content-sha256: 47fe3dafb826898331998c6fd4612526b25ab842b3b01e9c8b318d80100d73e7
+content-type: application/octet-stream
 ---
 _path: /drops/WWTSetup.Legacy.3.1.52.msi
 content-length: 81939968
 content-sha256: c461b6358056083930fd709da4e9f70e2709a5f910285d86a9a70a9424c6da5e
+content-type: application/octet-stream
 ---
 _path: /images/aas-white110.png
 content-length: 3764
 content-sha256: 10ca7d95ee564e0cc3156bb6859d9f695639709ea9b6b494df2cda5c14615342
+content-type: image/png
 ---
 _path: /webclient/wwtlogo.png
 content-length: 70543
 content-sha256: b7f1857c04950e29ca6c90dead72186be4ec690d657bfc04b93dc3eca59b823f
+content-type: image/png
 ---
 _path: /wtml/WMAP.xml
 content-length: 2894
 content-sha256: 229d7829f6df4169fba2b7d38404b3dd369d98c8a9ceb7f4c00a3f765bed8775
+content-type: text/xml

@@ -4,75 +4,94 @@ https: true
 _path: /vamp/Chandra-102L0X0Y0.png
 content-length: 18843
 content-sha256: c8835a75da3f07746b5a036341429ecb11f714afa1b116c0115d6b44c18ff2a5
+content-type: application/octet-stream
 ---
 _path: /vamp/Chandra-1555L0X0Y0.png
 content-length: 33815
 content-sha256: ed5218572e5fc1e4228b5852069bc3e3f9786cd01109166a1fc7c3dacfa5cdde
+content-type: application/octet-stream
 ---
 _path: /vamp/Chandra-300L0X0Y0.png
 content-length: 62411
 content-sha256: 7fe7d0ddad5743d24a6de6ba5ce188b6802b41896b556465f10866c69326bb02
+content-type: application/octet-stream
 ---
 _path: /vamp/Chandra-600L0X0Y0.png
 content-length: 56629
 content-sha256: 3c9209d2121b730dfe9ef9d30f2e7e60124e15a68bddb0b02a96930151d66099
+content-type: application/octet-stream
 ---
 _path: /vamp/Chandra-626dL0X0Y0.png
 content-length: 28179
 content-sha256: bd7f928d93943909aa10a524dcd2fac26d793806918cb76636d8c18d917d4845
+content-type: application/octet-stream
 ---
 _path: /vamp/ESO-20171102_whyaL0X0Y0.png
 content-length: 8425
 content-sha256: e9c4e56a9f612eecaab20ef0a53308460b1e249b8c0b34611390b250e4d468db
+content-type: application/octet-stream
 ---
 _path: /vamp/ESO-eso0124aL0X0Y0.png
 content-length: 65322
 content-sha256: a6ea0117c17e88e5066f0206555fc6d74b2372594c93e787fe00a813bfc57415
+content-type: application/octet-stream
 ---
 _path: /vamp/ESO-potw1710aL0X0Y0.png
 content-length: 51090
 content-sha256: 31749da7ac79c804ec0129fd4434473f933805480b519dfb9e298b4e5afce0f8
+content-type: application/octet-stream
 ---
 _path: /vamp/Hubble-heic0602aL0X0Y0.png
 content-length: 62004
 content-sha256: 37e673b4e122efe5cde0f32e506ce45325afb3f291f9df67db563623953b03d2
+content-type: application/octet-stream
 ---
 _path: /vamp/Spitzer-ssc2018-14bL0X0Y0.png
 content-length: 72504
 content-sha256: 0265b9e3150ecaa8b895c692e5eba2c43cc8c086dd226ce4b9a642f5a020c413
+content-type: application/octet-stream
 ---
 _path: /vamp/Wise-WISE2014-001L0X0Y0.png
 content-length: 100467
 content-sha256: 399a40c1dd50f017838e1b7f86a78702aa265adde9945d0d1e7b862d75e578f0
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-Chandra-102.jpg
 content-length: 1269
 content-sha256: 1d5335a06de6259631df18b1f66100822ba97cf8d92bccbf1a9ea7d7fb3d7377
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-Chandra-300.jpg
 content-length: 1711
 content-sha256: a9dbe4bd9771678633c764172a921c1eef2afc7c6758af839b5e4df54285e96e
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-Chandra-600.jpg
 content-length: 1695
 content-sha256: c624300d07dd7767cb9d9a93c0c0f3e9a358bf5ddcc4be792741807b3e9b8ab2
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-ESO-eso0124a.jpg
 content-length: 1585
 content-sha256: ff1dae66e90c4a9ae2c8d32aaf9e986079b965993dfc4f158e713ce1d0a3d12b
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-ESO-potw1710a.jpg
 content-length: 1634
 content-sha256: 8c552d53b13f7aefeb19c2800c143685020740b93e02683711926a40eed66755
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-Hubble-heic0602a.jpg
 content-length: 701
 content-sha256: 27bac1dda206447492fdef614e96f305b7089c72988d56750e2d66deb4678d3c
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-Spitzer-ssc2018-14b.jpg
 content-length: 1582
 content-sha256: 15f5c4c0f3e84d47fb0587696afd514c143d6e20fc8f5da65a4b4807f07a5cba
+content-type: application/octet-stream
 ---
 _path: /vamp/thumb-Wise-WISE2014-001.jpg
 content-length: 1735
 content-sha256: a77f68e2f43228dd8676e0bf9bce7f596fb567b15899b02ec68d2450dcff8913
+content-type: application/octet-stream
