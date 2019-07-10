@@ -64,7 +64,7 @@ contain the following keys.
   ``example.com/hello`` and ``example.com/HeLlo`` are equivalent. For such
   servers, the capitalization of URL paths should be normalized in the
   database.
-  
+
 ``cnames``
   A sorted list of aliases to the domain in question, *not* including the
   “primary” domain as defined by the filename of the domain file. The
@@ -117,6 +117,22 @@ containing::
 
 Indicates that the URL ``http://example.com/index.html?foo=bar`` should be
 successfully accessible in this way.
+
+Categories
+~~~~~~~~~~
+
+Records can be assigned arbitrary textual categories. These are stored in the
+YAML as a sorted list of strings under the key ``categories``. Example::
+
+  ---
+  _path: /favicon.ico
+  categories:
+  - frontend
+  - graphics
+
+Categories can be assigned upon URL registration by using the ``--category``
+flag to ``wwturldb add``. The flag can be specified more than once, or not at
+all.
 
 Static Content
 ~~~~~~~~~~~~~~

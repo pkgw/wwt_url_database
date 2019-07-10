@@ -24,6 +24,10 @@ Record
 
 class Record(object):
     _domain = None
+
+    categories = None
+    "A set of strings representing categories this URL has been assigned."
+
     extras = None
     path = None
     content_length = None
@@ -39,6 +43,8 @@ class Record(object):
         if self.content_length is not None:
             self.content_sha256 = bytes.fromhex(doc.pop('content-sha256'))
 
+        self.categories = set(doc.pop('categories', ()))
+
         self.extras = doc
 
     def as_dict(self):
@@ -48,6 +54,9 @@ class Record(object):
         if self.content_length is not None:
             d['content-length'] = self.content_length
             d['content-sha256'] = self.content_sha256.hex()
+
+        if len(self.categories):
+            d['categories'] = sorted(self.categories)
 
         return d
 

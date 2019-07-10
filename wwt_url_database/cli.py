@@ -29,6 +29,12 @@ def add_getparser(parser):
         help = 'Indicate that this URL should return static, unchanging content',
     )
     parser.add_argument(
+        '-c', '--category',
+        action = 'append',
+        metavar = 'CATEGORY',
+        help = 'Mark the URL as belonging to the specified CATEGORY',
+    )
+    parser.add_argument(
         'url',
         metavar = 'URL',
         help = 'The URL to add to the database',
@@ -51,6 +57,9 @@ def add_impl(settings):
     if settings.static:
         session = requests.session()
         record.lock_static_content(session)
+
+    for cat in settings.category:
+        record.categories.add(cat)
 
     domain.insert_record(record)
 
