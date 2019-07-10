@@ -29,15 +29,20 @@ class Record(object):
     "A set of strings representing categories this URL has been assigned."
 
     extras = None
+    "A dict of arbitrary extra stuff from the YAML document for this path."
+
     path = None
     content_length = None
 
     content_sha256 = None
     "This is a bytes object with binary digest data."
 
+    content_type = None
+
     def __init__(self, domain, doc):
         self._domain = domain
         self.path = doc.pop('_path')
+        self.content_type = doc.pop('content-type')
 
         self.content_length = doc.pop('content-length', None)
         if self.content_length is not None:
@@ -50,6 +55,7 @@ class Record(object):
     def as_dict(self):
         d = self.extras.copy()
         d['_path'] = self.path
+        d['content-type'] = self.content_type
 
         if self.content_length is not None:
             d['content-length'] = self.content_length
@@ -87,10 +93,13 @@ class Record(object):
         fragment = ''
         return parse.urlunsplit((scheme, netloc, path, query, fragment))
 
-    def lock_static_content(self, session):
-        """"Lock in" static content associated with this URL.
+    def initialize(self, session, static=False):
+        """Initialize the record for this URL.
 
-        Calling this function asserts that this URL is associated with some
+        At a minimum, we use a GET request to obtain its content-type. (TODO:
+        this is of course narrowminded! One day we may need to do better.)
+
+        If *static* is true, we assert that this URL is associated with some
         kind of static data file that should not change. In order to check
         changes, we record the byte length and SHA256 digest associated with
         the URL at the moment. Subsequent checks might re-download the file
@@ -102,15 +111,18 @@ class Record(object):
         if not resp.ok:
             raise Exception(f'failed to fetch {url}: HTTP status {resp.status_code}')
 
-        d = hashlib.sha256()
-        count = 0
+        self.content_type = resp.headers['content-type']
 
-        for chunk in resp.iter_content(chunk_size=None):
-            d.update(chunk)
-            count += len(chunk)
+        if static:
+            d = hashlib.sha256()
+            count = 0
 
-        self.content_length = count
-        self.content_sha256 = d.digest()  # this is a bytes of the binary digest data
+            for chunk in resp.iter_content(chunk_size=None):
+                d.update(chunk)
+                count += len(chunk)
+
+            self.content_length = count
+            self.content_sha256 = d.digest()  # this is a bytes of the binary digest data
 
 
     def check(self, session, content=True):
@@ -128,6 +140,10 @@ class Record(object):
             resp = session.get(url, stream=True)
             if not resp.ok:
                 print(f'error: {resp.status_code}', end='')
+                return True
+
+            if resp.headers['content-type'] != self.content_type:
+                print(f'error: expected content-type {self.content_type}; got {resp.headers["content-type"]}', end='')
                 return True
 
             if content and self.content_length is not None:
@@ -340,7 +356,10 @@ class Database(object):
             if rec.path == normpath:
                 return (domain, rec, True)
 
-        rec = Record(domain, dict(_path=normpath))
+        rec = Record(domain, {
+            '_path': normpath,
+            'content-type': 'UNKNOWN',
+        })
         return (domain, rec, False)
 
     def activate_map(self, original, alias):

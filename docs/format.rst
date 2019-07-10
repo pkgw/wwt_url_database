@@ -50,6 +50,7 @@ The minimal example domain file is::
   ---
   ---
   _path: /
+  content-type: text/html
 
 
 Domain Metadata Document
@@ -79,6 +80,7 @@ contain the following keys.
     - www.example.com
     ---
     _path: /
+    content-type: text/html
 
   Then the URLs ``http://example.com/`` and ``http://www.example.com/`` should
   both function equivalently.
@@ -93,30 +95,39 @@ URL Record Document
 
 Each URL record YAML document is a dictionary at its top level.
 
-Path
-~~~~
+Path and Content Type
+~~~~~~~~~~~~~~~~~~~~~
 
 At a minimum, each record must contain a key called ``_path`` that provides an
-absolute URL path defining the URL in question. A minimal record document
-might simply consist of::
+absolute URL path defining the URL in question. It must also contain a key
+called ``content-type`` that records the HTTP Content-Type of the returned
+document. A minimal record document might simply consist of::
 
   _path: /robots.txt
+  content-type: text/plain
 
 The path may contain path parameters (semicolon-delimited) and query
 parameters (ampersand-delimited) but not a fragment specifier
 (octothorpe-delimited).
 
-A URL record containing just a path indicates that an HTTP request to the URL
-defined by combining the domain name in question and the path in question
-should return an HTTP 2xx or 3xx status code. The document ``example.com.yaml``
-containing::
+A URL record containing just a path indicates that an HTTP GET request to the
+URL defined by combining the domain name in question and the path in question
+should return an HTTP 2xx or 3xx status code. The document
+``example.com.yaml`` containing::
 
   ---
   ---
   _path: /index.html?foo=bar
+  content-type: text/html
 
 Indicates that the URL ``http://example.com/index.html?foo=bar`` should be
 successfully accessible in this way.
+
+Content types may contain parameters, e.g.::
+
+  ---
+  _path: /about/
+  content-type: text/html; charset=utf-8
 
 Categories
 ~~~~~~~~~~
@@ -129,6 +140,7 @@ YAML as a sorted list of strings under the key ``categories``. Example::
   categories:
   - frontend
   - graphics
+  content-type: image/x-icon
 
 Categories can be assigned upon URL registration by using the ``--category``
 flag to ``wwturldb add``. The flag can be specified more than once, or not at
@@ -152,6 +164,7 @@ Example::
   _path: /m51.txt
   content-length: 1650240
   content-sha256: fd3589aa8a72beb48939de884e3ee5324b510c145003f375c77cd4ecb1a79672
+  content-type: text/ascii
 
 These features are aimed at declaring “static content” that should not change
 over time. When adding a URL, giving the ``--static`` flag to ``wwturldb add``

@@ -54,9 +54,8 @@ def add_impl(settings):
         warn(f'URL {settings.url} already registered; doing nothing')
         return
 
-    if settings.static:
-        session = requests.session()
-        record.lock_static_content(session)
+    session = requests.session()
+    record.initialize(session, static=settings.static)
 
     for cat in settings.category:
         record.categories.add(cat)
