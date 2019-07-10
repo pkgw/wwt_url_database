@@ -255,8 +255,22 @@ class Database(object):
         for dname in self._domains:
             yield self._get_domain(dname)
 
-    def all_records(self):
-        for domain in self.domains():
+    def get_records(self, domain=None):
+        """Get a set of records.
+
+        By default, this function generates all known records. The arguments
+        can filter down the selection in various ways.
+
+        """
+        if domain is None:
+            domains = self.domains()
+        else:
+            dname = self._domain_aliases.get(domain)
+            if dname is None:
+                raise Exception(f'illegal domain name {domain!r}')
+            domains = [self._get_domain(dname)]
+
+        for domain in domains:
             for record in domain.records():
                 yield record
 

@@ -58,14 +58,19 @@ def add_impl(settings):
 # "check" subcommand
 
 def check_getparser(parser):
-    pass
+    parser.add_argument(
+        'domain',
+        nargs = '?',
+        metavar = 'DOMAIN',
+        help = 'A specific domain to check',
+    )
 
 def check_impl(settings):
     session = requests.session()
     db = Database()
     errors = 0
 
-    for rec in db.all_records():
+    for rec in db.get_records(domain=settings.domain):
         if rec.check(session):
             errors += 1
 
@@ -81,7 +86,7 @@ def dump_urls_getparser(parser):
 def dump_urls_impl(settings):
     db = Database()
 
-    for rec in db.all_records():
+    for rec in db.get_records():
         print(rec.url())
 
 
