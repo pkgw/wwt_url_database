@@ -19,6 +19,25 @@ def die(msg):
 def warn(msg):
     print('warning:', msg, file=sys.stderr)
 
+def add_record_filter_args(parser):
+    parser.add_argument(
+        '--domain',
+        metavar = 'DOMAIN',
+        help = 'Only consider the specifed domain',
+    )
+    parser.add_argument(
+        '--path-prefix',
+        metavar = 'PREFIX',
+        help = 'Only consider paths starting with the specified prefix',
+    )
+
+def get_records_with_filtering(db, settings):
+    "Return a generator of records applying the user's specified filters."
+    return db.get_records(
+        domain = settings.domain,
+        path_prefix = settings.path_prefix,
+    )
+
 
 # "add" subcommand
 
@@ -67,24 +86,19 @@ def add_impl(settings):
 
 def check_getparser(parser):
     parser.add_argument(
-        'domain',
-        nargs = '?',
-        metavar = 'DOMAIN',
-        help = 'A specific domain to check',
-    )
-    parser.add_argument(
         '--map',
         action = 'append',
         metavar = 'ORIGINAL=ALIAS',
         help = 'Rewrite requests for the domain ORIGINAL to point to ALIAS instead',
     )
+    add_record_filter_args(parser)
 
 def check_impl(settings):
     session = requests.session()
     db = Database()
     errors = 0
 
-    for mapspec in settings.map:
+    for mapspec in (settings.map or []):
         pieces = mapspec.split('=', 1)
         if len(pieces) != 2:
             die(f'invalid "--map" specification {mapspec!r}: should contain one equals sign')
@@ -96,7 +110,7 @@ def check_impl(settings):
 
         db.activate_map(original, alias)
 
-    for rec in db.get_records(domain=settings.domain):
+    for rec in get_records_with_filtering(db, settings):
         if rec.check(session):
             errors += 1
 
@@ -107,12 +121,12 @@ def check_impl(settings):
 # "dump_urls" subcommand
 
 def dump_urls_getparser(parser):
-    pass
+    add_record_filter_args(parser)
 
 def dump_urls_impl(settings):
     db = Database()
 
-    for rec in db.get_records():
+    for rec in get_records_with_filtering(db, settings):
         print(rec.url())
 
 

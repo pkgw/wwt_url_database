@@ -290,7 +290,7 @@ class Database(object):
         for dname in self._domains:
             yield self._get_domain(dname)
 
-    def get_records(self, domain=None):
+    def get_records(self, domain=None, path_prefix=None):
         """Get a set of records.
 
         By default, this function generates all known records. The arguments
@@ -307,6 +307,10 @@ class Database(object):
 
         for domain in domains:
             for record in domain.records():
+                if path_prefix is not None:
+                    if not record.path.startswith(path_prefix):
+                        continue
+
                 yield record
 
     def normalize(self, url):
