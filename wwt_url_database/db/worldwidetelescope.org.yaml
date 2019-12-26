@@ -2268,3 +2268,10 @@ categories:
 content-length: 116511
 content-sha256: e602d2e13e87b630bad164055a0b641acb1eddfdc91eddad5ec65198f109f4d4
 content-type: image/png
+---
+_path: /wwtweb/webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
+categories:
+- backend
+content-length: 6471
+content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
+content-type: image/png
