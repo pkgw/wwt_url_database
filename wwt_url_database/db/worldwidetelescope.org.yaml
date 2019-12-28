@@ -84,13 +84,321 @@ content-type: text/html
 _path: /content/detail/81896
 content-type: application/json; charset=utf-8
 ---
+_path: /content/greatobservatories.xml
+content-length: 18415
+content-sha256: 98fef095c6c0ae16731f845b10cc1206f31200409e92049b282b63d6e9b9dda0
+content-type: text/xml
+---
+_path: /content/images/addview.jpg
+content-length: 37754
+content-sha256: 2c17b6fa03800f7428b51f33da7edb5542dfb1eb9848aa233da367dcd0867412
+content-type: image/jpeg
+---
+_path: /content/images/addview.png
+content-length: 7040
+content-sha256: 66fde3d2cb8885ebe5984274f8e0d7e04163cad8dfb02b29c16d2b226acbd69e
+content-type: image/png
+---
+_path: /content/images/ancientearthwwtthumbnail.png
+content-length: 13999
+content-sha256: 502c52cbb7415b3d2e89460c274f628ec65009040ff01238858d6d6357ef6dea
+content-type: image/png
+---
+_path: /content/images/astronomywwtthumbnail.png
+content-length: 11220
+content-sha256: bb8382ea3e50e09f2b8f0029200836dceec1675da8b5d947a20c8dad378d9fc2
+content-type: image/png
+---
+_path: /content/images/atmospherewwtthumbnail.png
+content-length: 11939
+content-sha256: 7be4ede4013f2c24e8339e37a48b7f91510aa47b7132c49348ac7a952744bd42
+content-type: image/png
+---
+_path: /content/images/climatewwtthumbnail.png
+content-length: 12507
+content-sha256: eb4c75798bda2b556b55887800f67b8c8771c6e60cd8dd47c61ede8f5755515b
+content-type: image/png
+---
+_path: /content/images/coldregionswwtthumbnail.png
+content-length: 10603
+content-sha256: 886e3c0213ef73aae600bfea4bce102e6df982640b0d0114b8069c24c3bed08a
+content-type: image/png
+---
+_path: /content/images/defaultcommunitythumbnail.png
+content-length: 5412
+content-sha256: c76cca1a483bed3530fd60ab44c60db055204fa8fe6172e616dfc5b18a562fb5
+content-type: image/png
+---
+_path: /content/images/defaultcommunitywwtthumbnail.png
+content-length: 2779
+content-sha256: 99fd8ae7f8b00229e7fa2db3fec0fcd5ba9caea8bc48e8fdb553eb40da043fa3
+content-type: image/png
+---
+_path: /content/images/defaultdocthumbnail.png
+content-length: 1945
+content-sha256: 93c4790abf32bfa372eccee765164e0d226ecfd635081b77a81956aedd7aaa27
+content-type: image/png
+---
+_path: /content/images/defaultdocwwtthumbnail.png
+content-length: 1648
+content-sha256: b9ed6f7a5b4e4a19aeb0feae9382c049e6b65e82defb41b742f9a47943dc2861
+content-type: image/png
+---
+_path: /content/images/defaultexcelthumbnail.png
+content-length: 2711
+content-sha256: 8a1f23b125a886cf710573936ab7cd8d58f846caeaf83dd2628e050c190a1997
+content-type: image/png
+---
+_path: /content/images/defaultexcelwwtthumbnail.png
+content-length: 2265
+content-sha256: d34b5a9316c3f894e76f7d5f428ea7db0d2ec3554992c98ea12f5932765c51e7
+content-type: image/png
+---
+_path: /content/images/defaultfolderthumbnail.png
+content-length: 1843
+content-sha256: a3966abbf71da5df2e4f017f2686d237a4e2667cd07e056bca007eb540d7bc5d
+content-type: image/png
+---
+_path: /content/images/defaultfolderwwtthumbnail.png
+content-length: 1638
+content-sha256: fe0d82d1dfed7f765375bcbcc79982e1635a4e89dafb005ec618368e19c510ea
+content-type: image/png
+---
+_path: /content/images/defaultgenericthumbnail.png
+content-length: 1945
+content-sha256: 93c4790abf32bfa372eccee765164e0d226ecfd635081b77a81956aedd7aaa27
+content-type: image/png
+---
+_path: /content/images/defaultgenericwwtthumbnail.png
+content-length: 1648
+content-sha256: b9ed6f7a5b4e4a19aeb0feae9382c049e6b65e82defb41b742f9a47943dc2861
+content-type: image/png
+---
+_path: /content/images/defaultlinkthumbnail.png
+content-length: 4315
+content-sha256: f6ffd7b6b51b3f9fba51e638213a1640235c0b26bac65df98aa09d44ce1ff8a1
+content-type: image/png
+---
+_path: /content/images/defaultlinkwwtthumbnail.png
+content-length: 2895
+content-sha256: 16ba7a5c4104e55da23bb7a825225ce9fd3f4c253ecea6bc6fff1e346a001950
+content-type: image/png
+---
+_path: /content/images/defaultpptthumbnail.png
+content-length: 2646
+content-sha256: 115b57e79651774d7de5c9ab7cce8b4d5ef21d826a5d9d6519775c238e5e9cbe
+content-type: image/png
+---
+_path: /content/images/defaultpptwwtthumbnail.png
+content-length: 2252
+content-sha256: 180019ffbb0b84dd51782c02c417d606274e2a03c4752235971b31e3429e551a
+content-type: image/png
+---
+_path: /content/images/defaulttoursthumbnail.png
+content-length: 3482
+content-sha256: e53d7c08763cae7cfb44afc5a8d57a484e293b93f71d959573cf84acdd630c76
+content-type: image/png
+---
+_path: /content/images/defaulttourswwtthumbnail.png
+content-length: 2472
+content-sha256: 75cb5b47fcf18453d3b6309917dc78d7b99ce99af664c92f17dcbd9c49c10179
+content-type: image/png
+---
+_path: /content/images/defaultvideothumbnail.png
+content-length: 3051
+content-sha256: 2cc2d44f085676691a0ed49dfc8048a9bc306f43d29562aedf80df9f48bb8881
+content-type: image/png
+---
+_path: /content/images/defaultvideowwtthumbnail.png
+content-length: 2153
+content-sha256: 9396e04da0eef024deeb1cf0a4178fe77da00065c882b1a09f0a2e2112956580
+content-type: image/png
+---
+_path: /content/images/defaultwtmlthumbnail.png
+content-length: 2583
+content-sha256: d86a32d15e51f9612df97d29bcc243eb12680d6e12dfc90386b97335b909d100
+content-type: image/png
+---
+_path: /content/images/defaultwtmlwwtthumbnail.png
+content-length: 2247
+content-sha256: a113485ada8b6bca688f8787e8997e63dd5b9eb41a61a10a028fd5e292c7e792
+content-type: image/png
+---
+_path: /content/images/defaultwwtlthumbnail.png
+content-length: 3407
+content-sha256: b5e111df2330d45dd59f3a888b76b344214ceb8e954d0ce20d2e6e0093aab3fe
+content-type: image/png
+---
+_path: /content/images/defaultwwtlwwtthumbnail.png
+content-length: 4301
+content-sha256: 5edcf38ca5345a94d10e8c1be611c2d52d1093380f83ab1081f820f0aac5707d
+content-type: image/png
+---
+_path: /content/images/earthsurfacewwtthumbnail.png
+content-length: 10200
+content-sha256: 3bb8bdaec955eeee16c1184de9a393020e759b7e1bd300c97ff774f1c428b5ab
+content-type: image/png
+---
+_path: /content/images/eso.jpg
+content-length: 2635
+content-sha256: 63a8ad758750a233c65f3afb9ff469305f2629230c2b930317b618bd20256806
+content-type: image/jpeg
+---
+_path: /content/images/eso.png
+content-length: 8894
+content-sha256: 4de5af47d25efd12db5164a73629f5d5616e2998eb7f65ee187b26b9ad170529
+content-type: image/png
+---
+_path: /content/images/gbox.png
+content-length: 969
+content-sha256: 998853264295a1febe033b534d971cee4630d670f74940e695d405e64374778a
+content-type: image/png
+---
+_path: /content/images/generalinterestwwtthumbnail.png
+content-length: 10552
+content-sha256: e2ef2afd984ee16cdd94c570a7d08df736071498c6f21706c8397eb707ddef1f
+content-type: image/png
+---
+_path: /content/images/helpwwtthumbnail.png
+content-length: 1996
+content-sha256: 7ec547b245a235d38873d07823f296375fdec2eab4ab0e00017e4f764ecdae37
+content-type: image/png
+---
+_path: /content/images/howtowwtthumbnail.png
+content-length: 13959
+content-sha256: e7218f95ecefee3f27accefe06f9d123032b2a3aeb25cabeac6e6eb5130243b0
+content-type: image/png
+---
+_path: /content/images/layoutpage.png
+content-length: 7429
+content-sha256: 0499adc1837a043c4bcdf3df3f7bf9d6583228e322ec67780000cd674a998d11
+content-type: image/png
+---
+_path: /content/images/lens-logo-lg.png
+content-length: 69015
+content-sha256: a54b58c5b4342ef695a0f8deddfb6fb2e21a16e4f6505069b8312b47870e3194
+content-type: image/png
+---
+_path: /content/images/lens-logo-sm.png
+content-length: 4963
+content-sha256: a6b8e0251527894ad0649d62442456e2f12be15017ff1e10f279e9c477a8d880
+content-type: image/png
+---
+_path: /content/images/lifesciencewwtthumbnail.png
+content-length: 13711
+content-sha256: b82161f0fbeb319e9b0ef1773241038fcb5edbd73ee836678a0ed5a54802e9a1
+content-type: image/png
+---
+_path: /content/images/oceansriverswwtthumbnail.png
+content-length: 11236
+content-sha256: a6dc5857252f49c4c175df96531b609710820ad21e5477a11a736fda76a25052
+content-type: image/png
+---
 _path: /content/images/planetariums/go-dome.png
 content-length: 112128
 content-sha256: ee044331190b9206394c0e63e5ce8a08666226717d97247647b0e7035649c368
 content-type: image/png
 ---
+_path: /content/images/planetariums/impacts_asteroidbelts.png
+content-length: 356434
+content-sha256: b2679215ff6f933d413c057f0ed0982cb44fc469ac212830ebebe73f3a2a65d5
+content-type: image/png
+---
+_path: /content/images/planetariums/impacts_asteroids.png
+content-length: 353457
+content-sha256: 27de765c2958eff992737cd82ee18ab6a021084cd33d9ece92e0ec315f035f38
+content-type: image/png
+---
+_path: /content/images/planetariums/impacts_calorisbasin.png
+content-length: 766936
+content-sha256: 27673288bbb5fba10e470ac2c4dfebe09460dfbe72cec887cd12408ed1283578
+content-type: image/png
+---
+_path: /content/images/planetariums/impacts_craters.png
+content-length: 1488977
+content-sha256: 29689f4dcb5a24f8d6d49d93753f6cf7a712a46869fb4055e508234cbaaaeaec
+content-type: image/png
+---
+_path: /content/images/planetariums/impacts_gale.png
+content-length: 469143
+content-sha256: ff1293b6fb112a177a7e3e10a2e39bf5dc329938b6f15b578b43fd9ac6f54284
+content-type: image/png
+---
+_path: /content/images/planetariums/impacts_iss.png
+content-length: 1321760
+content-sha256: dd069611c58cb5340288c7636c59e9f58cc2fe723aff08564e429eee99c6b00f
+content-type: image/png
+---
+_path: /content/images/planetariums/impacts_manicouagan.png
+content-length: 1230830
+content-sha256: 8a400b2352286e08d8d81d35c7990f37d4ac513f2fdc1e48b8422cba56addb69
+content-type: image/png
+---
+_path: /content/images/planetariums/impacts_tour_splash.jpg
+content-length: 477078
+content-sha256: 15df6132f14b680f20d158ee4a9d7340c0c0b3ab802ebfe75b3229d357d07311
+content-type: image/jpeg
+---
+_path: /content/images/planetariums/impacts_tycho.png
+content-length: 641112
+content-sha256: 6f64ad53b091e50e3393d33fcde1308dc8dedf5d3410867aaffadaec748d6957
+content-type: image/png
+---
+_path: /content/images/planetariums/wwt-dome-exterior.png
+content-length: 98654
+content-sha256: 90da63990aa296bbcedbb8ba7dcc2b4e14ce793b9a6fe04d48de812217524a80
+content-type: image/png
+---
+_path: /content/images/planetswwtthumbnail.png
+content-length: 12437
+content-sha256: 60e29750c9996d9bf07333f83d59497933dc356f4d234e533d6bdf7c7ea9b4c8
+content-type: image/png
+---
+_path: /content/images/searchwwtthumbnail.png
+content-length: 2152
+content-sha256: 9961cded11090e07512649cd4809373cf3dcf317c095c7506ffb5805b2645cdd
+content-type: image/png
+---
+_path: /content/images/solidearthwwtthumbnail.png
+content-length: 13311
+content-sha256: 8a068884ed64ea6463e65b92076a934c3a59a03318f88e5b1104b832825f44dd
+content-type: image/png
+---
+_path: /content/images/solutionexplorer.jpg
+content-length: 39572
+content-sha256: 90a5f6dce1863e3ffd65f861b84c08ab0be9397cf59f5cac2266e29ef7c28c1a
+content-type: image/jpeg
+---
+_path: /content/images/solutionexplorer.png
+content-length: 7387
+content-sha256: 70d391748fa72a010712ea8ae7edbb4f6fe7c7375df4e73355af80ffdd4023f5
+content-type: image/png
+---
+_path: /content/images/wise.png
+content-length: 7130
+content-sha256: 89b399deb036c974d50abfcbfbb7c4dce99d2e95b22e50432d92b2b1e29ae08f
+content-type: image/png
+---
+_path: /content/images/wiseobservatory.jpg
+content-length: 2942
+content-sha256: 5f08c5e7128b4ec1e26541219959a64fdcb82c12d91df844b6ed8cc84e7c2b32
+content-type: image/jpeg
+---
+_path: /content/images/wiseobservatory.png
+content-length: 7130
+content-sha256: cf0dece01b4e1af5b90c6482c8480bbb690143ac2fe71a0f577367c11c00259a
+content-type: image/png
+---
 _path: /content/openwwt/openwwt_development.pdf
 content-type: application/pdf
+---
+_path: /content/print.htm
+content-type: text/html
+---
+_path: /content/wmap.xml
+content-length: 2894
+content-sha256: 229d7829f6df4169fba2b7d38404b3dd369d98c8a9ceb7f4c00a3f765bed8775
+content-type: text/xml
 ---
 _path: /data/bigclouds.dds.png
 categories:
