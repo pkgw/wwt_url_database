@@ -488,10 +488,184 @@ content-length: 7480036
 content-sha256: 3694b908056f90be7c27308bb474c9f669fe971ffed87c834d9805c23266e412
 content-type: application/x-wtt
 ---
+_path: /docs/conversiontutorial.htm
+content-type: text/html
+---
+_path: /docs/domespecs.html
+content-type: text/html
+---
+_path: /docs/samples/displaycode.htm
+content-type: text/html
+---
+_path: /docs/samples/sample_wwt%20web%20client%20arrived.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwt%20web%20client%20click%20event.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwt%20web%20client%20fov.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwt%20web%20client%20local%20view.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwt%20web%20client%20poly.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwt%20web%20client%20simple.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientarrived.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientclickevent.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientearthcitysearch.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientfov.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientimages.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientlocalview.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientmarsexplorer.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientpoly.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclientsimple.html
+content-type: text/html
+---
+_path: /docs/samples/sample_wwtwebclienttours.html
+content-type: text/html
+---
+_path: /docs/samples/wwt%20web%20client%20arrived.html
+content-type: text/html
+---
+_path: /docs/samples/wwt%20web%20client%20click%20event.html
+content-type: text/html
+---
+_path: /docs/samples/wwt%20web%20client%20fov.html
+content-type: text/html
+---
+_path: /docs/samples/wwt%20web%20client%20local%20view.html
+content-type: text/html
+---
+_path: /docs/samples/wwt%20web%20client%20poly.html
+content-type: text/html
+---
+_path: /docs/samples/wwt%20web%20client%20simple.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientarrived.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientarrivedhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientclickevent.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientclickeventhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientdistantplanetexplorer.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientdistantplanetexplorerhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientearthcitysearch.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientearthcitysearchhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientfov.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientfovhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientimages.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientimageshtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientkepler.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientlocalview.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientlocalviewhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientmarsexplorer.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientmarsexplorerhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientmessiercatalog.html
+content-type: text/html
+---
 _path: /docs/samples/wwtwebclientmessiercataloghtml5.html
 categories:
 - frontend
 content-type: text/html
+---
+_path: /docs/samples/wwtwebclientmoonexplorer.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientplanetexplorer.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientplanetexplorerhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientpoly.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientpolyhtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientsimple.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientsimplehtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclientsimpleuihtml5.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclienttour.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclienttours.html
+content-type: text/html
+---
+_path: /docs/samples/wwtwebclienttourshtml5.html
+content-type: text/html
+---
+_path: /docs/scripts/jquerycodeview.css
+content-type: text/css
+---
+_path: /docs/scripts/jquerycodeview.js
+content-type: application/javascript
+---
+_path: /docs/sdk_style.css
+content-type: text/css
+---
+_path: /docs/user_style.css
+content-type: text/css
 ---
 _path: /docs/worldwide-telescope-advanced-guides.epub
 categories:
@@ -553,10 +727,28 @@ categories:
 - frontend
 content-type: application/pdf
 ---
+_path: /docs/worldwide-telescope-multi-channel-dome-setup.pdf
+content-type: application/pdf
+---
+_path: /docs/worldwide-telescope-planetarium.pdf
+content-type: application/pdf
+---
+_path: /docs/worldwide-telescope-projection-reference.pdf
+content-type: application/pdf
+---
+_path: /docs/worldwide-telescope-user-manual.pdf
+content-type: application/pdf
+---
+_path: /docs/worldwide-telescope-web-control-script-reference.pdf
+content-type: application/pdf
+---
 _path: /docs/worldwidetelescope_lcapi.html
 categories:
 - frontend
 content-type: text/html
+---
+_path: /docs/worldwidetelescopeadd-inforexceluserguide.chm
+content-type: application/octet-stream
 ---
 _path: /docs/worldwidetelescopedatafilesreference.html
 categories:
@@ -566,6 +758,12 @@ content-type: text/html
 _path: /docs/worldwidetelescopedatatoolsguide.html
 categories:
 - frontend
+content-type: text/html
+---
+_path: /docs/worldwidetelescopeexceladdin.html
+content-type: text/html
+---
+_path: /docs/worldwidetelescopelcapi.html
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopelocalizationtool.html
@@ -583,9 +781,21 @@ categories:
 - frontend
 content-type: text/html
 ---
+_path: /docs/worldwidetelescopesdkgettingstarted.html
+content-type: text/html
+---
 _path: /docs/worldwidetelescopesdkoverview.html
 categories:
 - frontend
+content-type: text/html
+---
+_path: /docs/worldwidetelescopesdkuserguide.chm
+content-type: application/octet-stream
+---
+_path: /docs/worldwidetelescopetilepyramidsdk.html
+content-type: text/html
+---
+_path: /docs/worldwidetelescopetilepyramidsdksamples.html
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopeuserguide.html
@@ -598,10 +808,91 @@ categories:
 - frontend
 content-type: text/html
 ---
+_path: /docs/wtml/an_author.jpg
+content-length: 1837
+content-sha256: c54f745e65b1009006419b97b8d811a5da59ef6738e295445ff20fcaea45fda5
+content-type: image/jpeg
+---
+_path: /docs/wtml/callisto%20surface.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/europa%20surface.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/ganymede%20surface.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/io%20surface.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/mars%20surface.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/mercury%20surface.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/moon%20surface.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/myplaces.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/planettourcollection.wtml
+content-type: application/x-wtml
+---
+_path: /docs/wtml/sample_blank%20collection.html
+content-type: text/html
+---
+_path: /docs/wtml/sample_community%20payload.html
+content-type: text/html
+---
+_path: /docs/wtml/sample_communitypayload.html
+content-type: text/html
+---
+_path: /docs/wtml/sample_panoramasurvey.html
+content-type: text/html
+---
+_path: /docs/wtml/sample_signup.html
+content-type: text/html
+---
+_path: /docs/wtml/sample_study.html
+content-type: text/html
+---
+_path: /docs/wtml/sample_tourcollection.html
+content-type: text/html
+---
+_path: /docs/wtml/thumb1.jpg
+content-length: 1241
+content-sha256: 0aa4ce3f359fb1f04ab38616179ff9c55a7d42115aaa4a76d76ddb0c01454df9
+content-type: image/jpeg
+---
+_path: /docs/wtml/thumb2.jpg
+content-length: 916
+content-sha256: 5b660e6ad0f8e2528445fc658dac22d482a41031abd09790c8ffbc97e511d06e
+content-type: image/jpeg
+---
+_path: /docs/wtml/tourone.wtt
+content-length: 6725970
+content-sha256: 7fa4e69a8de1e0d6dd1ff2a223cf707c7341064727ed9e976ed02730478863d9
+content-type: application/x-wtt
+---
+_path: /docs/wtml/tourtwo.wtt
+content-length: 5072657
+content-sha256: 9e70f77f97b42f50d9698efab96f2c8aef7ed078545a9d3bc257f0172b1f1210
+content-type: application/x-wtt
+---
+_path: /docs/wtml/venus%20surface.wtml
+content-type: application/x-wtml
+---
 _path: /docs/wwtsdkfactsheet.pdf
 categories:
 - frontend
 content-type: application/pdf
+---
+_path: /docs/yesno.bmp
+content-length: 17874
+content-sha256: a42f9e7ff8f8ff1bae763bdf3e673c98001b96db0804a95390a6db62195b707c
+content-type: image/bmp
 ---
 _path: /download
 categories:
