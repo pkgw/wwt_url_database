@@ -36,6 +36,16 @@ categories:
 - frontend
 content-type: text/html; charset=utf-8
 ---
+_path: /about/webclient
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
+_path: /about/whoweare
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
 _path: /clientaccesspolicy.xml
 content-length: 340
 content-sha256: c4d1ff7bb220b39f6c3cb364b437cf881ec9aa77cddf3438d9ca5fedf56a7be3
@@ -43,15 +53,20 @@ content-type: text/xml
 ---
 _path: /community
 categories:
+- communities
 - frontend
 content-type: text/html; charset=utf-8
 ---
 _path: /community/authorthumbnail/c82902cd-234b-4c39-bd14-8a2a3849949d
+categories:
+- communities
 content-length: 17135
 content-sha256: 5d488c76c5b9f09fe8ded1f01757e3df639e5e57ef9d16ff2ab4b3c88bde4f44
 content-type: image/jpeg
 ---
 _path: /community/tourthumbnail/46ed68e5-e0cb-4092-9bc8-07a05b518856
+categories:
+- communities
 content-length: 3296
 content-sha256: 5fe469f22637472769d280dddbee8bf9ef2082c0414f977ceb9a3adfe265be7e
 content-type: image/jpeg
@@ -285,12 +300,32 @@ categories:
 - frontend
 content-type: text/html; charset=utf-8
 ---
+_path: /download/beta
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
+_path: /download/embed
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
 _path: /download/features
 categories:
 - frontend
 content-type: text/html; charset=utf-8
 ---
+_path: /download/legacy
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
 _path: /download/tools
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
+_path: /download/tourassets
 categories:
 - frontend
 content-type: text/html; charset=utf-8
@@ -497,6 +532,11 @@ content-length: 1650240
 content-sha256: fd3589aa8a72beb48939de884e3ee5324b510c145003f375c77cd4ecb1a79672
 content-type: text/plain
 ---
+_path: /profile
+categories:
+- communities
+content-type: text/html; charset=utf-8
+---
 _path: /resource/service/payload
 content-length: 3332
 content-sha256: fe6b7f71e63c6ab6881ab2c86c1506481fbab61b078fced261154ba85c32af7a
@@ -514,6 +554,11 @@ content-type: text/html
 ---
 _path: /sitemap.xml
 content-type: text/xml
+---
+_path: /support
+categories:
+- frontend
+content-type: text/html; charset=utf-8
 ---
 _path: /support/issuesandbugs
 categories:
@@ -535,7 +580,22 @@ content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 content-type: image/png
 ---
+_path: /upgrade
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
 _path: /use
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
+_path: /use/beta
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
+_path: /use/domeproject
 categories:
 - frontend
 content-type: text/html; charset=utf-8
@@ -550,6 +610,11 @@ categories:
 - frontend
 content-type: text/html; charset=utf-8
 ---
+_path: /use/impacts
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
 _path: /use/planetariums
 categories:
 - frontend
@@ -560,7 +625,17 @@ categories:
 - frontend
 content-type: text/html; charset=utf-8
 ---
+_path: /use/tools
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
 _path: /use/tourassets
+categories:
+- frontend
+content-type: text/html; charset=utf-8
+---
+_path: /use/wwtplanetarium
 categories:
 - frontend
 content-type: text/html; charset=utf-8
