@@ -76,7 +76,7 @@ def add_impl(settings):
     session = requests.session()
     record.initialize(session, static=settings.static)
 
-    for cat in settings.category:
+    for cat in settings.category or []:
         record.categories.add(cat)
 
     domain.insert_record(record)
