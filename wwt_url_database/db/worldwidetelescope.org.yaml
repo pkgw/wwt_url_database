@@ -932,6 +932,11 @@ content-type: text/html; charset=utf-8
 _path: /embedded-webcontrol.js
 content-type: application/javascript
 ---
+_path: /equinox/wwtequinoxsetup.msi
+content-length: 21167
+content-sha256: 81138e8fe9f9d9336363162d81f1e216ed3338c286e45286842adf827230975c
+content-type: text/html; charset=utf-8
+---
 _path: /favicon.ico
 categories:
 - frontend
@@ -1095,6 +1100,9 @@ categories:
 content-length: 687158
 content-sha256: 05002b52a5340688428e5fc23a80b3cfe7ccccda5ad97159756f00423b3c7cdb
 content-type: application/javascript
+---
+_path: /html5tourplayer.aspx
+content-type: text/html; charset=utf-8
 ---
 _path: /learn
 categories:
@@ -1402,6 +1410,19 @@ categories:
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 content-type: application/xml
+---
+_path: /webservices/wwtwebservice.asmx
+content-type: text/html; charset=utf-8
+---
+_path: /webservices/wwtwebservice.asmx?WSDL
+content-length: 24263
+content-sha256: 53df50de4fb9dfd62709ccb8622fde29002c323139ab05adb17577ac50b833ac
+content-type: text/xml; charset=utf-8
+---
+_path: /webservices/wwtwebservice.asmx?disco
+content-length: 829
+content-sha256: 14afd8546dcfbfddbda4edc707ce800dd1a40e0ff04a523acca10cb66ced4fce
+content-type: text/xml; charset=utf-8
 ---
 _path: /wwtweb/2massoct.aspx?q=2,1,2
 categories:
