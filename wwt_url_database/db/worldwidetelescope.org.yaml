@@ -1424,6 +1424,11 @@ content-length: 829
 content-sha256: 14afd8546dcfbfddbda4edc707ce800dd1a40e0ff04a523acca10cb66ced4fce
 content-type: text/xml; charset=utf-8
 ---
+_path: /webservices/wwtwebservice.asmx?schema=AstroObjectsDataset
+content-length: 2927
+content-sha256: 7e84e1ce669445a30e78066aa9a2d6127b39dc9c0df9b97e8ee6613dad3c9330
+content-type: text/xml; charset=utf-8
+---
 _path: /wwtweb/2massoct.aspx?q=2,1,2
 categories:
 - backend
