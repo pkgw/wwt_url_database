@@ -1176,29 +1176,29 @@ content-type: text/html
 _path: /html5sdk/1.0.0/wwtsdk.js
 categories:
 - frontend
-content-length: 1203603
-content-sha256: 9c9b8c2ca2a5c704154d5843e2fe85a780f9eeba86967cb36f8f2bea09315db8
+content-length: 1397438
+content-sha256: bd24984812bea1f5c74998ff9b20530ba364054854211a9e13da4795b5efe294
 content-type: application/javascript
 ---
 _path: /html5sdk/1.0.0/wwtsdk.min.js
 categories:
 - frontend
-content-length: 689342
-content-sha256: 954363b4bfb7072f4a7fe4731f7fefd2587c55a6c27d580a30311f73e5268d1c
+content-length: 800588
+content-sha256: 1f7a45f310f2b54b6a30f47aeedb7097ed0959b0faf5a0d11e2b926a95f0149e
 content-type: application/javascript
 ---
 _path: /html5sdk/1.0.1/wwtsdk.js
 categories:
 - frontend
-content-length: 1203563
-content-sha256: c58e989dc5e6ad980159413572299be5e615d1d36eccb8cf776723e9cd7fa023
+content-length: 1203611
+content-sha256: 9d07704e64ad28371fc714001a365dee1d95c637ab7dca270b48940cf7e20100
 content-type: application/javascript
 ---
 _path: /html5sdk/1.0.1/wwtsdk.min.js
 categories:
 - frontend
-content-length: 689302
-content-sha256: e2c1f84fd0d66dd123030d854a79a7ea1483e1d0ba2c12a081c3565a9fb64c36
+content-length: 689343
+content-sha256: 2e6bf490905c5a9eaa339012df674994c6b4d99279a2a285f1b098c112017d2b
 content-type: application/javascript
 ---
 _path: /html5sdk/1.1.0/wwtsdk.js
