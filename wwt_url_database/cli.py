@@ -96,6 +96,7 @@ def check_getparser(parser):
 def check_impl(settings):
     session = requests.session()
     db = Database()
+    total = 0
     errors = 0
 
     for mapspec in (settings.map or []):
@@ -111,11 +112,16 @@ def check_impl(settings):
         db.activate_map(original, alias)
 
     for rec in get_records_with_filtering(db, settings):
+        total += 1
         if rec.check(session):
             errors += 1
 
+    print()
+
     if errors > 0:
-        die(f'found {errors} broken URLs')
+        die(f'found {errors} broken URLs out of {total}')
+
+    print(f'success: {total} URLs validated')
 
 
 # "dump_urls" subcommand

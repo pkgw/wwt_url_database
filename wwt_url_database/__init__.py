@@ -1,11 +1,12 @@
 # -*- mode: python; coding: utf-8 -*-
-# Copyright 2019 the .Net Foundation
+# Copyright 2019-2020 the .NET Foundation
 # Distributed under the terms of the revised (3-clause) BSD license.
 
 import hashlib
 from urllib import parse
 import os.path
 import requests
+import sys
 import tempfile
 from url_normalize import url_normalize
 import warnings
@@ -141,10 +142,15 @@ class Record(object):
         url = self.url()
         print(url, '... ', end='')
 
+        def err(text):
+            sys.stdout.flush()
+            # make it red!
+            sys.stdout.buffer.write(b'\x1b[1;31merror: ' + text.encode('utf-8') + b'\x1b[0m')
+
         try:
             resp = session.get(url, stream=True, allow_redirects=False)
             if not resp.ok:
-                print(f'error: {resp.status_code}', end='')
+                err(f'HTTP {resp.status_code}')
                 return True
 
             if resp.is_redirect:
@@ -155,7 +161,7 @@ class Record(object):
                     redir_content_type = f'X-{resp.status_code}-Redirect'
 
                     if redir_content_type != self.content_type:
-                        print(f'error: expected {self.content_type}; got {redir_content_type}', end='')
+                        err(f'expected {self.content_type}; got {redir_content_type}')
                         return True
             else:
                 content_type = resp.headers['content-type'].split(';')[0]  # ignore `; charset=utf-8`
@@ -168,7 +174,7 @@ class Record(object):
                     elif self.content_type == 'application/x-zip-compressed' and content_type == 'application/zip':
                         print('(ignoring Zip content-type nit) ', end='')
                     else:
-                        print(f'error: expected content-type {self.content_type}; got {content_type}', end='')
+                        err(f'expected content-type {self.content_type}; got {content_type}')
                         return True
 
                 if content and self.content_length is not None:
@@ -180,11 +186,11 @@ class Record(object):
                         count += len(chunk)
 
                     if count != self.content_length:
-                        print(f'error: content length changed from {self.content_length} to {count}', end='')
+                        err(f'content length changed from {self.content_length} to {count}')
                         return True
 
                     if d.digest() != self.content_sha256:
-                        print(f'error: content SHA256 changed', end='')
+                        err(f'content SHA256 changed')
                         return True
 
             print('ok', end='')
