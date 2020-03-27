@@ -432,7 +432,7 @@ content-length: 393881
 content-sha256: 09b32517d0ec99fcb97ded3da9fec219361e907f5e0762783d16de26f24c5258
 content-type: application/x-wtt
 ---
-_path: /data/equinoxalphademo.wtt
+_path: /data/equinoxAlphaDemo.wtt
 categories:
 - frontend
 content-length: 7548247
@@ -765,18 +765,6 @@ categories:
 - redirect-ok
 content-type: text/html
 ---
-_path: /docs/scripts/jquerycodeview.css
-content-type: text/css
----
-_path: /docs/scripts/jquerycodeview.js
-content-type: application/javascript
----
-_path: /docs/sdk_style.css
-content-type: text/css
----
-_path: /docs/user_style.css
-content-type: text/css
----
 _path: /docs/worldwide-telescope-advanced-guides.epub
 categories:
 - frontend
@@ -963,106 +951,11 @@ categories:
 - redirect-ok
 content-type: text/html
 ---
-_path: /docs/wtml/an_author.jpg
-content-length: 1837
-content-sha256: c54f745e65b1009006419b97b8d811a5da59ef6738e295445ff20fcaea45fda5
-content-type: image/jpeg
----
-_path: /docs/wtml/callisto%20surface.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/europa%20surface.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/ganymede%20surface.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/io%20surface.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/mars%20surface.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/mercury%20surface.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/moon%20surface.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/myplaces.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/planettourcollection.wtml
-content-type: application/x-wtml
----
-_path: /docs/wtml/sample_blank%20collection.html
-categories:
-- redirect-ok
-content-type: text/html
----
-_path: /docs/wtml/sample_community%20payload.html
-categories:
-- redirect-ok
-content-type: text/html
----
-_path: /docs/wtml/sample_communitypayload.html
-categories:
-- redirect-ok
-content-type: text/html
----
-_path: /docs/wtml/sample_panoramasurvey.html
-categories:
-- redirect-ok
-content-type: text/html
----
-_path: /docs/wtml/sample_signup.html
-categories:
-- redirect-ok
-content-type: text/html
----
-_path: /docs/wtml/sample_study.html
-categories:
-- redirect-ok
-content-type: text/html
----
-_path: /docs/wtml/sample_tourcollection.html
-categories:
-- redirect-ok
-content-type: text/html
----
-_path: /docs/wtml/thumb1.jpg
-content-length: 1241
-content-sha256: 0aa4ce3f359fb1f04ab38616179ff9c55a7d42115aaa4a76d76ddb0c01454df9
-content-type: image/jpeg
----
-_path: /docs/wtml/thumb2.jpg
-content-length: 916
-content-sha256: 5b660e6ad0f8e2528445fc658dac22d482a41031abd09790c8ffbc97e511d06e
-content-type: image/jpeg
----
-_path: /docs/wtml/tourone.wtt
-content-length: 6725970
-content-sha256: 7fa4e69a8de1e0d6dd1ff2a223cf707c7341064727ed9e976ed02730478863d9
-content-type: application/x-wtt
----
-_path: /docs/wtml/tourtwo.wtt
-content-length: 5072657
-content-sha256: 9e70f77f97b42f50d9698efab96f2c8aef7ed078545a9d3bc257f0172b1f1210
-content-type: application/x-wtt
----
-_path: /docs/wtml/venus%20surface.wtml
-content-type: application/x-wtml
----
 _path: /docs/wwtsdkfactsheet.pdf
 categories:
 - frontend
 - redirect-ok
 content-type: application/pdf
----
-_path: /docs/yesno.bmp
-content-length: 17874
-content-sha256: a42f9e7ff8f8ff1bae763bdf3e673c98001b96db0804a95390a6db62195b707c
-content-type: image/bmp
 ---
 _path: /download
 categories:
@@ -1315,8 +1208,6 @@ categories:
 content-type: text/html
 ---
 _path: /resource/service/payload
-content-length: 3332
-content-sha256: fe6b7f71e63c6ab6881ab2c86c1506481fbab61b078fced261154ba85c32af7a
 content-type: application/xml
 ---
 _path: /robots.txt
@@ -1420,156 +1311,11 @@ content-type: text/html
 _path: /webclient/default.aspx
 content-type: text/html
 ---
-_path: /webclient/eso.wtml
-content-length: 910271
-content-sha256: 9ad52da1434c03783bf3043c17b1928fc19986600eb1b82b2c35abe45ea5156f
-content-type: application/x-wtml
----
-_path: /webclient/gettours_webclient.xml
-content-length: 103403
-content-sha256: 561972a6b2364d569b353a8cec25f524431940d431018c062fed7287996d7aeb
-content-type: text/xml
----
-_path: /webclient/hubble.wtml
-content-length: 1105826
-content-sha256: e091d837988780d351d058cec8efd0fe1e5889575a7effb5348e5e63da697ad1
-content-type: application/x-wtml
----
-_path: /webclient/images/callisto.png
-content-length: 138124
-content-sha256: 8746bdb1d7e2e1321773616138cfdce97cfe0c753e79eeeb258066a5f24b9e04
-content-type: image/png
----
-_path: /webclient/images/earth.png
-content-length: 340331
-content-sha256: f6280ed408d33f30834a42227a3d0b76455406e96ef2d1b3c40f75ddc42bc253
-content-type: image/png
----
-_path: /webclient/images/europa.png
-content-length: 119144
-content-sha256: 05c43166530ef053997d34ef06208b682b1bd1f9b2f8be71db43ecdfb26cd0c6
-content-type: image/png
----
-_path: /webclient/images/finder-scope.png
-content-length: 27555
-content-sha256: f3750943d33f3834dcdefe010024899fc18f78436628e179130e9277928728f3
-content-type: image/png
----
-_path: /webclient/images/gal_0000.jpg
-content-length: 4174
-content-sha256: 5172b5e66f47a51dc529906c220834ee0110f1cc9fee3bad4dbd3141eec1f151
-content-type: image/jpeg
----
-_path: /webclient/images/gal_0255.jpg
-content-length: 10623
-content-sha256: 8d900525d37596c957feffbbea319eb2956cfaac35a2c04e786d14bb1eb3584e
-content-type: image/jpeg
----
-_path: /webclient/images/ganymede.png
-content-length: 103365
-content-sha256: 9366ae6f4f47f401c960ac05ab7e68e0fe88ea79e1f2b75bcaea15d64f5b4d6e
-content-type: image/png
----
-_path: /webclient/images/glyphs1.png
-content-length: 106013
-content-sha256: c7eadb637df213bf859eb2d719d5d4183eb0c16e5226760efe4cb96837f78c54
-content-type: image/png
----
-_path: /webclient/images/glyphs1.xml
-content-length: 9745
-content-sha256: 46c270c565f1d386a52d1d2a7dbc5838a63facaee9119ad0a268ba1e582b64ad
-content-type: text/xml
----
-_path: /webclient/images/io.png
-content-length: 126194
-content-sha256: 6c710418ba36b7c04de7c84d25c8d9394bd2e1906832e004f6d8c1be82c8b5e2
-content-type: image/png
----
-_path: /webclient/images/jupiter.png
-content-length: 309089
-content-sha256: 9fc689ede3170898b848e7a0ac22a7f16849d81f3cb6f1e3c500dcabe7d80c99
-content-type: image/png
----
-_path: /webclient/images/layersbutton.png
-content-length: 4386
-content-sha256: 76350b91ec0a7bde960db69843453a663f7ee54f53f5c2123717917efbea70c9
-content-type: image/png
----
-_path: /webclient/images/mars.png
-content-length: 375782
-content-sha256: 6848f83f244769cc0b1d2380719952342ad33a2e8010832649c450fc3f274609
-content-type: image/png
----
-_path: /webclient/images/mercury.png
-content-length: 455833
-content-sha256: c97929358061d4fcffb37a065cecb03b277eed705af26752c05f3c5fe0426e67
-content-type: image/png
----
-_path: /webclient/images/milkywaybar.jpg
-content-length: 1119385
-content-sha256: a9f412219f6929513601d580c8655e10b2d5332442ee550986e341a1137199a4
-content-type: image/jpeg
----
-_path: /webclient/images/moon.png
-content-length: 364661
-content-sha256: 74455670eeae5c9db4214b0083006b47987db1de182bdf922bb529d206bf779d
-content-type: image/png
----
-_path: /webclient/images/neptune.png
-content-length: 193919
-content-sha256: 88eb0078e2e0f6772e7dbaa6366353c973ff5f8cbadcbc34ec8df8c66e03ca13
-content-type: image/png
----
-_path: /webclient/images/pins.png
-content-length: 437185
-content-sha256: 20fd87f785e0b360353a6671ff1f577b01a34a2ff5ed0a65e7bfb85fa3076e15
-content-type: image/png
----
-_path: /webclient/images/pluto.png
-content-length: 103820
-content-sha256: 190f5527a7fa36b65d6a8578d663f9ce2cb41553f96f3b883616e1955644d3e4
-content-type: image/png
----
-_path: /webclient/images/saturn.png
-content-length: 145683
-content-sha256: 6769a3b1b8ce472c2a45e46a5b0283e277119c512ac6fe73b543d23a8fca3280
-content-type: image/png
----
-_path: /webclient/images/saturnringsstrip.png
-content-length: 7410
-content-sha256: ca8abf4e234808dc87bb86536964e91433766a9490ec5b34eafcd91840ad9713
-content-type: image/png
----
-_path: /webclient/images/starprofilealpha.png
-content-length: 10284
-content-sha256: d5fb840c68b712cdd30529620c1d482c2c774c0c9493b20312a37d4195d894c2
-content-type: image/png
----
-_path: /webclient/images/sun.png
-content-length: 250540
-content-sha256: a34500f849959bac4f469e6cbbfd6dd12378c8574262f8e93f89ad9992fa483c
-content-type: image/png
----
-_path: /webclient/images/uranus.png
-content-length: 133632
-content-sha256: 81907623c7923d1a78c0bbdfc49dc00791a64037b2134e6e6cd978c2ac696615
-content-type: image/png
----
-_path: /webclient/images/venus.png
-content-length: 430577
-content-sha256: 57d9d547ef3c7f78e1b2deb1348783252fe8517efcc5ce166a46fa34e708e27b
-content-type: image/png
----
 _path: /webclient/sdk/wwtsdk.js
 content-type: application/javascript
 ---
 _path: /webclient/sdk/wwtsdk.min.js
 content-type: application/javascript
----
-_path: /webclient/wise.wtml
-content-length: 110918
-content-sha256: e6752918f39d8e4e9e945d787f2d1ea4464e02bf54b23de164c227c8e59b2323
-content-type: application/x-wtml
 ---
 _path: /webcontrol.aspx
 content-type: text/html
@@ -1585,16 +1331,14 @@ _path: /webservices/wwtwebservice.asmx
 content-type: text/html
 ---
 _path: /webservices/wwtwebservice.asmx?WSDL
-content-length: 24263
-content-sha256: 53df50de4fb9dfd62709ccb8622fde29002c323139ab05adb17577ac50b833ac
 content-type: text/xml
 ---
 _path: /webservices/wwtwebservice.asmx?disco
-content-length: 829
-content-sha256: 14afd8546dcfbfddbda4edc707ce800dd1a40e0ff04a523acca10cb66ced4fce
 content-type: text/xml
 ---
 _path: /webservices/wwtwebservice.asmx?schema=AstroObjectsDataset
+categories:
+- content-type-change-ok
 content-length: 2927
 content-sha256: 7e84e1ce669445a30e78066aa9a2d6127b39dc9c0df9b97e8ee6613dad3c9330
 content-type: text/xml
@@ -2968,7 +2712,7 @@ content-type: image/png
 _path: /wwtweb/goto.aspx?dec=-22.75&object=ViewShortcut&ra=20.625&zoom=3
 categories:
 - backend
-content-type: text/html
+content-type: X-302-Redirect
 ---
 _path: /wwtweb/goto.aspx?dec=-5.8&object=M48&ra=8.23&wtml=true&zoom=1.40625
 categories:

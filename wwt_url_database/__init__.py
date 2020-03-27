@@ -160,7 +160,9 @@ class Record(object):
             else:
                 content_type = resp.headers['content-type'].split(';')[0]  # ignore `; charset=utf-8`
 
-                if content_type != self.content_type:
+                if 'content-type-change-ok' in self.categories:
+                    pass  # e.g. for webserviceproxy.aspx, which used to return app/xml for everything
+                elif content_type != self.content_type:
                     if self.content_type == 'application/javascript' and content_type == 'application/x-javascript':
                         print('(ignoring JS content-type nit) ', end='')
                     elif self.content_type == 'application/x-zip-compressed' and content_type == 'application/zip':
