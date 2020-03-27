@@ -967,11 +967,6 @@ categories:
 - frontend
 content-type: text/html
 ---
-_path: /download/embed
-categories:
-- frontend
-content-type: text/html
----
 _path: /download/features
 categories:
 - frontend
@@ -1064,7 +1059,7 @@ content-type: text/html
 _path: /home.aspx
 categories:
 - frontend
-content-type: text/html
+content-type: X-302-Redirect
 ---
 _path: /html5sdk/1.0.0/wwtsdk.js
 categories:
@@ -1306,6 +1301,7 @@ content-type: text/html
 _path: /use/wwtplanetarium
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /webclient/default.aspx
@@ -1323,6 +1319,7 @@ content-type: text/html
 _path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
 categories:
 - backend
+- content-type-change-ok
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 content-type: application/xml
@@ -1337,8 +1334,6 @@ _path: /webservices/wwtwebservice.asmx?disco
 content-type: text/xml
 ---
 _path: /webservices/wwtwebservice.asmx?schema=AstroObjectsDataset
-categories:
-- content-type-change-ok
 content-length: 2927
 content-sha256: 7e84e1ce669445a30e78066aa9a2d6127b39dc9c0df9b97e8ee6613dad3c9330
 content-type: text/xml
