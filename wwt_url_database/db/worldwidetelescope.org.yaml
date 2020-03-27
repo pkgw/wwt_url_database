@@ -9,42 +9,42 @@ cnames:
 _path: /
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /about
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /about/acknowledgments
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /about/data
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /about/faq
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /about/furtherdetails
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /about/webclient
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /about/whoweare
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /clientaccesspolicy.xml
 content-length: 340
@@ -55,7 +55,7 @@ _path: /community
 categories:
 - communities
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /community/authorthumbnail/c82902cd-234b-4c39-bd14-8a2a3849949d
 categories:
@@ -82,7 +82,7 @@ content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
 content-type: text/html
 ---
 _path: /content/detail/81896
-content-type: application/json; charset=utf-8
+content-type: application/json
 ---
 _path: /content/greatobservatories.xml
 content-length: 18415
@@ -670,12 +670,12 @@ content-type: text/css
 _path: /docs/worldwide-telescope-advanced-guides.epub
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-advanced-guides.mobi
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-advanced-guides.pdf
 categories:
@@ -685,12 +685,12 @@ content-type: application/pdf
 _path: /docs/worldwide-telescope-data-files-reference.epub
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-files-reference.mobi
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-files-reference.pdf
 categories:
@@ -700,12 +700,12 @@ content-type: application/pdf
 _path: /docs/worldwide-telescope-data-tools-guide.epub
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.mobi
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.pdf
 categories:
@@ -715,12 +715,12 @@ content-type: application/pdf
 _path: /docs/worldwide-telescope-layer-control-api.epub
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-layer-control-api.mobi
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /docs/worldwide-telescope-layer-control-api.pdf
 categories:
@@ -897,37 +897,37 @@ content-type: image/bmp
 _path: /download
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /download/beta
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /download/embed
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /download/features
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /download/legacy
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /download/tools
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /download/tourassets
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /embedded-webcontrol.js
 content-type: application/javascript
@@ -935,7 +935,7 @@ content-type: application/javascript
 _path: /equinox/wwtequinoxsetup.msi
 content-length: 21167
 content-sha256: 81138e8fe9f9d9336363162d81f1e216ed3338c286e45286842adf827230975c
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /favicon.ico
 categories:
@@ -947,37 +947,37 @@ content-type: image/x-icon
 _path: /getinvolved
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /getinvolved/develop
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /getinvolved/greatobservatories
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /getinvolved/helpothers
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /getinvolved/importimage
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /getinvolved/planetexplorer
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /getinvolved/spectrum
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /gettourfile.aspx?filename=Sample%20Tour.wwtxml&targeturl=http://worldwidetelescope.org/docs/wtml/tourtwo.wtt
 categories:
@@ -996,12 +996,12 @@ content-type: text/xml
 _path: /home
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /home.aspx
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /html5sdk/1.0.0/wwtsdk.js
 categories:
@@ -1102,37 +1102,37 @@ content-sha256: 05002b52a5340688428e5fc23a80b3cfe7ccccda5ad97159756f00423b3c7cdb
 content-type: application/javascript
 ---
 _path: /html5tourplayer.aspx
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /learn
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /learn/authoring
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /learn/exploring
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /learn/settingup
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /learn/userguide
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /learn/whatsnew
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /m51.txt
 content-length: 1650240
@@ -1142,7 +1142,7 @@ content-type: text/plain
 _path: /profile
 categories:
 - communities
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /resource/service/payload
 content-length: 3332
@@ -1165,22 +1165,22 @@ content-type: text/xml
 _path: /support
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /support/issuesandbugs
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /support/localization
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /terms
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /thumbnails/dss.png
 content-length: 6471
@@ -1190,65 +1190,65 @@ content-type: image/png
 _path: /upgrade
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/beta
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/domeproject
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/educators
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/embed
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/impacts
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/planetariums
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/researchers
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/tools
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/tourassets
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /use/wwtplanetarium
 categories:
 - frontend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /webclient/default.aspx
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /webclient/eso.wtml
 content-length: 910271
@@ -1402,7 +1402,7 @@ content-sha256: e6752918f39d8e4e9e945d787f2d1ea4464e02bf54b23de164c227c8e59b2323
 content-type: application/x-wtml
 ---
 _path: /webcontrol.aspx
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
 categories:
@@ -1412,22 +1412,22 @@ content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 content-type: application/xml
 ---
 _path: /webservices/wwtwebservice.asmx
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /webservices/wwtwebservice.asmx?WSDL
 content-length: 24263
 content-sha256: 53df50de4fb9dfd62709ccb8622fde29002c323139ab05adb17577ac50b833ac
-content-type: text/xml; charset=utf-8
+content-type: text/xml
 ---
 _path: /webservices/wwtwebservice.asmx?disco
 content-length: 829
 content-sha256: 14afd8546dcfbfddbda4edc707ce800dd1a40e0ff04a523acca10cb66ced4fce
-content-type: text/xml; charset=utf-8
+content-type: text/xml
 ---
 _path: /webservices/wwtwebservice.asmx?schema=AstroObjectsDataset
 content-length: 2927
 content-sha256: 7e84e1ce669445a30e78066aa9a2d6127b39dc9c0df9b97e8ee6613dad3c9330
-content-type: text/xml; charset=utf-8
+content-type: text/xml
 ---
 _path: /wwtweb/2massoct.aspx?q=2,1,2
 categories:
@@ -2725,7 +2725,7 @@ content-type: image/png
 _path: /wwtweb/exceladdinupdate.aspx
 categories:
 - backend
-content-type: text/plain; charset=utf-8
+content-type: text/plain
 ---
 _path: /wwtweb/g360.aspx?q=1,1,1
 categories:
@@ -2772,7 +2772,7 @@ content-type: application/x-wtt
 _path: /wwtweb/gettours.aspx
 categories:
 - backend
-content-type: application/x-wtml; charset=utf-8
+content-type: application/x-wtml
 ---
 _path: /wwtweb/gettourthumbnail.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
 categories:
@@ -2798,14 +2798,14 @@ content-type: image/png
 _path: /wwtweb/goto.aspx?dec=-22.75&object=ViewShortcut&ra=20.625&zoom=3
 categories:
 - backend
-content-type: text/html; charset=utf-8
+content-type: text/html
 ---
 _path: /wwtweb/goto.aspx?dec=-5.8&object=M48&ra=8.23&wtml=true&zoom=1.40625
 categories:
 - backend
 content-length: 149
 content-sha256: 4618e474e95288a2384f9c2132287070c5eed4a219fef223f395facdcc95e9e6
-content-type: application/x-wtml; charset=utf-8
+content-type: application/x-wtml
 ---
 _path: /wwtweb/hirisedem.aspx?q=1,1,1
 categories:
@@ -2817,7 +2817,7 @@ content-type: image/png
 _path: /wwtweb/isstle.aspx
 categories:
 - backend
-content-type: text/plain; charset=utf-8
+content-type: text/plain
 ---
 _path: /wwtweb/mandel.aspx?q=1,1,1
 categories:
@@ -2939,7 +2939,7 @@ content-type: image/jpeg
 _path: /wwtweb/tileimage.aspx?dec=0&imageurl=http://www.spitzer.caltech.edu/uploaded_files/images/0009/0848/sig12-011.jpg&ra=0&rotation=180&scale=1&x=0&y=0
 content-length: 951
 content-sha256: 6915a63cc614370afbaa3df0019c4fb2fdd9e6dc8e9ef04e348dedc408ae79f8
-content-type: application/x-wtml; charset=utf-8
+content-type: application/x-wtml
 ---
 _path: /wwtweb/tiles.aspx?q=1,1,1,USNOBToast_6
 categories:

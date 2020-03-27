@@ -111,7 +111,7 @@ class Record(object):
         if not resp.ok:
             raise Exception(f'failed to fetch {url}: HTTP status {resp.status_code}')
 
-        self.content_type = resp.headers['content-type']
+        self.content_type = resp.headers['content-type'].split(';')[0]  # ignore `; charset=utf-8`
 
         if static:
             d = hashlib.sha256()
@@ -142,9 +142,14 @@ class Record(object):
                 print(f'error: {resp.status_code}', end='')
                 return True
 
-            if resp.headers['content-type'] != self.content_type:
-                print(f'error: expected content-type {self.content_type}; got {resp.headers["content-type"]}', end='')
-                return True
+            content_type = resp.headers['content-type'].split(';')[0]  # ignore `; charset=utf-8`
+
+            if content_type != self.content_type:
+                if self.content_type == 'application/javascript' and content_type == 'application/x-javascript':
+                    print('(ignoring JS content-type nit) ', end='')
+                else:
+                    print(f'error: expected content-type {self.content_type}; got {content_type}', end='')
+                    return True
 
             if content and self.content_length is not None:
                 d = hashlib.sha256()
