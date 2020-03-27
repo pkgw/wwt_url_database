@@ -107,9 +107,14 @@ class Record(object):
 
         """
         url = self.url()
-        resp = session.get(url, stream=True)
+        resp = session.get(url, stream=True, allow_redirects=False)
         if not resp.ok:
             raise Exception(f'failed to fetch {url}: HTTP status {resp.status_code}')
+
+        if resp.is_redirect:
+            # Well, this certainly isn't a hack ...
+            self.content_type = f'X-{resp.status_code}-Redirect'
+            return
 
         self.content_type = resp.headers['content-type'].split(';')[0]  # ignore `; charset=utf-8`
 
@@ -137,35 +142,48 @@ class Record(object):
         print(url, '... ', end='')
 
         try:
-            resp = session.get(url, stream=True)
+            resp = session.get(url, stream=True, allow_redirects=False)
             if not resp.ok:
                 print(f'error: {resp.status_code}', end='')
                 return True
 
-            content_type = resp.headers['content-type'].split(';')[0]  # ignore `; charset=utf-8`
-
-            if content_type != self.content_type:
-                if self.content_type == 'application/javascript' and content_type == 'application/x-javascript':
-                    print('(ignoring JS content-type nit) ', end='')
+            if resp.is_redirect:
+                if 'redirect-ok' in self.categories:
+                    pass  # This used to be 200 content but is now a redirect and that's OK
                 else:
-                    print(f'error: expected content-type {self.content_type}; got {content_type}', end='')
-                    return True
+                    # Well, this certainly isn't a hack ...
+                    redir_content_type = f'X-{resp.status_code}-Redirect'
 
-            if content and self.content_length is not None:
-                d = hashlib.sha256()
-                count = 0
+                    if redir_content_type != self.content_type:
+                        print(f'error: expected {self.content_type}; got {redir_content_type}', end='')
+                        return True
+            else:
+                content_type = resp.headers['content-type'].split(';')[0]  # ignore `; charset=utf-8`
 
-                for chunk in resp.iter_content(chunk_size=None):
-                    d.update(chunk)
-                    count += len(chunk)
+                if content_type != self.content_type:
+                    if self.content_type == 'application/javascript' and content_type == 'application/x-javascript':
+                        print('(ignoring JS content-type nit) ', end='')
+                    elif self.content_type == 'application/x-zip-compressed' and content_type == 'application/zip':
+                        print('(ignoring Zip content-type nit) ', end='')
+                    else:
+                        print(f'error: expected content-type {self.content_type}; got {content_type}', end='')
+                        return True
 
-                if count != self.content_length:
-                    print(f'error: content length changed from {self.content_length} to {count}', end='')
-                    return True
+                if content and self.content_length is not None:
+                    d = hashlib.sha256()
+                    count = 0
 
-                if d.digest() != self.content_sha256:
-                    print(f'error: content SHA256 changed', end='')
-                    return True
+                    for chunk in resp.iter_content(chunk_size=None):
+                        d.update(chunk)
+                        count += len(chunk)
+
+                    if count != self.content_length:
+                        print(f'error: content length changed from {self.content_length} to {count}', end='')
+                        return True
+
+                    if d.digest() != self.content_sha256:
+                        print(f'error: content SHA256 changed', end='')
+                        return True
 
             print('ok', end='')
         finally:

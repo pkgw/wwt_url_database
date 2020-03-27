@@ -9,7 +9,7 @@ cnames:
 _path: /
 categories:
 - frontend
-content-type: text/html
+content-type: X-302-Redirect
 ---
 _path: /about
 categories:
@@ -34,6 +34,7 @@ content-type: text/html
 _path: /about/furtherdetails
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /about/webclient
@@ -489,170 +490,279 @@ content-sha256: 3694b908056f90be7c27308bb474c9f669fe971ffed87c834d9805c23266e412
 content-type: application/x-wtt
 ---
 _path: /docs/conversiontutorial.htm
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/domespecs.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/displaycode.htm
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwt%20web%20client%20arrived.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwt%20web%20client%20click%20event.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwt%20web%20client%20fov.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwt%20web%20client%20local%20view.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwt%20web%20client%20poly.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwt%20web%20client%20simple.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientarrived.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientclickevent.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientearthcitysearch.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientfov.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientimages.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientlocalview.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientmarsexplorer.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientpoly.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclientsimple.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/sample_wwtwebclienttours.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwt%20web%20client%20arrived.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwt%20web%20client%20click%20event.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwt%20web%20client%20fov.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwt%20web%20client%20local%20view.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwt%20web%20client%20poly.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwt%20web%20client%20simple.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientarrived.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientarrivedhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientclickevent.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientclickeventhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientdistantplanetexplorer.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientdistantplanetexplorerhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientearthcitysearch.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientearthcitysearchhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientfov.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientfovhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientimages.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientimageshtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientkepler.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientlocalview.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientlocalviewhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientmarsexplorer.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientmarsexplorerhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientmessiercatalog.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientmessiercataloghtml5.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientmoonexplorer.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientplanetexplorer.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientplanetexplorerhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientpoly.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientpolyhtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientsimple.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientsimplehtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclientsimpleuihtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclienttour.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclienttours.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/samples/wwtwebclienttourshtml5.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/scripts/jquerycodeview.css
@@ -670,11 +780,13 @@ content-type: text/css
 _path: /docs/worldwide-telescope-advanced-guides.epub
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-advanced-guides.mobi
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-advanced-guides.pdf
@@ -685,11 +797,13 @@ content-type: application/pdf
 _path: /docs/worldwide-telescope-data-files-reference.epub
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-files-reference.mobi
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-files-reference.pdf
@@ -700,11 +814,13 @@ content-type: application/pdf
 _path: /docs/worldwide-telescope-data-tools-guide.epub
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.mobi
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.pdf
@@ -715,11 +831,13 @@ content-type: application/pdf
 _path: /docs/worldwide-telescope-layer-control-api.epub
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-layer-control-api.mobi
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwide-telescope-layer-control-api.pdf
@@ -728,84 +846,117 @@ categories:
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-multi-channel-dome-setup.pdf
+categories:
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-planetarium.pdf
+categories:
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-projection-reference.pdf
+categories:
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-user-manual.pdf
+categories:
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-web-control-script-reference.pdf
+categories:
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwidetelescope_lcapi.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopeadd-inforexceluserguide.chm
+categories:
+- redirect-ok
 content-type: application/octet-stream
 ---
 _path: /docs/worldwidetelescopedatafilesreference.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopedatatoolsguide.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopeexceladdin.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopelcapi.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopelocalizationtool.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopeplanetarium.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopeprojectionreference.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopesdkgettingstarted.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopesdkoverview.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopesdkuserguide.chm
+categories:
+- redirect-ok
 content-type: application/octet-stream
 ---
 _path: /docs/worldwidetelescopetilepyramidsdk.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopetilepyramidsdksamples.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopeuserguide.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/worldwidetelescopewebcontrolscriptreference.html
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/an_author.jpg
@@ -841,24 +992,38 @@ _path: /docs/wtml/planettourcollection.wtml
 content-type: application/x-wtml
 ---
 _path: /docs/wtml/sample_blank%20collection.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/sample_community%20payload.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/sample_communitypayload.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/sample_panoramasurvey.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/sample_signup.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/sample_study.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/sample_tourcollection.html
+categories:
+- redirect-ok
 content-type: text/html
 ---
 _path: /docs/wtml/thumb1.jpg
@@ -887,6 +1052,7 @@ content-type: application/x-wtml
 _path: /docs/wwtsdkfactsheet.pdf
 categories:
 - frontend
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/yesno.bmp
