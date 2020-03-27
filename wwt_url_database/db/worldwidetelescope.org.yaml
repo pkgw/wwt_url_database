@@ -792,6 +792,7 @@ content-type: text/html
 _path: /docs/worldwide-telescope-advanced-guides.pdf
 categories:
 - frontend
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-data-files-reference.epub
@@ -809,6 +810,7 @@ content-type: text/html
 _path: /docs/worldwide-telescope-data-files-reference.pdf
 categories:
 - frontend
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-data-tools-guide.epub
@@ -826,6 +828,7 @@ content-type: text/html
 _path: /docs/worldwide-telescope-data-tools-guide.pdf
 categories:
 - frontend
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-layer-control-api.epub
@@ -843,6 +846,7 @@ content-type: text/html
 _path: /docs/worldwide-telescope-layer-control-api.pdf
 categories:
 - frontend
+- redirect-ok
 content-type: application/pdf
 ---
 _path: /docs/worldwide-telescope-multi-channel-dome-setup.pdf
