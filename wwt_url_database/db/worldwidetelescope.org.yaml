@@ -1005,36 +1005,43 @@ content-type: image/x-icon
 _path: /getinvolved
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /getinvolved/develop
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /getinvolved/greatobservatories
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /getinvolved/helpothers
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /getinvolved/importimage
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /getinvolved/planetexplorer
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /getinvolved/spectrum
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /gettourfile.aspx?filename=Sample%20Tour.wwtxml&targeturl=http://worldwidetelescope.org/docs/wtml/tourtwo.wtt
@@ -1221,16 +1228,19 @@ content-type: text/xml
 _path: /support
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /support/issuesandbugs
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /support/localization
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /terms
@@ -1246,6 +1256,7 @@ content-type: image/png
 _path: /upgrade
 categories:
 - frontend
+- redirect-ok
 content-type: text/html
 ---
 _path: /use
