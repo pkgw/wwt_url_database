@@ -87,6 +87,9 @@ content-length: 18599
 content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
 content-type: text/html
 ---
+_path: /complete/wwtcoveragetool5.htm
+content-type: text/html
+---
 _path: /connect
 categories:
 - frontend
@@ -1076,7 +1079,7 @@ content-type: text/html
 _path: /home.aspx
 categories:
 - frontend
-content-type: X-302-Redirect
+content-type: text/html
 ---
 _path: /html5sdk/1.0.0/wwtsdk.js
 categories:
