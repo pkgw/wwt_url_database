@@ -1,0 +1,25 @@
+---
+https: true
+---
+_path: /embed/1/wwt/
+content-type: text/html
+---
+_path: /engine/7.3/wwtlib.js
+content-length: 1888309
+content-sha256: 4d19593fbc6be7df2944582c67f6ae78a7b0527efe2b607b7a1075537d27006a
+content-type: application/x-javascript
+---
+_path: /engine/7.3/wwtsdk.d.ts
+content-length: 32786
+content-sha256: 2b681fe50c17eb364969d93531436356b3d2ed1331465efb44349482671bae4a
+content-type: text/plain
+---
+_path: /engine/7.3/wwtsdk.js
+content-length: 1929010
+content-sha256: f3b159cbf1104d023a1564b4da51ca5dc24dd452a5c2ed2c994f28514887638b
+content-type: application/x-javascript
+---
+_path: /engine/7.3/wwtsdk.min.js
+content-length: 1361648
+content-sha256: afe6f9bec0bbea05922187e65a027c0227102aec7c783d2e2ec81c343ddad476
+content-type: application/x-javascript
