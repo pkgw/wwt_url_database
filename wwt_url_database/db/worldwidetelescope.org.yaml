@@ -1367,6 +1367,11 @@ content-length: 2927
 content-sha256: 7e84e1ce669445a30e78066aa9a2d6127b39dc9c0df9b97e8ee6613dad3c9330
 content-type: text/xml
 ---
+_path: /wwtweb/2massoct.aspx?q=0,0,0
+content-length: 96524
+content-sha256: 32fe1f291ac6a97bd2ed762cdcbb8d835f0fc132aa5ed3a8a1872a25c519b5f5
+content-type: image/png
+---
 _path: /wwtweb/2massoct.aspx?q=2,1,2
 categories:
 - backend
@@ -1379,6 +1384,16 @@ categories:
 - backend
 content-length: 4356
 content-sha256: 024074f0a74bb6440cd496ab144c79834c105a2f0634e80d9f9f1ba4132fd589
+content-type: application/octet-stream
+---
+_path: /wwtweb/bingdemtile.aspx?q=1,0,0
+content-length: 4356
+content-sha256: 0e005f90af8e5ab7e51bfbda789bb4055f0402b94615528916f6510908d51244
+content-type: application/octet-stream
+---
+_path: /wwtweb/bingdemtile2.aspx?q=1,0,0
+content-length: 4356
+content-sha256: 0e005f90af8e5ab7e51bfbda789bb4055f0402b94615528916f6510908d51244
 content-type: application/octet-stream
 ---
 _path: /wwtweb/catalog.aspx?Q=AB
@@ -2639,6 +2654,11 @@ content-length: 3296
 content-sha256: 9a99f89aa85b09b7afaf565f4d9bcb0cfa279ea60633c58526d8810c1f10c1ec
 content-type: text/plain
 ---
+_path: /wwtweb/demmars.aspx?q=1,0,0
+content-length: 2052
+content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
+content-type: application/octet-stream
+---
 _path: /wwtweb/demmars.aspx?q=3,7,7
 categories:
 - backend
@@ -2653,6 +2673,11 @@ content-length: 43947
 content-sha256: 678897b7ac28a7bcec951383f236517fd162f70303d687b7c81a70f9a5812566
 content-type: image/png
 ---
+_path: /wwtweb/dusttoast.aspx?q=1,0,0
+content-length: 92719
+content-sha256: 299a657e3359e738fad740cf6f3d2062fff1e4b9d9593e50b371ffcbe11cb3ef
+content-type: image/png
+---
 _path: /wwtweb/dusttoast.aspx?q=1,1,1
 categories:
 - backend
@@ -2660,16 +2685,31 @@ content-length: 99217
 content-sha256: 0b35158e0e8d45e8d25212bf513baf182dd3940023c5585f18a4f52f6ba0248e
 content-type: image/png
 ---
+_path: /wwtweb/earthblend.aspx?q=1,0,0
+content-length: 127456
+content-sha256: 4026469c1800076e4fa3084409d90944aa7e9e4564ed9b0c37bdd914226f7ee4
+content-type: image/png
+---
 _path: /wwtweb/exceladdinupdate.aspx
 categories:
 - backend
 content-type: text/plain
+---
+_path: /wwtweb/g360.aspx?q=0,0,0
+content-length: 8082
+content-sha256: af2767b02af9a746e4c8cfa954901bf052c6fd8c8328dd82041008309381266e
+content-type: image/png
 ---
 _path: /wwtweb/g360.aspx?q=1,1,1
 categories:
 - backend
 content-length: 10284
 content-sha256: abf95f05f232be98b8f109e55391398b7191bdacdb5378ac04c954aa679ccf75
+content-type: image/png
+---
+_path: /wwtweb/galex4far.aspx?q=0,0,0
+content-length: 60001
+content-sha256: d1a84e87de836c6120b131bad1d7475c5b9bde279f7dbe007d9c0e483b017f9e
 content-type: image/png
 ---
 _path: /wwtweb/galex4far.aspx?q=1,1,1
@@ -2679,11 +2719,21 @@ content-length: 48160
 content-sha256: 9c149a3bf1a1192f03c32029e5c96cf3342fbede2b43c6c49bd82febd73237d1
 content-type: image/png
 ---
+_path: /wwtweb/galex4near.aspx?q=0,0,0
+content-length: 55916
+content-sha256: a8cfcd5da75d1d4ddc103c6b91f3a91dcc37fc15efff1c52bda9b2de8fc019f7
+content-type: image/png
+---
 _path: /wwtweb/galex4near.aspx?q=1,1,1
 categories:
 - backend
 content-length: 50605
 content-sha256: 170d3d895c7058ef51a1b7012e3b56538265f2fb95caaa52061d60ac65f0753e
+content-type: image/png
+---
+_path: /wwtweb/galextoast.aspx?q=0,0,0
+content-length: 86308
+content-sha256: 3339bfdf1df78bd03275addafe796fbc4847efdaa481993794ac226ba72cf99f
 content-type: image/png
 ---
 _path: /wwtweb/galextoast.aspx?q=1,1,1
@@ -2726,6 +2776,11 @@ content-length: 6947
 content-sha256: 0c4573d8aed2af11fbf0d9a0183fa79d8390d307d5a5e5b5d358a74d5bfdf72b
 content-type: image/png
 ---
+_path: /wwtweb/glimpse.aspx?q=0,0,0
+content-length: 4738
+content-sha256: 57aaae4c9f06e2668b7035b2995cda8ca1ad0b3e980d66e3544babbe478f2e12
+content-type: image/png
+---
 _path: /wwtweb/glimpse.aspx?q=1,1,1
 categories:
 - backend
@@ -2745,6 +2800,16 @@ content-length: 149
 content-sha256: 4618e474e95288a2384f9c2132287070c5eed4a219fef223f395facdcc95e9e6
 content-type: application/x-wtml
 ---
+_path: /wwtweb/halphatoast.aspx?q=0,0,0
+content-length: 83106
+content-sha256: 6e5ebe5ba6b1418842329919e78d20c02ab47ca6a7d4c4982d7629f2af70b5c4
+content-type: image/png
+---
+_path: /wwtweb/hirisedem.aspx?q=1,0,0
+content-length: 2052
+content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
+content-type: image/png
+---
 _path: /wwtweb/hirisedem.aspx?q=1,1,1
 categories:
 - backend
@@ -2752,10 +2817,30 @@ content-length: 2052
 content-sha256: 0044c7f0562396363c300c52f5041fca679600d4761936c81788652715699799
 content-type: image/png
 ---
+_path: /wwtweb/hirisedem2.aspx?q=1,0,0
+content-length: 2052
+content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
+content-type: text/plain
+---
+_path: /wwtweb/hirisedem3.aspx?q=1,0,0
+content-length: 2052
+content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
+content-type: image/png
+---
 _path: /wwtweb/isstle.aspx
 categories:
 - backend
 content-type: text/plain
+---
+_path: /wwtweb/jupiter.aspx?q=0,0,0
+content-length: 169652
+content-sha256: 97e13e110093383a2f9ea42bac564742cb62c0c35cfd9d405ef6b171f5c5d03c
+content-type: image/png
+---
+_path: /wwtweb/mandel.aspx?q=0,0,0
+content-length: 6956
+content-sha256: 39edc97967f77efc41a38919c105c7f3c3245d9e1e0cdd006e6863f3837308e0
+content-type: image/jpeg
 ---
 _path: /wwtweb/mandel.aspx?q=1,1,1
 categories:
@@ -2764,6 +2849,16 @@ content-length: 10264
 content-sha256: e02503772811ddf5886387e66461670acb388b4bcff4036233ee9c8ee6d6d246
 content-type: image/jpeg
 ---
+_path: /wwtweb/mandel1.aspx?q=0,0,0
+content-length: 10484
+content-sha256: d9eaf5be1ad87f88b30a37da34dde67441cc85140234b7b2442dcb6570b7ceba
+content-type: image/jpeg
+---
+_path: /wwtweb/mars.aspx?q=0,0,0
+content-length: 142522
+content-sha256: 59b4febb0c3072243453caa4466de0e2c2e263b180e16e194523d65e243948bb
+content-type: image/png
+---
 _path: /wwtweb/marsdem.aspx?new&q=1,1,1,T
 categories:
 - backend
@@ -2771,11 +2866,21 @@ content-length: 1026
 content-sha256: 0e1950d7d34c1a9789ba1666c1e1e754351b559a8030ca421c4af424dee463f2
 content-type: application/octet-stream
 ---
+_path: /wwtweb/marshirise.aspx?q=0,0,0
+content-length: 174748
+content-sha256: 8d3937c061df07982aec05c95817f1724b77b1df6193dd77cba4c0fb60c76b79
+content-type: image/png
+---
 _path: /wwtweb/marshirise.aspx?q=1,1,1
 categories:
 - backend
 content-length: 166641
 content-sha256: 4563155d96a12dd9e0f87840a37e935396ccfeef42cf0f7735111a3a0e48185f
+content-type: image/png
+---
+_path: /wwtweb/marsmoc.aspx?q=0,0,0
+content-length: 176858
+content-sha256: 5ac1d100ae77ebecfdc8b37540e559267ee9969c241424ec6ccfe623b5cca095
 content-type: image/png
 ---
 _path: /wwtweb/marsmoc.aspx?q=1,1,1&v=2
@@ -2785,11 +2890,26 @@ content-length: 170518
 content-sha256: a053bc7ce1bc2c9a1075828149de3b799c783a81730f4ebcde4a008175f1e4d7
 content-type: image/png
 ---
+_path: /wwtweb/martiantile.aspx?q=0,0,0,mars_base_map
+content-length: 138297
+content-sha256: 56e96d6b3d7ca87cef135146485b3cba2b4fa324bad3985524323d1a8c08fad5
+content-type: image/png
+---
+_path: /wwtweb/martiantile.aspx?q=0,0,0,mars_terrain_color
+content-length: 197354
+content-sha256: eb6d4901842c932dabfeaa97eb690b1f4ee1458e6ee8645d98d6db837886c7e4
+content-type: image/png
+---
 _path: /wwtweb/martiantile.aspx?q=1,1,1,mars_base_map
 categories:
 - backend
 content-length: 139877
 content-sha256: a4ee08ac646dc49b2005d9ad5f370a1ff27cc04a9edcc5b264f949e4034f347f
+content-type: image/png
+---
+_path: /wwtweb/mipsgal.aspx?q=0,0,0
+content-length: 4567
+content-sha256: 57bb4df47ed3875be503f94d7ff997ff003e7ab6bb0a56ee84a417d3ac8c7caa
 content-type: image/png
 ---
 _path: /wwtweb/mipsgal.aspx?q=1,1,1
@@ -2799,12 +2919,27 @@ content-length: 5672
 content-sha256: a783c686745eeaf9592be8c1f7c33d3068638babdc96b86cf68367c0f492dba2
 content-type: image/png
 ---
+_path: /wwtweb/moonoct.aspx?q=0,0,0
+content-length: 147779
+content-sha256: 4ebbf4087ca0471005d922dc3e27b5a40e88f76f7e50e1cb6394ec98949a42a3
+content-type: image/png
+---
+_path: /wwtweb/moontoast.aspx?q=0,0,0
+content-length: 84779
+content-sha256: e0dcb534db6e74a16daa5d7ddd2b0f2d34e191c512afb0cbf3b9e65b0f1540e7
+content-type: image/png
+---
 _path: /wwtweb/moontoast.aspx?q=1,1,1
 categories:
 - backend
 content-length: 89409
 content-sha256: e3e5705f4ee6f1b0bfa5e24ffb161da87782a4a467a16ba2294dc2f20a9f4140
 content-type: image/png
+---
+_path: /wwtweb/moontoastdem.aspx?q=0,0,0
+content-length: 2052
+content-sha256: 2592503b17c19024a8d15e3bde3ae67f6652369b4a0bde8097a55ad92b09ddc9
+content-type: application/octet-stream
 ---
 _path: /wwtweb/moontoastdem.aspx?q=1,1,1
 categories:
@@ -2813,9 +2948,29 @@ content-length: 2052
 content-sha256: 0a94fc631534ad8a8f04c774be3b8cb37366934db849b1db3bae8b870524ef0a
 content-type: application/octet-stream
 ---
+_path: /wwtweb/rasstoast.aspx?q=0,0,0
+content-length: 61803
+content-sha256: 26f0d29dd670323e90dffabff49a2c6f418454a3cda1817e07d948720bc83acb
+content-type: image/png
+---
+_path: /wwtweb/sdss12toast.aspx?q=0,0,0
+content-length: 39583
+content-sha256: 516ab7f1c99f88f7cdd35e6cd02a878f90cba149c421bc8b5e507491fe97fa0b
+content-type: image/png
+---
+_path: /wwtweb/sdsstoast.aspx?q=0,0,0
+content-length: 20246
+content-sha256: 27790636dda8cbcbabe362409c8b8749ff71a7fbc41f2739fa40d1c1fcbb62a8
+content-type: image/png
+---
 _path: /wwtweb/sdsstoast.aspx?q=1,1,1
 categories:
 - backend
+content-type: image/png
+---
+_path: /wwtweb/sdsstoast2.aspx?q=0,0,0
+content-length: 20246
+content-sha256: 27790636dda8cbcbabe362409c8b8749ff71a7fbc41f2739fa40d1c1fcbb62a8
 content-type: image/png
 ---
 _path: /wwtweb/thumbnail.aspx?Name=SolarSystem
@@ -2893,11 +3048,26 @@ content-length: 178899
 content-sha256: 86c6a74649ad67d83e5ce214057cbeb90955b1edd1a607f4a179158829268e44
 content-type: image/png
 ---
+_path: /wwtweb/tiles2.aspx?q=0,0,0,MarsToastDem
+content-length: 2052
+content-sha256: 31aee00ad7d9e57388dd55e47d81d3fdee6fc093707b35da60c1491e2faeab12
+content-type: image/png
+---
+_path: /wwtweb/tiles2.aspx?q=0,0,0,messenger2
+content-length: 74879
+content-sha256: fce44db58046c7feab8c27e5a9c9dd071b139b2f1e23c3deac51321565906f97
+content-type: image/png
+---
 _path: /wwtweb/tiles2.aspx?q=1,1,1,messenger2
 categories:
 - backend
 content-length: 78441
 content-sha256: c7b5014a9e591c1ea0b645c77c47dc539a7d36c72fdf8b29a1d69b5c23424280
+content-type: image/png
+---
+_path: /wwtweb/twomasstoast.aspx?q=0,0,0
+content-length: 105467
+content-sha256: 266b4ef9e48b7d4e05df5df880cb6186e0dbbe6a196983d1a7b0c411d6a78a21
 content-type: image/png
 ---
 _path: /wwtweb/twomasstoast.aspx?q=1,1,1
@@ -2907,9 +3077,29 @@ content-length: 116511
 content-sha256: e602d2e13e87b630bad164055a0b641acb1eddfdc91eddad5ec65198f109f4d4
 content-type: image/png
 ---
+_path: /wwtweb/tychooct.aspx?q=0,0,0
+content-length: 73748
+content-sha256: c472a1a25d12ffbf030d5a5c0654d2a99ae89fe7966fcfeef2b5e83ef42de4be
+content-type: image/png
+---
+_path: /wwtweb/veblend.aspx?q=1
+content-length: 17237
+content-sha256: 3f03a3958808b4021a7ff6308cb140391421df75833042415599a6b6023e5e54
+content-type: image/jpeg
+---
+_path: /wwtweb/vlsstoast.aspx?q=0,0,0
+content-length: 36070
+content-sha256: a3cde9aab2a9a185cfab03bee71ecb6f286198b8b0a3fb764ae010b46613f7ca
+content-type: image/png
+---
 _path: /wwtweb/webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
 categories:
 - backend
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
+content-type: image/png
+---
+_path: /wwtweb/wmap.aspx?q=0,0,0
+content-length: 187516
+content-sha256: f9d9c6552fbcd5ca5f642d43cc29fab5fab365a8b4af2aa30a7ede39096a0c59
 content-type: image/png
