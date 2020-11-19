@@ -2695,6 +2695,13 @@ categories:
 - backend
 content-type: text/plain
 ---
+_path: /wwtweb/fixedaltitudedemtile.aspx?Q=0,0,0&alt=-800000&proj=M
+categories:
+- backend
+content-length: 4356
+content-sha256: 043478752b276c847b94ecad422b3a33c99d9e5618fcc2a05f4581522e93fc73
+content-type: application/octet-stream
+---
 _path: /wwtweb/g360.aspx?q=0,0,0
 content-length: 8082
 content-sha256: af2767b02af9a746e4c8cfa954901bf052c6fd8c8328dd82041008309381266e
@@ -2750,12 +2757,45 @@ content-length: 14166
 content-sha256: 137b9b1ede749c88c732b86f0b6678590336f3fead7655845f6e7609428894d6
 content-type: image/png
 ---
+_path: /wwtweb/gettile.aspx?q=0,1,0,1517265314
+categories:
+- backend
+content-length: 45209
+content-sha256: 0f2389de0d6aa3ca5e81cfb8731ede8411006c236cac5a8e34b21ed7d8da338a
+content-type: image/png
+---
+_path: /wwtweb/gettile.aspx?q=1,2,1,200340365
+categories:
+- backend
+content-length: 7275
+content-sha256: 4fd4f3c96f8dab0f05286585d91ba389bc809b10aaf1a251251412dbf82e7150
+content-type: image/png
+---
+_path: /wwtweb/gettile.aspx?q=1,2,1,46970354
+categories:
+- backend
+content-length: 39970
+content-sha256: b3c8189a44ab73fd4677a048dcf6655eeb3b45c8fef24e619a911d2059bb1a91
+content-type: image/png
+---
+_path: /wwtweb/gettile.aspx?q=3,7,2,144009819
+categories:
+- backend
+content-length: 142974
+content-sha256: 1599f113ecdf2b452bd098448bd06d99bb6ff5c59ad0ed09ed02cc6fc1e2fc9d
+content-type: image/png
+---
 _path: /wwtweb/gettour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
 categories:
 - backend
 content-length: 2711468
 content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8
 content-type: application/x-wtt
+---
+_path: /wwtweb/gettourlist.aspx
+categories:
+- backend
+content-type: application/x-wtml
 ---
 _path: /wwtweb/gettours.aspx
 categories:
@@ -2948,6 +2988,16 @@ content-length: 2052
 content-sha256: 0a94fc631534ad8a8f04c774be3b8cb37366934db849b1db3bae8b870524ef0a
 content-type: application/octet-stream
 ---
+_path: /wwtweb/postratingfeedback.aspx?q=48c225ee-dc63-4c35-8d6f-127d448740ba,20ec9079-810a-47da-bbeb-f61c84990302,5
+categories:
+- backend
+content-type: text/xml
+---
+_path: /wwtweb/postratingfeedback.aspx?q=94,00fdc34f-e41e-4231-804e-82befd0a9b74,5
+categories:
+- backend
+content-type: text/xml
+---
 _path: /wwtweb/rasstoast.aspx?q=0,0,0
 content-length: 61803
 content-sha256: 26f0d29dd670323e90dffabff49a2c6f418454a3cda1817e07d948720bc83acb
@@ -2971,6 +3021,16 @@ content-type: image/png
 _path: /wwtweb/sdsstoast2.aspx?q=0,0,0
 content-length: 20246
 content-sha256: 27790636dda8cbcbabe362409c8b8749ff71a7fbc41f2739fa40d1c1fcbb62a8
+content-type: image/png
+---
+_path: /wwtweb/starchart.aspx?dec=20.02778798&height=200&lat=0&lng=0&ra=189.83959986&width=200
+categories:
+- backend
+content-type: image/png
+---
+_path: /wwtweb/starchart.aspx?dec=85&height=200&lat=47.61&lng=-122.3331&ra=10&width=200
+categories:
+- backend
 content-type: image/png
 ---
 _path: /wwtweb/thumbnail.aspx?Name=SolarSystem
@@ -3086,6 +3146,16 @@ _path: /wwtweb/veblend.aspx?q=1
 content-length: 17237
 content-sha256: 3f03a3958808b4021a7ff6308cb140391421df75833042415599a6b6023e5e54
 content-type: image/jpeg
+---
+_path: /wwtweb/version.aspx
+categories:
+- backend
+content-type: text/plain
+---
+_path: /wwtweb/versions.aspx
+categories:
+- backend
+content-type: text/plain
 ---
 _path: /wwtweb/vlsstoast.aspx?q=0,0,0
 content-length: 36070
