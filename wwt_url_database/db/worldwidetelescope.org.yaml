@@ -59,20 +59,19 @@ content-type: text/xml
 ---
 _path: /community
 categories:
-- communities
-- frontend
+- coreapp
 content-type: text/html
 ---
 _path: /community/authorthumbnail/c82902cd-234b-4c39-bd14-8a2a3849949d
 categories:
-- communities
+- coreapp
 content-length: 17135
 content-sha256: 5d488c76c5b9f09fe8ded1f01757e3df639e5e57ef9d16ff2ab4b3c88bde4f44
 content-type: image/jpeg
 ---
 _path: /community/tourthumbnail/46ed68e5-e0cb-4092-9bc8-07a05b518856
 categories:
-- communities
+- coreapp
 content-length: 3296
 content-sha256: 5fe469f22637472769d280dddbee8bf9ef2082c0414f977ceb9a3adfe265be7e
 content-type: image/jpeg
@@ -96,6 +95,8 @@ categories:
 content-type: text/html
 ---
 _path: /content/detail/81896
+categories:
+- coreapp
 content-type: application/json
 ---
 _path: /content/greatobservatories.xml
@@ -1059,14 +1060,14 @@ content-type: text/html
 ---
 _path: /gettourfile.aspx?filename=Sample%20Tour.wwtxml&targeturl=http://worldwidetelescope.org/docs/wtml/tourtwo.wtt
 categories:
-- backend
+- deprecated
 content-length: 14572
 content-sha256: cbbf8f2eb815adcc0f8221d518397b2825c6731f147f57480af41d3b50bcdff6
 content-type: text/xml
 ---
 _path: /gettourfile2.aspx?filename=Sample%20Tour.wwtxml&targeturl=http://worldwidetelescope.org/docs/wtml/tourtwo.wtt
 categories:
-- backend
+- deprecated
 content-length: 14572
 content-sha256: cbbf8f2eb815adcc0f8221d518397b2825c6731f147f57480af41d3b50bcdff6
 content-type: text/xml
@@ -1219,10 +1220,12 @@ content-type: text/plain
 ---
 _path: /profile
 categories:
-- communities
+- coreapp
 content-type: text/html
 ---
 _path: /resource/service/payload
+categories:
+- coreapp
 content-type: application/xml
 ---
 _path: /robots.txt
@@ -1347,1906 +1350,1989 @@ content-type: text/html
 ---
 _path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
 categories:
-- backend
 - content-type-change-ok
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 content-type: application/xml
 ---
 _path: /webservices/wwtwebservice.asmx
+categories:
+- coreapp
 content-type: text/html
 ---
 _path: /webservices/wwtwebservice.asmx?WSDL
+categories:
+- coreapp
 content-type: text/xml
 ---
 _path: /webservices/wwtwebservice.asmx?disco
+categories:
+- coreapp
 content-type: text/xml
 ---
 _path: /webservices/wwtwebservice.asmx?schema=AstroObjectsDataset
+categories:
+- coreapp
 content-length: 2927
 content-sha256: 7e84e1ce669445a30e78066aa9a2d6127b39dc9c0df9b97e8ee6613dad3c9330
 content-type: text/xml
 ---
 _path: /wwtweb/2massoct.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 96524
 content-sha256: 32fe1f291ac6a97bd2ed762cdcbb8d835f0fc132aa5ed3a8a1872a25c519b5f5
 content-type: image/png
 ---
 _path: /wwtweb/2massoct.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 110331
 content-sha256: 17ad0a490ec9991359807eba07c40a964fd05da613602f43ec7076fbdd2e0742
 content-type: image/png
 ---
 _path: /wwtweb/2massoct.aspx?q=2,1,2
 categories:
-- backend
+- coreapp
 content-length: 72711
 content-sha256: 7275be31bffd9933a3c489426f07ccddc85ae8e68c1bb9fa240082623b5c8d64
 content-type: image/png
 ---
 _path: /wwtweb/bingdemtile.aspx?Q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 4356
 content-sha256: 024074f0a74bb6440cd496ab144c79834c105a2f0634e80d9f9f1ba4132fd589
 content-type: application/octet-stream
 ---
 _path: /wwtweb/bingdemtile.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 4356
 content-sha256: 0e005f90af8e5ab7e51bfbda789bb4055f0402b94615528916f6510908d51244
 content-type: application/octet-stream
 ---
 _path: /wwtweb/bingdemtile2.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 4356
 content-sha256: 0e005f90af8e5ab7e51bfbda789bb4055f0402b94615528916f6510908d51244
 content-type: application/octet-stream
 ---
 _path: /wwtweb/catalog.aspx?Q=AB
 categories:
-- backend
+- coreapp
 content-length: 45400
 content-sha256: 99dfd3dc7dd37891718eee2036e09af36ca28d1ce5d47c78f1802c8467ccc857
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=AR
 categories:
-- backend
+- coreapp
 content-length: 17887
 content-sha256: 9ec364108d5f501546acab01c9b96b2f766bf5f297b44b39705a7e741165912c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=AZ
 categories:
-- backend
+- coreapp
 content-length: 9509
 content-sha256: 0fdd031ac760948cb7945eea351fb108504e58a1af1120780abb54dc4441651f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=BC
 categories:
-- backend
+- coreapp
 content-length: 78006
 content-sha256: b48dccfe542ba1379c9a0e115f055b35b3ecd17118fc7ce743c7d89434f6a550
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=BSC
 categories:
-- backend
+- coreapp
 content-length: 710895
 content-sha256: d53790bab3c526b268d685fd52fe1f2003e870b1d64fed472bdcb557609dac4e
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=CA
 categories:
-- backend
+- coreapp
 content-length: 40494
 content-sha256: 71761cd6a63c19bbca1f45d1b88b7226e223ff77d96b8ee39d369e357044b135
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=CO
 categories:
-- backend
+- coreapp
 content-length: 13304
 content-sha256: 00e8337cff2213e978e698296f3ffe799ef8c68e787a49b5b746223bc6985c75
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=CT
 categories:
-- backend
+- coreapp
 content-length: 4476
 content-sha256: 1fdfa434deceae05e3809d8988e313eabbacecead77222acba03db8e0b2ee13a
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=CommonStars
 categories:
-- backend
+- coreapp
 content-length: 15928
 content-sha256: 9412590add630f87928b465085baa38c5aa1ec08e77c1ea0249baf0a6b1600ca
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=Const
 categories:
-- backend
+- coreapp
 content-length: 416082
 content-sha256: 0a74949a4c7e94d610d2f023da34af12ba6cc430b79195b6104424f30e2f3179
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ConstellationList
 categories:
-- backend
+- coreapp
 content-length: 3730
 content-sha256: 53957a0abe64eae2b6e8180599820d5fec71eb34c52e5965abb306973ae6bc27
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ConstellationNamePositions_EN
 categories:
-- backend
+- coreapp
 content-length: 3296
 content-sha256: 9a99f89aa85b09b7afaf565f4d9bcb0cfa279ea60633c58526d8810c1f10c1ec
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=Constellations
 categories:
-- backend
+- coreapp
 content-length: 401698
 content-sha256: bf5a8f96dbd327fef108b25dada832b603e7a627cf246f12d619c96b599dd163
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=DC
 categories:
-- backend
+- coreapp
 content-length: 36
 content-sha256: 00af77b0a325a0cf12beec8b37994b3a9a8ad7d9b2bffcd24160fa5f13fd3d65
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=DE
 categories:
-- backend
+- coreapp
 content-length: 2582
 content-sha256: 2a3fbef7ad4659121cfa1df211474ed6841e4ee9971d9ba0cb6fda2adc278441
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=FL
 categories:
-- backend
+- coreapp
 content-length: 32469
 content-sha256: 8669fbe185c2860fef45d282886db269e200bca8d115a446aab6669a5aa5ade2
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=Figures
 categories:
-- backend
+- coreapp
 content-length: 21421
 content-sha256: 7090c4e0d40b8a20379f301deacd67cb7dff0a1dd77f16385770e7020c4232e1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=GA
 categories:
-- backend
+- coreapp
 content-length: 20844
 content-sha256: 9d8b870a94d4fc32f84b37016c340b2867bdbc4dc212c82afcd2d1e113b12f06
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=HI
 categories:
-- backend
+- coreapp
 content-length: 4694
 content-sha256: f9eed7b27bc7a87021bbed438ac01596f593fbaa7b39b366a649a7b4ff32a386
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=HST
 categories:
-- backend
+- coreapp
 content-length: 13239
 content-sha256: 22d08019666a2e72af93d49ec284d66789aca9e5e4ccf309b8b583de5027ef3a
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=IA
 categories:
-- backend
+- coreapp
 content-length: 33152
 content-sha256: c552e81d8d15b6e18091ef40e24e05009bfc874e546fdefd212a08378477e0f6
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=IC
 categories:
-- backend
+- coreapp
 content-length: 254291
 content-sha256: 734715c027212b0de73381534f9bbcc7b8eddd93a6caa740e5d0f7e0e46da35e
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ID
 categories:
-- backend
+- coreapp
 content-length: 7394
 content-sha256: 2fbea4e4f0e948fbffcb85043bde86000f80677b17042a82e8a2afc48e57e0c7
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=IL
 categories:
-- backend
+- coreapp
 content-length: 46469
 content-sha256: b70c9d8e236dc31d3192b33908cf359149a947e81e58b44cad07d1cece94f6b5
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=IN
 categories:
-- backend
+- coreapp
 content-length: 21454
 content-sha256: 1a108cd01b7cfb3872c6ad87aabfdafd14383608f765555ece21728b3a1fe6ef
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=KS
 categories:
-- backend
+- coreapp
 content-length: 21909
 content-sha256: 442cf246a400ceed10dc815284f05d4ab367d48a49c5af72732cc282a6c7835f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=KY
 categories:
-- backend
+- coreapp
 content-length: 17051
 content-sha256: 16044632bfaa7bf873875d089e6de6e9cf733b740d5bcd9aa3bcd5d69aeb2bea
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=LA
 categories:
-- backend
+- coreapp
 content-length: 13512
 content-sha256: 9b995a909a2b4c699fdacd0a1592b227a640e12340d8f77f993d5df14abca05e
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MA
 categories:
-- backend
+- coreapp
 content-length: 8419
 content-sha256: 97e87c6aacb25a125704ac7379c4f559b4696bb70c1449d4cf4913322c886d70
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MB
 categories:
-- backend
+- coreapp
 content-length: 22784
 content-sha256: 903f61acc45a7b8f2597e1700232352ab3939f0328f22cd1e71ada3007381373
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MD
 categories:
-- backend
+- coreapp
 content-length: 13608
 content-sha256: 49f4ff8d28fb9e1c3654c43415bd4e8a417b67dc534fd3390e7714cb8b6ca94f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ME
 categories:
-- backend
+- coreapp
 content-length: 3944
 content-sha256: 27f1ddb293d020e6592f8dd763d64be7138fdf47055b416377ef68d7cc5a4a2d
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MI
 categories:
-- backend
+- coreapp
 content-length: 22648
 content-sha256: 657f102d416d65c5510377413fd2623d518fb525b91e53ac0aa7095080d47b8c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MN
 categories:
-- backend
+- coreapp
 content-length: 30393
 content-sha256: b0a37639a0c0d7169af4f69b9782493a8543b979aedefe306b15fb50f7265742
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MO
 categories:
-- backend
+- coreapp
 content-length: 34593
 content-sha256: 9e21db3c0b01c080bb3d836218df2330dcb3f2d96039d2773417e2a080f56b42
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MS
 categories:
-- backend
+- coreapp
 content-length: 11259
 content-sha256: a081c5b73b0d387e8aa94eb484c3f94e32f7ee069d4ce4404bab4e7ece4a3bb3
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MT
 categories:
-- backend
+- coreapp
 content-length: 10143
 content-sha256: c15f3bcd8bf258e103dadb5c072b911086eef186233c7a7a08912cacffadd6c0
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=Messier
 categories:
-- backend
+- coreapp
 content-length: 5445
 content-sha256: 9106de816118ed657b846c2c0ea88c714bab79ddaa3bdcc9f4e6f83bb369a49f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=MilkyWayModel.pts
 categories:
-- backend
+- coreapp
 content-length: 13713010
 content-sha256: 6fe1c189cf0bcf80ffad506c8fd02d893290281ad1ee1042d7fa8fa4cd6b7daa
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NB
 categories:
-- backend
+- coreapp
 content-length: 11836
 content-sha256: 61f6a7d7c8f687cceef8adfd93d6bfb98010de2dc0e9776b6e4c3d08fc3b438f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NC
 categories:
-- backend
+- coreapp
 content-length: 23153
 content-sha256: 2498854a445f2c776920121415bcc6139d294f865b9e7a616b5e7dbb5842eb04
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ND
 categories:
-- backend
+- coreapp
 content-length: 12904
 content-sha256: 3320f4dfe87a3532b3535a117dbbfc8b2795c848533df5e2271e6a5289cf8f51
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NE
 categories:
-- backend
+- coreapp
 content-length: 18476
 content-sha256: 7613abeef204f82ea4ebc9a502fd6cb46c00e1eb1b06a2fad737847d7cab60d3
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NH
 categories:
-- backend
+- coreapp
 content-length: 2102
 content-sha256: c341198584114979bd5ded9d7a6ec6730ac5fa2205700dd203ac5db696e59cb6
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NJ
 categories:
-- backend
+- coreapp
 content-length: 18275
 content-sha256: c157a6e8eca07e9abb770de8e2330bf7ec27a302172c789ce53ff011603807ff
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NL
 categories:
-- backend
+- coreapp
 content-length: 31058
 content-sha256: 80b60558ddb6ae94d79a9cbbbaa7fe9bdc3591238997f869a0394dbbef74a384
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NM
 categories:
-- backend
+- coreapp
 content-length: 8919
 content-sha256: 7704553a6a23b00b183f2329cdde29a2ac9b9ecc111b5a8816b40dd6804ddad1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NS
 categories:
-- backend
+- coreapp
 content-length: 19246
 content-sha256: a2800e021d1c5a9fddedc5f1a943e6aa0242b490b40bb1e3bb931af75888a8c1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NT
 categories:
-- backend
+- coreapp
 content-length: 18514
 content-sha256: 68a9f6eeb22c80051535eaa4b11ec1c168619cd1a854f4b19bca2ce8efb6ab9c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NU
 categories:
-- backend
+- coreapp
 content-length: 54840
 content-sha256: 7f8118c1dbf0a593358dee39bf9aec23731a450e8595c5290031c1bcd30e7c02
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NV
 categories:
-- backend
+- coreapp
 content-length: 2776
 content-sha256: 88e674d078a18e6a2f97a7ccb1a978e81006f02e3fbddeff59e665fe794a033e
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NY
 categories:
-- backend
+- coreapp
 content-length: 38107
 content-sha256: b7b89c86af41c349184c9c368a2d022f5710f802ae1acbf37a470f8a68b12a23
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=NamedObjects
 categories:
-- backend
+- coreapp
 content-length: 8391
 content-sha256: 80e838fb6628e437530905e3fbce442adbb59642016b4555e6161f5617b0759e
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=OH
 categories:
-- backend
+- coreapp
 content-length: 38306
 content-sha256: 947b2f464b4026f668a352bb4520dc00c96690089cef2b062c2ac16b8b4f708c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=OK
 categories:
-- backend
+- coreapp
 content-length: 23737
 content-sha256: de18a0b0e718b9194013258a80a91109d65701b04b2dcef662fb90dda684399b
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ON
 categories:
-- backend
+- coreapp
 content-length: 62877
 content-sha256: 35064bc0fdac776bc6166cab16a421d5d81facaeaa90f6ec061fcd65d50c350c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=OR
 categories:
-- backend
+- coreapp
 content-length: 11122
 content-sha256: ba7deb3dc27cd06cfa3a417c7e465c1e109e05b1d8e11f64c3e3f66e019533fd
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=PA
 categories:
-- backend
+- coreapp
 content-length: 51536
 content-sha256: 577b9a8cfbbd18c57d327afbca1a83c26a5147c919be48ae38efef1fbba9baf6
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=PE
 categories:
-- backend
+- coreapp
 content-length: 4206
 content-sha256: a306d5aa3b05291cb29b2750c45076fffaeb8bf0bb471bdb4473922d9c016618
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=QC
 categories:
-- backend
+- coreapp
 content-length: 49357
 content-sha256: 4cde17380d596666a37517f1b1b990523fa31ae7d68b111dccd38f25f9bc6634
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=RI
 categories:
-- backend
+- coreapp
 content-length: 976
 content-sha256: 132e807fdc88753f2ea0f93201ac9f9e23a36857cfade800d7780f70805e98ba
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=SC
 categories:
-- backend
+- coreapp
 content-length: 12881
 content-sha256: b519b3e2a28cd5015bad640b31541643f880114e56bd29638eaa999021ded8d9
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=SD
 categories:
-- backend
+- coreapp
 content-length: 12193
 content-sha256: f496b091784498bd8812d4cd1f1e4f081f0163970fe84c3a47825bbf5a22ef2c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=SK
 categories:
-- backend
+- coreapp
 content-length: 30955
 content-sha256: 94902055e68f266389365d4fcdeb0362e4129c9e01f27baec140a73b2356b02f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=TN
 categories:
-- backend
+- coreapp
 content-length: 13718
 content-sha256: 86a0458165373e968fe42cac81bcf8ab67737cb82618c749f5376dadddb1b970
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=TX
 categories:
-- backend
+- coreapp
 content-length: 53765
 content-sha256: b325a7b595927347a3dc16ec35ec8134db39bff9a396f4069465d993fc7b66af
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=UT
 categories:
-- backend
+- coreapp
 content-length: 10836
 content-sha256: f2c3536d47803b1d963c7fba328275ea4c6ab4c5df0d03c433b693c8b51a66b1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=VA
 categories:
-- backend
+- coreapp
 content-length: 13244
 content-sha256: 097457c627efbb1cad1296c471f8f078d604b4a08b6f65c3912bc98f952548bd
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=VT
 categories:
-- backend
+- coreapp
 content-length: 2499
 content-sha256: 993cee250de729c9ad2b33c080a98ba449675e420c8c5ec438cc6fc3ea60d32b
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=WI
 categories:
-- backend
+- coreapp
 content-length: 22316
 content-sha256: 6730ff30d238118fb53157e74d6f495c56e1256c451be8cd6d2d4a7b6e5339fd
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=WV
 categories:
-- backend
+- coreapp
 content-length: 10113
 content-sha256: 5aab1ca37d7318ba585099d7a8e26ee6f054efaa16b0207b425cfc07b7164713
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=WY
 categories:
-- backend
+- coreapp
 content-length: 7485
 content-sha256: d0499157acaed06e6f8c51a8c7bcc0057d3a2607367195c1b741e7784f16f1f3
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=WorldCities
 categories:
-- backend
+- coreapp
 content-length: 25417
 content-sha256: 41e7c3cee7fc0e7ee6922cb1dad1823842c906972063e104377e2a878aedd432
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=YT
 categories:
-- backend
+- coreapp
 content-length: 11374
 content-sha256: 9d1512fd22c53ae80f8c72915cc38e7be23bf8780027dd9d145e17108b946b8b
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=aL
 categories:
-- backend
+- coreapp
 content-length: 17319
 content-sha256: 46c299e16b5bd9edd3b86bfbff1755910facbe52534cdc85d1902f11c4219591
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ak
 categories:
-- backend
+- coreapp
 content-length: 12571
 content-sha256: 263c36faa3338320d9f3460a2816874b434e38ad3ce86f305d29e7403e428904
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=commonstars
 categories:
-- backend
+- coreapp
 content-length: 15928
 content-sha256: 9412590add630f87928b465085baa38c5aa1ec08e77c1ea0249baf0a6b1600ca
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=constellationNames_EN
 categories:
-- backend
+- coreapp
 content-length: 1217
 content-sha256: b940383d0a333d62fcd196f0a647e9bc3ac27015a7be45a6f9c4452ab5f15515
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=constellationNames_RADEC_EN
 categories:
-- backend
+- coreapp
 content-length: 3530
 content-sha256: ed68a56ea00d9effcd28508a4c3a654f0dd220d31132f9c260c1d8d21fc911b2
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=cosmosbin
 categories:
-- backend
+- coreapp
 content-length: 9050000
 content-sha256: 8007a000aaafc24b5bf3842194d4881ec4c4c5cb98bf15c3d3e2917fbadee158
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=cosmosnewbin
 categories:
-- backend
+- coreapp
 content-length: 10781575
 content-sha256: 633a528d47d837625d4b90223f296c04ac89607148df7dc3b6f76fc4811fa305
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=hip
 categories:
-- backend
+- coreapp
 content-length: 6757865
 content-sha256: c8fb68b7631896f232ef488ec93deeff04e3b5b6762c9a8837146d531bdb5541
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=hip3d
 categories:
-- backend
+- coreapp
 content-length: 7375028
 content-sha256: d82f6221f238d66157b9e51ea0bc4c8c53960b0e209681fc1b5b10816a0b8037
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=hipbin
 categories:
-- backend
+- coreapp
 content-length: 2050794
 content-sha256: 68d320b8320dc87473a6c9af3ac1f0505cd8017291ebffb2f2039233ac15ea6a
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=hipparcos
 categories:
-- backend
+- coreapp
 content-length: 6753804
 content-sha256: 01e4433a1d52936105fb4ffebd4041cff27d4414a3ec199d689c0d4d7f6d73e7
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_de
 categories:
-- backend
+- coreapp
 content-length: 19427
 content-sha256: 25e386add34a7de496c9d46995d73f3a5486cae98316253eaf04e4fe308b616e
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_en
 categories:
-- backend
+- coreapp
 content-length: 81660
 content-sha256: 15d79cd879cefea6a815bb971e74546c6691f22a783f21f4336a7b4f938b05a5
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_es
 categories:
-- backend
+- coreapp
 content-length: 18083
 content-sha256: c878154d12d934fcab358d14cb79a571d043d1cb9d89a3b110d59ecc6e07e309
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_hi
 categories:
-- backend
+- coreapp
 content-length: 44478
 content-sha256: 3450d2bd955544aa006af1ce4112c0393ed4d92b51f665c5798fc51a42cd1e22
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_nl
 categories:
-- backend
+- coreapp
 content-length: 44188
 content-sha256: 9188f870d5b9dcaa276cc9ae85d87747c3b3e1d02d51392c7650429164d031a9
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_ru
 categories:
-- backend
+- coreapp
 content-length: 32150
 content-sha256: 57b75df1aa58d61a57254d9c9404caa18af72534e25e9e7b5d5a6c7ee8a01bb6
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=lang_zh
 categories:
-- backend
+- coreapp
 content-length: 40480
 content-sha256: c46e40c9596ef43bbc0b47c0939b46223b27cfd5c4126e5d6ed89be825885232
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=moons
 categories:
-- backend
+- coreapp
 content-length: 24099
 content-sha256: 2c4170bed2a6855bceae471e57d7c0d2485185ac885cd44c99ce47b67b4d3c5b
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=mpcbin
 categories:
-- backend
+- coreapp
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ngc
 categories:
-- backend
+- coreapp
 content-length: 381305
 content-sha256: 1bc44b057612da28dafb96608185d35535b92192cab77c6eadb9288cc379854f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=orbitsbin
 categories:
-- backend
+- coreapp
 content-length: 55296
 content-sha256: e8c04f297384e231c95212bb0fe1db1e32ecb66be6f613edd1009332720a0316
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=sh.mdl
 categories:
-- backend
+- coreapp
 content-length: 20530083
 content-sha256: 6769cd4fb40e0948a933c211eaa4d4051ca13e97938483063777b485b1d6d946
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=ssobjects
 categories:
-- backend
+- coreapp
 content-length: 429
 content-sha256: 85df8ff4de2721055c9842e9789e6084d1a8bfaf7aebb791fd4b3476ce158f64
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=taxonomy
 categories:
-- backend
+- coreapp
 content-length: 7626
 content-sha256: f7147a0ff9f897c59f5fc924a4d23445c48bf50f5da54b25635135098f57cfc4
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?Q=wa
 categories:
-- backend
+- coreapp
 content-length: 19304
 content-sha256: 8ad0dffc48d7c133505fbee4e5d0b1f6bba72c483288f166b8485cd4eadd80f3
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=CallistoSurface
 categories:
-- backend
+- coreapp
 content-length: 73429
 content-sha256: 01a48277ef4a3948a40f210dbf82c1e26f0fc2047476bcbb0d62c247329583a3
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=CallistoTopTen
 categories:
-- backend
+- coreapp
 content-length: 4362
 content-sha256: aad5ca229672822c7a9dcffef00682087e890c6de71508ea48ab5dc453213b18
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=Chandra
 categories:
-- backend
+- coreapp
 content-length: 382947
 content-sha256: 136a079d67c5b643cc489e41dd6586c75faad89e55f89d64c2fc56267c77e4f9
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=ESO
 categories:
-- backend
+- coreapp
 content-length: 910271
 content-sha256: 9ad52da1434c03783bf3043c17b1928fc19986600eb1b82b2c35abe45ea5156f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=EuropaSurface
 categories:
-- backend
+- coreapp
 content-length: 37820
 content-sha256: b7ff9f0cc0d626beb7f42fc1057606d1904f97a601c71b26b601c254dc50c15c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=EuropaTopTen
 categories:
-- backend
+- coreapp
 content-length: 4411
 content-sha256: 8ebb711090aa0206117ff221df6b961fa4876ee6e8bbcd31eb9e8c08f8d68318
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=ExploreRoot
 categories:
-- backend
+- coreapp
 content-length: 3489
 content-sha256: 412f248efd9c041dcf9996a554cb5b2fc289dd7adeea9cbcb15a58672a2a73e5
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=GanymedeSurface
 categories:
-- backend
+- coreapp
 content-length: 89504
 content-sha256: 50febaf415aa9ab73418df39cd872b7d2d7ad42f1b41530db4cbd61243599672
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=GanymedeTopTen
 categories:
-- backend
+- coreapp
 content-length: 4485
 content-sha256: b9c5cd68999857e70da9efb0e95e6bf938bb17722eec389c9bde586299cba909
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=GeminiStudies
 categories:
-- backend
+- coreapp
 content-length: 19989
 content-sha256: 4d1d630ca2fed24d567824aa43b9170dd1aa88ce952e226a28d7331322f0ff85
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=Glimpse360
 categories:
-- backend
+- coreapp
 content-length: 1408
 content-sha256: 14c5cb3d2827ea6331caef7fbc3c0a8aed6bc73033eb3e57528ef907e6742239
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=Hevelius
 categories:
-- backend
+- coreapp
 content-length: 70508
 content-sha256: ffc7ca373e5f9902d9b4ea2baa8fd35773e42523b6b369e576a492074f8b10e2
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=HiriseImages
 categories:
-- backend
+- coreapp
 content-length: 25140095
 content-sha256: b852c1317c8e9221364bf5ea8b323f12403d67e737c0be907b7aaed75ca9524f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=HiriseSpotlight
 categories:
-- backend
+- coreapp
 content-length: 40550
 content-sha256: c9e5395b11a44f80d05aad58ec75e651faf1e06f44c096b556a8bf3399654d5c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=Hubble
 categories:
-- backend
+- coreapp
 content-length: 1105826
 content-sha256: e091d837988780d351d058cec8efd0fe1e5889575a7effb5348e5e63da697ad1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=IoTopTen
 categories:
-- backend
+- coreapp
 content-length: 4299
 content-sha256: 2e7e42ee29e78196659a4bd7a8cfc25a1eedfd0266726b7aa32e4c3839ebbebe
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=MarsNamedFeatures
 categories:
-- backend
+- coreapp
 content-length: 696314
 content-sha256: 72e473a77ee80760281e07283124d65e7c9116640232954515bd0bb6d16dd0d2
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=MarsTopTen
 categories:
-- backend
+- coreapp
 content-length: 13004
 content-sha256: 6272a3f369a0d1b061a4deb510b34e2816f9c29bc0b742ba04419fc376520c39
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=MercurySurface
 categories:
-- backend
+- coreapp
 content-length: 159883
 content-sha256: 088d8b68842439781cfaa64cbfcec3f08809ed0eb5985c9f385886c5bd45592b
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=MoonSurface
 categories:
-- backend
+- coreapp
 content-length: 835510
 content-sha256: bc7f1a2baae8684268e1ca399cdb8fda58f39dcb6a3190ce0989d03850c0be55
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=NewExploreRoot
 categories:
-- backend
+- coreapp
 content-length: 1323
 content-sha256: 3fa2a346b96ab38c4fb21becede4411c47930c3732de99eb1ae7ef1a9ddfaad0
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=SkyRoot
 categories:
-- backend
+- coreapp
 content-length: 2646
 content-sha256: 41f001907f3ea47c8fb3edbd3e996b3f91c027960effcc4cfd9f943b7bca1f03
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=Spitzer
 categories:
-- backend
+- coreapp
 content-length: 345868
 content-sha256: 1d65c2d77e27b47484a432bb187ff2ca1b3082c9042b146ef74b8523f1c598fe
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=VenusSurface
 categories:
-- backend
+- coreapp
 content-length: 928538
 content-sha256: 0a1c999ecb83386d37eed721b1a0af249df86cac60f4519172b44d2ee74783ee
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=WCExploreRoot
 categories:
-- backend
+- coreapp
 content-length: 3694
 content-sha256: f4252da9b3e44fcd02d0f54b2b32bd52fd2abccbf188d953e3897799ae762a2f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=Wise
 categories:
-- backend
+- coreapp
 content-length: 110918
 content-sha256: e6752918f39d8e4e9e945d787f2d1ea4464e02bf54b23de164c227c8e59b2323
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=allcities
 categories:
-- backend
+- coreapp
 content-length: 14665670
 content-sha256: 67473f64aa01a7dd2e569e83e168d62265f10ad4b04239ba12928dadeab1e3a1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=and
 categories:
-- backend
+- coreapp
 content-length: 1139
 content-sha256: 98e17899e51f3caf491e903723a369904803547e3b14c6d2dd78a97439ac8e9f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=astrophoto
 categories:
-- backend
+- coreapp
 content-length: 77450
 content-sha256: 71739c954ea4488838ba04d1b2a83a12d743fb0b1006c5ec9416d1ac725d2c59
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=constellations
 categories:
-- backend
+- coreapp
 content-length: 19564
 content-sha256: a423699b676729cacbfc310fd0b889a5c796d60d6bb156123bc18083b5fea107
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=earth
 categories:
-- backend
+- coreapp
 content-length: 6658
 content-sha256: 72e19bdf523d3dd17c6426c855323a9c4b02630e6ef23fe19ef6ef9beed2153f
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=hevelius
 categories:
-- backend
+- coreapp
 content-length: 70508
 content-sha256: ffc7ca373e5f9902d9b4ea2baa8fd35773e42523b6b369e576a492074f8b10e2
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=hiriseone
 categories:
-- backend
+- coreapp
 content-length: 24038341
 content-sha256: 3583e65b76742275c64521c4aec7c5ddc3dc7c2ad2f5f11620546d2b24eff3fd
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=imagesets
 categories:
-- backend
+- coreapp
 content-length: 80300
 content-sha256: 01d416bbfff5772da5b29a70a15d20e02bfde516db343c003e08398fb10364dd
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=iosurface
 categories:
-- backend
+- coreapp
 content-length: 96048
 content-sha256: 56106eaebe344097ea275bc34019f5468b815994f7785896d149de4b70795e02
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=kinect
 categories:
-- backend
+- coreapp
 content-length: 6202
 content-sha256: cd8d3a9c19f128e6bf48724848ccd2203b2b648fec88fa0a9ade1b6ca4212efe
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=marspanos
 categories:
-- backend
+- coreapp
 content-length: 53260
 content-sha256: 09cd6b8e683bf375284ea06bacf1bb7edfe4720d5480a487d30b261144c0838d
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=marsroot
 categories:
-- backend
+- coreapp
 content-length: 9650
 content-sha256: 44b2b8f70e70dd4d0868a857eb49ff9b888628fe09a8501c5e63b3fd55fd54b2
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=mercurytopten
 categories:
-- backend
+- coreapp
 content-length: 4389
 content-sha256: a91052750d57a9c9d5b9930140ff63d82376508847b80b81a27922f9a91d0873
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=messier
 categories:
-- backend
+- coreapp
 content-length: 23754
 content-sha256: 77c9c0a6f24f142f1eb3ef5691dd21d04b4987681398244046b103fd9422a916
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=moccatalog
 categories:
-- backend
+- coreapp
 content-length: 76958803
 content-sha256: 23218606e5d6edf2e822cfc3ac4c51668856b4c8794fcf6d2763da1f91f1114c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=moontopten
 categories:
-- backend
+- coreapp
 content-length: 4354
 content-sha256: a577a62432767ad8ba5ea5fa41fc640920793a808c62c000f95fe38aa528f89c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=panos
 categories:
-- backend
+- coreapp
 content-length: 66993
 content-sha256: 53a6770e217be0a389e8394f2efbd5f73fd33a73e451e333086e1a6e7c030c35
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=solarsystemsky
 categories:
-- backend
+- coreapp
 content-length: 3629
 content-sha256: a283d087711bbac3ac2beb245899399b8b187db581c26f259535d1fb73c1ba52
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=solarsystemsphere
 categories:
-- backend
+- coreapp
 content-length: 18017
 content-sha256: b660905661b23717038fa8f13d6794661d4bbaf5415c5fc03ae0bb51b45d71c0
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=studieschandra
 categories:
-- backend
+- coreapp
 content-length: 76089
 content-sha256: e32e86e7de144498e4f87800935305eccdb4f85e7c7cf44d2ca747151d88245c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=studieshubble
 categories:
-- backend
+- coreapp
 content-length: 368941
 content-sha256: 1edf327eb9ad4fcd7f31fb36bb0eed7fbfc2d27f3f2502d460661a8883723630
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=studiesnoao
 categories:
-- backend
+- coreapp
 content-length: 4641
 content-sha256: f47412a746f9baacff18fa653287ae8c8c00ddd00911fe6223d0dd4ea6cddf46
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=studiesradio
 categories:
-- backend
+- coreapp
 content-length: 3035
 content-sha256: e29fd83ede52876dbf039a936f5cd3eb124d6b9d35cf80411b14ea8b82eb45f1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=studiesspitzer
 categories:
-- backend
+- coreapp
 content-length: 122232
 content-sha256: 252a4fe17138f4ad066b4ac40e87e3af76862d1c0c406abc004ad1a39559b622
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=surveys
 categories:
-- backend
+- coreapp
 content-length: 84667
 content-sha256: a078eac19312313022ce7ad894d7a8a671ee5526c3228f74d691c359bb61bf4d
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=vampfeeds
 categories:
-- backend
+- coreapp
 content-length: 1139
 content-sha256: d85aac355e22449edb41956ca61a499cefa95a3ec2a6d4dbd26fd39af4ce9b17
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?W=venustopten
 categories:
-- backend
+- coreapp
 content-length: 4403
 content-sha256: e0efa7ac5492c4a0dc224cdd704eba55d401a56b59155e9693bcdff983a4a277
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=CanadianCities
 categories:
-- backend
+- coreapp
 content-length: 1490
 content-sha256: dce2beb583b8193c1f38b3bd86ba40aa63993c533e80b9993e4dee39393f228d
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=DPOSS
 categories:
-- backend
+- coreapp
 content-length: 845771
 content-sha256: 1630a8d03f91d87c84baeafff8365190db8ce262b32295e55b78903d7865eb1a
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=ImageSets5
 categories:
-- backend
+- coreapp
 content-length: 86238
 content-sha256: 50556b0e4d570a9ffe3d1bc86fd78207997f48186e62a632360824e03d672eb1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=Languages
 categories:
-- backend
+- coreapp
 content-length: 2033
 content-sha256: 3decadd504a74e55269e2ff1fec6c0b0f2662cd2113ed5cf28aaf52a8877fd39
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=Spitzer
 categories:
-- backend
+- coreapp
 content-length: 59189
 content-sha256: abcbba9660832bda331a5f2c2ba8d24bc9d05b7c25db73bc938e2d0512471345
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=Surveys
 categories:
-- backend
+- coreapp
 content-length: 43932
 content-sha256: 353b67b17981e75f964a77fef5d103ab91cce2ae1c1b9c1636e903222f3dfa61
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=USCities
 categories:
-- backend
+- coreapp
 content-length: 5208
 content-sha256: f6952638474f22b366bbe493d41106f107ae4fd6ce23cbaf320bf73397de4184
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=WorldCities
 categories:
-- backend
+- coreapp
 content-length: 257
 content-sha256: 300115fdda5a1eac3a06037146b877e3f12a2c9a8f088cd842fa66062f0bd580
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=chandra
 categories:
-- backend
+- coreapp
 content-length: 32423
 content-sha256: 8d949bd3b9556b68c8fdbcf314050611c7dc158eaed3adc2de2216a7cc9850c4
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=citiesdata
 categories:
-- backend
+- coreapp
 content-length: 486
 content-sha256: ff61a416536ac0fdd9a3a7c8e507772c936ba9fe62686461c121a53edb906d9d
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=const
 categories:
-- backend
+- coreapp
 content-length: 359
 content-sha256: 1836bea78bb4802a1593c18879880e0732cada06148ea470bfa3518e83cc7912
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=deepsky
 categories:
-- backend
+- coreapp
 content-length: 794
 content-sha256: b41c50fdc909a603fd3957db81b868deefbb1c2164874f6727bf588e0578c3f9
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=deepskysearch
 categories:
-- backend
+- coreapp
 content-length: 374
 content-sha256: e7640a41f271bfd2ae69d03836ea44f14b9c6fa31bd66cfeaecacf624bb12ef5
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=hst
 categories:
-- backend
+- coreapp
 content-length: 198051
 content-sha256: 0d3fa55dbaccb7ebef2dd6a8a8f4ea29b562c7eaa75c320530526631cfcd2729
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=imagesets
 categories:
-- backend
+- coreapp
 content-length: 56771
 content-sha256: db8beacc7f9525d90aac223e094476d86833e5de73005940f5ae8e8c5e75bc6c
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=imagesets5
 categories:
-- backend
+- coreapp
 content-length: 86238
 content-sha256: 50556b0e4d570a9ffe3d1bc86fd78207997f48186e62a632360824e03d672eb1
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=imagesetseclipse
 categories:
-- backend
+- coreapp
 content-length: 78029
 content-sha256: b958c9704a88d0394442e3b11f257f18982231a69d8169c1bd03ebae13d5c788
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=imagesetsmars
 categories:
-- backend
+- coreapp
 content-length: 63695
 content-sha256: 09f7cbedb92f67668e8d5e2fae85bcf84ea82a041108de3c3ce031eb9c544f1d
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=imagesetsnew
 categories:
-- backend
+- coreapp
 content-length: 78014
 content-sha256: 77ac41418fcf0fb56bead5abf513b76ab4a397aa04b12b9977586a12fa0e5682
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=instruments
 categories:
-- backend
+- coreapp
 content-length: 49674
 content-sha256: 88df3c4145374d0765bce207c5ed75767de3cab6160c33cf8c2c1d13178ff153
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=observatories
 categories:
-- backend
+- coreapp
 content-length: 1294
 content-sha256: 448ca2052ff86150265d24e076908536e20af40ea3952f2ed932d34098bf70f0
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=other
 categories:
-- backend
+- coreapp
 content-length: 10492
 content-sha256: af258282690cbab10ea5fce782e7527fbec08ff95af99f0a94c585cba4d90dd6
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=solarsystem
 categories:
-- backend
+- coreapp
 content-length: 351
 content-sha256: d15f03069cae01a6dee135a8b291b9153346fb1741556e6fc9ed3e37fb9366ab
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=spacecatalogs
 categories:
-- backend
+- coreapp
 content-length: 350
 content-sha256: 96661f78d9723e211e986f5bf7a2ec22791f6298be9a9962db106ab85639f5bf
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=spacedata
 categories:
-- backend
+- coreapp
 content-length: 737
 content-sha256: c90f3fd90e6388778230eca5b2bf0b320e1119c810229e9f892bd7d881a4f101
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?X=stars
 categories:
-- backend
+- coreapp
 content-length: 486
 content-sha256: 544d645fe044ae3b6490d113691344b710f8929c51fcf4447257bddd1e76d1ac
 content-type: text/plain
 ---
 _path: /wwtweb/catalog.aspx?q=ConstellationNamePositions_EN
 categories:
-- backend
+- coreapp
 content-length: 3296
 content-sha256: 9a99f89aa85b09b7afaf565f4d9bcb0cfa279ea60633c58526d8810c1f10c1ec
 content-type: text/plain
 ---
 _path: /wwtweb/demmars.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 2052
 content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
 content-type: application/octet-stream
 ---
 _path: /wwtweb/demmars.aspx?q=3,7,7
 categories:
-- backend
+- coreapp
 content-length: 2052
 content-sha256: 6ff010f352f1693de55111dcf648351a40cb8f0d9a56c0b2593078d4a7eba550
 content-type: application/octet-stream
 ---
 _path: /wwtweb/dss.aspx?q=0,0,0
 categories:
-- backend
+- coreapp
 content-length: 53695
 content-sha256: b8823cdc868a30a2e69b9067ad00a6e8690c44f541428fbf7d54008424e8b901
 content-type: image/png
 ---
 _path: /wwtweb/dss.aspx?q=4,10,4
 categories:
-- backend
+- coreapp
 content-length: 43947
 content-sha256: 678897b7ac28a7bcec951383f236517fd162f70303d687b7c81a70f9a5812566
 content-type: image/png
 ---
 _path: /wwtweb/dss.aspx?q=9,12,11
 categories:
-- backend
+- coreapp
 content-length: 49667
 content-sha256: 4f417cb24555e98d66a122a232ff2159d04272a77f7e0cc5be9b90a1150dce52
 content-type: image/png
 ---
 _path: /wwtweb/dusttoast.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 92719
 content-sha256: 299a657e3359e738fad740cf6f3d2062fff1e4b9d9593e50b371ffcbe11cb3ef
 content-type: image/png
 ---
 _path: /wwtweb/dusttoast.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 99217
 content-sha256: 0b35158e0e8d45e8d25212bf513baf182dd3940023c5585f18a4f52f6ba0248e
 content-type: image/png
 ---
 _path: /wwtweb/earthblend.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 127456
 content-sha256: 4026469c1800076e4fa3084409d90944aa7e9e4564ed9b0c37bdd914226f7ee4
 content-type: image/png
 ---
 _path: /wwtweb/exceladdinupdate.aspx
 categories:
-- backend
+- coreapp
 content-type: text/plain
 ---
 _path: /wwtweb/fixedaltitudedemtile.aspx?Q=0,0,0&alt=-800000&proj=M
 categories:
-- backend
+- coreapp
 content-length: 4356
 content-sha256: 043478752b276c847b94ecad422b3a33c99d9e5618fcc2a05f4581522e93fc73
 content-type: application/octet-stream
 ---
 _path: /wwtweb/g360.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 8082
 content-sha256: af2767b02af9a746e4c8cfa954901bf052c6fd8c8328dd82041008309381266e
 content-type: image/png
 ---
 _path: /wwtweb/g360.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 10284
 content-sha256: abf95f05f232be98b8f109e55391398b7191bdacdb5378ac04c954aa679ccf75
 content-type: image/png
 ---
 _path: /wwtweb/galex4far.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 60001
 content-sha256: d1a84e87de836c6120b131bad1d7475c5b9bde279f7dbe007d9c0e483b017f9e
 content-type: image/png
 ---
 _path: /wwtweb/galex4far.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 48160
 content-sha256: 9c149a3bf1a1192f03c32029e5c96cf3342fbede2b43c6c49bd82febd73237d1
 content-type: image/png
 ---
 _path: /wwtweb/galex4far.aspx?q=10,7,7
 categories:
-- backend
+- coreapp
 content-length: 43294
 content-sha256: 4e2b7501907b9671b9fd6f89819725bf56832322bbe8e9cc02104d24bda485d4
 content-type: image/png
 ---
 _path: /wwtweb/galex4near.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 55916
 content-sha256: a8cfcd5da75d1d4ddc103c6b91f3a91dcc37fc15efff1c52bda9b2de8fc019f7
 content-type: image/png
 ---
 _path: /wwtweb/galex4near.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 50605
 content-sha256: 170d3d895c7058ef51a1b7012e3b56538265f2fb95caaa52061d60ac65f0753e
 content-type: image/png
 ---
 _path: /wwtweb/galex4near.aspx?q=10,7,7
 categories:
-- backend
+- coreapp
 content-length: 69946
 content-sha256: 068db00500fa88ad1ae3af3735144538cd60c771fb41b8c240916ad325eaf3eb
 content-type: image/png
 ---
 _path: /wwtweb/galextoast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 86308
 content-sha256: 3339bfdf1df78bd03275addafe796fbc4847efdaa481993794ac226ba72cf99f
 content-type: image/png
 ---
 _path: /wwtweb/galextoast.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 67538
 content-sha256: 8bb8dda26c5c58b7400e2a2955c073a98e206fe86af3e337271e3061be0d660e
 content-type: image/png
 ---
 _path: /wwtweb/galextoast.aspx?q=10,7,7
 categories:
-- backend
+- coreapp
 content-length: 69636
 content-sha256: c50ae38ec49ab89dd8f0318e3beca2e73685b9e2afb04f6a383b7d899e33bf96
 content-type: image/png
 ---
 _path: /wwtweb/getauthorthumbnail.aspx?GUID=3bf16be6-93d7-48f5-972e-7224cad3d4cb
 categories:
-- backend
+- coreapp
 content-length: 14166
 content-sha256: 137b9b1ede749c88c732b86f0b6678590336f3fead7655845f6e7609428894d6
 content-type: image/png
 ---
 _path: /wwtweb/gettile.aspx?q=0,1,0,1517265314
 categories:
-- backend
+- coreapp
 content-length: 45209
 content-sha256: 0f2389de0d6aa3ca5e81cfb8731ede8411006c236cac5a8e34b21ed7d8da338a
 content-type: image/png
 ---
 _path: /wwtweb/gettile.aspx?q=1,2,1,200340365
 categories:
-- backend
+- coreapp
 content-length: 7275
 content-sha256: 4fd4f3c96f8dab0f05286585d91ba389bc809b10aaf1a251251412dbf82e7150
 content-type: image/png
 ---
 _path: /wwtweb/gettile.aspx?q=1,2,1,46970354
 categories:
-- backend
+- coreapp
 content-length: 39970
 content-sha256: b3c8189a44ab73fd4677a048dcf6655eeb3b45c8fef24e619a911d2059bb1a91
 content-type: image/png
 ---
 _path: /wwtweb/gettile.aspx?q=3,7,2,144009819
 categories:
-- backend
+- coreapp
 content-length: 142974
 content-sha256: 1599f113ecdf2b452bd098448bd06d99bb6ff5c59ad0ed09ed02cc6fc1e2fc9d
 content-type: image/png
 ---
 _path: /wwtweb/gettour.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
 categories:
-- backend
+- coreapp
 content-length: 2711468
 content-sha256: 157d9063068c811caf196f5703a322b52c92f80d3e967da92c4251a548c39bc8
 content-type: application/x-wtt
 ---
 _path: /wwtweb/gettourlist.aspx
 categories:
-- backend
+- coreapp
 content-type: application/x-wtml
 ---
 _path: /wwtweb/gettours.aspx
 categories:
-- backend
+- coreapp
 content-type: application/x-wtml
 ---
 _path: /wwtweb/gettourthumbnail.aspx?GUID=a66e2bde-5aac-4eb1-ae0f-5c83ae93e359
 categories:
-- backend
+- coreapp
 content-length: 10720
 content-sha256: e4377e862d31c5bd8eebdaf6ed87d1e057a46f948b3d78e3116e4a26e634e9a3
 content-type: image/png
 ---
 _path: /wwtweb/gettourthumbnail.aspx?GUID=b8255095-2eff-44af-a622-3013e41bbbfe
 categories:
-- backend
+- coreapp
 content-length: 6947
 content-sha256: 0c4573d8aed2af11fbf0d9a0183fa79d8390d307d5a5e5b5d358a74d5bfdf72b
 content-type: image/png
 ---
 _path: /wwtweb/glimpse.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 4738
 content-sha256: 57aaae4c9f06e2668b7035b2995cda8ca1ad0b3e980d66e3544babbe478f2e12
 content-type: image/png
 ---
 _path: /wwtweb/glimpse.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 5998
 content-sha256: c86f8fbdee5526ba9df8704085af1766ffecf910c86cc096bc9a6b73e4ea21f2
 content-type: image/png
 ---
 _path: /wwtweb/goto.aspx?dec=-22.75&object=ViewShortcut&ra=20.625&zoom=3
 categories:
-- backend
+- coreapp
 content-type: X-302-Redirect
 ---
 _path: /wwtweb/goto.aspx?dec=-5.8&object=M48&ra=8.23&wtml=true&zoom=1.40625
 categories:
-- backend
+- coreapp
 content-length: 149
 content-sha256: 4618e474e95288a2384f9c2132287070c5eed4a219fef223f395facdcc95e9e6
 content-type: application/x-wtml
 ---
 _path: /wwtweb/halphatoast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 83106
 content-sha256: 6e5ebe5ba6b1418842329919e78d20c02ab47ca6a7d4c4982d7629f2af70b5c4
 content-type: image/png
 ---
 _path: /wwtweb/hirisedem.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 2052
 content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
 content-type: image/png
 ---
 _path: /wwtweb/hirisedem.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 2052
 content-sha256: 0044c7f0562396363c300c52f5041fca679600d4761936c81788652715699799
 content-type: image/png
 ---
 _path: /wwtweb/hirisedem2.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 2052
 content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
 content-type: text/plain
 ---
 _path: /wwtweb/hirisedem3.aspx?q=1,0,0
+categories:
+- coreapp
 content-length: 2052
 content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
 content-type: image/png
 ---
 _path: /wwtweb/isstle.aspx
 categories:
-- backend
+- coreapp
 content-type: text/plain
 ---
 _path: /wwtweb/jupiter.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 169652
 content-sha256: 97e13e110093383a2f9ea42bac564742cb62c0c35cfd9d405ef6b171f5c5d03c
 content-type: image/png
 ---
 _path: /wwtweb/mandel.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 6956
 content-sha256: 39edc97967f77efc41a38919c105c7f3c3245d9e1e0cdd006e6863f3837308e0
 content-type: image/jpeg
 ---
 _path: /wwtweb/mandel.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 10264
 content-sha256: e02503772811ddf5886387e66461670acb388b4bcff4036233ee9c8ee6d6d246
 content-type: image/jpeg
 ---
 _path: /wwtweb/mandel1.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 10484
 content-sha256: d9eaf5be1ad87f88b30a37da34dde67441cc85140234b7b2442dcb6570b7ceba
 content-type: image/jpeg
 ---
 _path: /wwtweb/mars.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 142522
 content-sha256: 59b4febb0c3072243453caa4466de0e2c2e263b180e16e194523d65e243948bb
 content-type: image/png
 ---
 _path: /wwtweb/marsdem.aspx?new&q=1,1,1,T
 categories:
-- backend
+- coreapp
 content-length: 1026
 content-sha256: 0e1950d7d34c1a9789ba1666c1e1e754351b559a8030ca421c4af424dee463f2
 content-type: application/octet-stream
 ---
 _path: /wwtweb/marshirise.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 174748
 content-sha256: 8d3937c061df07982aec05c95817f1724b77b1df6193dd77cba4c0fb60c76b79
 content-type: image/png
 ---
 _path: /wwtweb/marshirise.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 166641
 content-sha256: 4563155d96a12dd9e0f87840a37e935396ccfeef42cf0f7735111a3a0e48185f
 content-type: image/png
 ---
 _path: /wwtweb/marsmoc.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 176858
 content-sha256: 5ac1d100ae77ebecfdc8b37540e559267ee9969c241424ec6ccfe623b5cca095
 content-type: image/png
 ---
 _path: /wwtweb/marsmoc.aspx?q=1,1,1&v=2
 categories:
-- backend
+- coreapp
 content-length: 170518
 content-sha256: a053bc7ce1bc2c9a1075828149de3b799c783a81730f4ebcde4a008175f1e4d7
 content-type: image/png
 ---
 _path: /wwtweb/martiantile.aspx?q=0,0,0,mars_base_map
+categories:
+- coreapp
 content-length: 138297
 content-sha256: 56e96d6b3d7ca87cef135146485b3cba2b4fa324bad3985524323d1a8c08fad5
 content-type: image/png
 ---
 _path: /wwtweb/martiantile.aspx?q=0,0,0,mars_terrain_color
+categories:
+- coreapp
 content-length: 197354
 content-sha256: eb6d4901842c932dabfeaa97eb690b1f4ee1458e6ee8645d98d6db837886c7e4
 content-type: image/png
 ---
 _path: /wwtweb/martiantile.aspx?q=1,1,1,mars_base_map
 categories:
-- backend
+- coreapp
 content-length: 139877
 content-sha256: a4ee08ac646dc49b2005d9ad5f370a1ff27cc04a9edcc5b264f949e4034f347f
 content-type: image/png
 ---
 _path: /wwtweb/mipsgal.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 4567
 content-sha256: 57bb4df47ed3875be503f94d7ff997ff003e7ab6bb0a56ee84a417d3ac8c7caa
 content-type: image/png
 ---
 _path: /wwtweb/mipsgal.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 5672
 content-sha256: a783c686745eeaf9592be8c1f7c33d3068638babdc96b86cf68367c0f492dba2
 content-type: image/png
 ---
 _path: /wwtweb/mipsgal.aspx?q=11,663,2012
 categories:
-- backend
+- coreapp
 content-length: 166782
 content-sha256: 794f8cf2622e51486789501510f04dfa5831ceebf0be2faacd994ead92c0fe62
 content-type: image/png
 ---
 _path: /wwtweb/moonoct.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 147779
 content-sha256: 4ebbf4087ca0471005d922dc3e27b5a40e88f76f7e50e1cb6394ec98949a42a3
 content-type: image/png
 ---
 _path: /wwtweb/moontoast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 84779
 content-sha256: e0dcb534db6e74a16daa5d7ddd2b0f2d34e191c512afb0cbf3b9e65b0f1540e7
 content-type: image/png
 ---
 _path: /wwtweb/moontoast.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 89409
 content-sha256: e3e5705f4ee6f1b0bfa5e24ffb161da87782a4a467a16ba2294dc2f20a9f4140
 content-type: image/png
 ---
 _path: /wwtweb/moontoast.aspx?q=7,0,0
 categories:
-- backend
+- coreapp
 content-length: 59572
 content-sha256: fd57d1bfdc8340f59f6e1e9a5abca4f41f37958a6eaf744900862218867920d8
 content-type: image/png
 ---
 _path: /wwtweb/moontoastdem.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 2052
 content-sha256: 2592503b17c19024a8d15e3bde3ae67f6652369b4a0bde8097a55ad92b09ddc9
 content-type: application/octet-stream
 ---
 _path: /wwtweb/moontoastdem.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 2052
 content-sha256: 0a94fc631534ad8a8f04c774be3b8cb37366934db849b1db3bae8b870524ef0a
 content-type: application/octet-stream
 ---
 _path: /wwtweb/moontoastdem.aspx?q=7,0,0
 categories:
-- backend
+- coreapp
 content-length: 2052
 content-sha256: 5f7d406e97e4ae1f23fc48c0dba612e9c5966441d423b09455603fda5a4ee38e
 content-type: application/octet-stream
 ---
 _path: /wwtweb/postratingfeedback.aspx?q=48c225ee-dc63-4c35-8d6f-127d448740ba,20ec9079-810a-47da-bbeb-f61c84990302,5
 categories:
-- backend
+- coreapp
 content-type: text/xml
 ---
 _path: /wwtweb/postratingfeedback.aspx?q=94,00fdc34f-e41e-4231-804e-82befd0a9b74,5
 categories:
-- backend
+- coreapp
 content-type: text/xml
 ---
 _path: /wwtweb/rasstoast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 61803
 content-sha256: 26f0d29dd670323e90dffabff49a2c6f418454a3cda1817e07d948720bc83acb
 content-type: image/png
 ---
 _path: /wwtweb/sdss12toast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 39583
 content-sha256: 516ab7f1c99f88f7cdd35e6cd02a878f90cba149c421bc8b5e507491fe97fa0b
 content-type: image/png
 ---
 _path: /wwtweb/sdsstoast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 20246
 content-sha256: 27790636dda8cbcbabe362409c8b8749ff71a7fbc41f2739fa40d1c1fcbb62a8
 content-type: image/png
 ---
 _path: /wwtweb/sdsstoast.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-type: image/png
 ---
 _path: /wwtweb/sdsstoast2.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 20246
 content-sha256: 27790636dda8cbcbabe362409c8b8749ff71a7fbc41f2739fa40d1c1fcbb62a8
 content-type: image/png
 ---
 _path: /wwtweb/starchart.aspx?dec=20.02778798&height=200&lat=0&lng=0&ra=189.83959986&width=200
 categories:
-- backend
+- coreapp
 content-type: image/png
 ---
 _path: /wwtweb/starchart.aspx?dec=85&height=200&lat=47.61&lng=-122.3331&ra=10&width=200
 categories:
-- backend
+- coreapp
 content-type: image/png
 ---
 _path: /wwtweb/thumbnail.aspx?Name=SolarSystem
 categories:
-- backend
+- coreapp
 content-length: 3501
 content-sha256: 465cc5e664fb4d7717a1932de648ef6ab14c25dbd88d18446ee29232cc44d97c
 content-type: image/jpeg
 ---
 _path: /wwtweb/thumbnail.aspx?Name=folderup
 categories:
-- backend
+- coreapp
 content-length: 2911
 content-sha256: 96c88fadab2741f126b99e0ec1fc6cca94a38d69b4e8857c81fe90767a042ff4
 content-type: image/jpeg
 ---
 _path: /wwtweb/thumbnail.aspx?Name=glimpsetn
 categories:
-- backend
+- coreapp
 content-length: 1179
 content-sha256: e261506b79c5db7cf01c0dceb343785f55e28edef89360e2bc107699a3dfd65a
 content-type: image/jpeg
 ---
 _path: /wwtweb/thumbnail.aspx?Name=wise
 categories:
-- backend
+- coreapp
 content-length: 1107
 content-sha256: edb757592cbee2bf48cd3a0b86cccb323ebf19be1f149debb708e89f7b4ca981
 content-type: image/jpeg
 ---
 _path: /wwtweb/thumbnail.aspx?name=chandra
 categories:
-- backend
+- coreapp
 content-length: 1729
 content-sha256: 7f86af8b551707bbc9d23af04ed1813b3b8769173455a4764eb0c68ff60b70b3
 content-type: image/jpeg
 ---
 _path: /wwtweb/thumbnail.aspx?name=earth
 categories:
-- backend
+- coreapp
 content-length: 931
 content-sha256: 93d7c775c2336b8d39a53a12dba985b6363da24951a0057d196feb942987d6ab
 content-type: image/jpeg
 ---
 _path: /wwtweb/thumbnail.aspx?name=folder
 categories:
-- backend
+- coreapp
 content-length: 2143
 content-sha256: b99fca0f662df719b6a8493454adff0ae2bffde32ebe208e30a00687aa044c92
 content-type: image/jpeg
 ---
 _path: /wwtweb/thumbnail.aspx?name=star
 categories:
-- backend
+- coreapp
 content-length: 4804
 content-sha256: 675ca0f37d7e64da9c6268e29cfccca5c7618fddf6b5d7b1e18157d6ae27073e
 content-type: image/jpeg
 ---
 _path: /wwtweb/tileimage.aspx?dec=0&imageurl=http://www.spitzer.caltech.edu/uploaded_files/images/0009/0848/sig12-011.jpg&ra=0&rotation=180&scale=1&x=0&y=0
+categories:
+- coreapp
 content-length: 951
 content-sha256: 6915a63cc614370afbaa3df0019c4fb2fdd9e6dc8e9ef04e348dedc408ae79f8
 content-type: application/x-wtml
 ---
 _path: /wwtweb/tiles.aspx?q=1,1,1,USNOBToast_6
 categories:
-- backend
+- coreapp
 content-length: 60820
 content-sha256: c96bf5cb396c01947357277768a9b2ddaadc1c27fc6a7c8762200c5f27e3b941
 content-type: image/png
 ---
 _path: /wwtweb/tiles.aspx?q=1,1,1,wise
 categories:
-- backend
+- coreapp
 content-length: 178899
 content-sha256: 86c6a74649ad67d83e5ce214057cbeb90955b1edd1a607f4a179158829268e44
 content-type: image/png
 ---
 _path: /wwtweb/tiles2.aspx?q=0,0,0,MarsToastDem
+categories:
+- coreapp
 content-length: 2052
 content-sha256: 31aee00ad7d9e57388dd55e47d81d3fdee6fc093707b35da60c1491e2faeab12
 content-type: image/png
 ---
 _path: /wwtweb/tiles2.aspx?q=0,0,0,messenger2
+categories:
+- coreapp
 content-length: 74879
 content-sha256: fce44db58046c7feab8c27e5a9c9dd071b139b2f1e23c3deac51321565906f97
 content-type: image/png
 ---
 _path: /wwtweb/tiles2.aspx?q=1,1,1,messenger2
 categories:
-- backend
+- coreapp
 content-length: 78441
 content-sha256: c7b5014a9e591c1ea0b645c77c47dc539a7d36c72fdf8b29a1d69b5c23424280
 content-type: image/png
 ---
 _path: /wwtweb/tilethumb.aspx?name=1001341227
 categories:
-- backend
+- coreapp
 content-length: 1434
 content-sha256: 408eade09cdd7377bc6874a854a7bbd9dc54249934c91ecab33d292eabf36892
 content-type: image/jpeg
 ---
 _path: /wwtweb/tilethumb.aspx?name=730912827
 categories:
-- backend
+- coreapp
 content-length: 2086
 content-sha256: 187d22c6aaf01e4759f9eb08967d879dd307efaa9e9963e88d158a7b4ebc75ed
 content-type: image/jpeg
 ---
 _path: /wwtweb/twomasstoast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 105467
 content-sha256: 266b4ef9e48b7d4e05df5df880cb6186e0dbbe6a196983d1a7b0c411d6a78a21
 content-type: image/png
 ---
 _path: /wwtweb/twomasstoast.aspx?q=1,1,1
 categories:
-- backend
+- coreapp
 content-length: 116511
 content-sha256: e602d2e13e87b630bad164055a0b641acb1eddfdc91eddad5ec65198f109f4d4
 content-type: image/png
 ---
 _path: /wwtweb/tychooct.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 73748
 content-sha256: c472a1a25d12ffbf030d5a5c0654d2a99ae89fe7966fcfeef2b5e83ef42de4be
 content-type: image/png
 ---
 _path: /wwtweb/veblend.aspx?q=1
+categories:
+- coreapp
 content-length: 17237
 content-sha256: 3f03a3958808b4021a7ff6308cb140391421df75833042415599a6b6023e5e54
 content-type: image/jpeg
 ---
 _path: /wwtweb/version.aspx
 categories:
-- backend
+- coreapp
 content-type: text/plain
 ---
 _path: /wwtweb/versions.aspx
 categories:
-- backend
+- coreapp
 content-type: text/plain
 ---
 _path: /wwtweb/vlsstoast.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 36070
 content-sha256: a3cde9aab2a9a185cfab03bee71ecb6f286198b8b0a3fb764ae010b46613f7ca
 content-type: image/png
 ---
 _path: /wwtweb/webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
-categories:
-- backend
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 content-type: image/png
 ---
 _path: /wwtweb/wmap.aspx?q=0,0,0
+categories:
+- coreapp
 content-length: 187516
 content-sha256: f9d9c6552fbcd5ca5f642d43cc29fab5fab365a8b4af2aa30a7ede39096a0c59
 content-type: image/png
