@@ -21,7 +21,12 @@ def warn(msg):
 
 def add_record_filter_args(parser):
     parser.add_argument(
-        '--domain',
+        '--category', '-c',
+        metavar = 'CATEGORY',
+        help = 'Only consider records tagged with the specified category',
+    )
+    parser.add_argument(
+        '--domain', '-d',
         metavar = 'DOMAIN',
         help = 'Only consider the specifed domain',
     )
@@ -34,6 +39,7 @@ def add_record_filter_args(parser):
 def get_records_with_filtering(db, settings):
     "Return a generator of records applying the user's specified filters."
     return db.get_records(
+        category = settings.category,
         domain = settings.domain,
         path_prefix = settings.path_prefix,
     )

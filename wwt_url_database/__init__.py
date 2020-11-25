@@ -321,7 +321,7 @@ class Database(object):
         for dname in self._domains:
             yield self._get_domain(dname)
 
-    def get_records(self, domain=None, path_prefix=None):
+    def get_records(self, category=None, domain=None, path_prefix=None):
         """Get a set of records.
 
         By default, this function generates all known records. The arguments
@@ -338,9 +338,11 @@ class Database(object):
 
         for domain in domains:
             for record in domain.records():
-                if path_prefix is not None:
-                    if not record.path.startswith(path_prefix):
-                        continue
+                if category is not None and category not in record.categories:
+                    continue
+
+                if path_prefix is not None and not record.path.startswith(path_prefix):
+                    continue
 
                 yield record
 
