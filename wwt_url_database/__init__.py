@@ -344,6 +344,9 @@ class Database(object):
                 if path_prefix is not None and not record.path.startswith(path_prefix):
                     continue
 
+                if 'deprecated' in record.categories:
+                    continue
+
                 yield record
 
     def normalize(self, url):
