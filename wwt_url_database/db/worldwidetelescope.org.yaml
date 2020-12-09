@@ -69,6 +69,42 @@ content-length: 17135
 content-sha256: 5d488c76c5b9f09fe8ded1f01757e3df639e5e57ef9d16ff2ab4b3c88bde4f44
 content-type: image/jpeg
 ---
+_path: /community/contents/610180
+categories:
+- coreapp
+content-type: application/json
+---
+_path: /community/detail/141/false
+categories:
+- coreapp
+content-type: application/json
+---
+_path: /community/fetch/tours
+categories:
+- coreapp
+content-type: text/html
+---
+_path: /community/gettour/fe5f68ff-6f35-40da-845b-56d8a79989f0/usingobservingtime
+categories:
+- coreapp
+content-length: 103725
+content-sha256: bc6bf4f9ec15426c2bed2130e4260e346ff5bc2626439fb4fadc1486cf8f36a2
+content-type: text/html
+---
+_path: /community/gettourname/fe5f68ff-6f35-40da-845b-56d8a79989f0
+categories:
+- coreapp
+content-length: 29
+content-sha256: 023d0a11e4dc0321f112fa5cbc80c5bf3eafc578dc5242455968ac7dd6d20929
+content-type: text/html
+---
+_path: /community/permission/profilerequests/1
+categories:
+- coreapp
+content-length: 303
+content-sha256: 9c0d8c3883f35cbd72372d7e3c982f70dc1a881121c42da9240d62e5d58b8ee4
+content-type: application/json
+---
 _path: /community/tourthumbnail/46ed68e5-e0cb-4092-9bc8-07a05b518856
 categories:
 - coreapp
@@ -932,6 +968,16 @@ content-type: text/html
 _path: /embedded-webcontrol.js
 content-type: application/javascript
 ---
+_path: /entity/browse/mostdownloaded/community/all/all/1/30
+categories:
+- coreapp
+content-type: application/json
+---
+_path: /entity/types/getall
+categories:
+- coreapp
+content-type: application/json
+---
 _path: /equinox/wwtequinoxsetup.msi
 content-length: 21167
 content-sha256: 81138e8fe9f9d9336363162d81f1e216ed3338c286e45286842adf827230975c
@@ -943,6 +989,20 @@ categories:
 content-length: 9062
 content-sha256: b9959ff16082a4daa15d6553b04c31e07d1560973ca17772b98f2321d90edefa
 content-type: image/x-icon
+---
+_path: /file/download/0672899a-37d0-4277-8436-e1eb73916399/helloworld/txt
+categories:
+- coreapp
+content-length: 14
+content-sha256: d9014c4624844aa5bac314773d6b689ad467fa4e1d1a50a1b8a99d5a95f72ff5
+content-type: text/plain
+---
+_path: /file/thumbnail/87bbd88f-30ef-4c7d-9433-741db765d4fd
+categories:
+- coreapp
+content-length: 2283
+content-sha256: f38c3aa99f6376fe4ea53dbe5605485075c7451af96af864896dc11063f03aba
+content-type: image/jpeg
 ---
 _path: /getinvolved
 categories:
@@ -1154,6 +1214,38 @@ _path: /profile/myprofile/get
 categories:
 - coreapp
 content-type: text/html
+---
+_path: /resource/service/browse
+categories:
+- coreapp
+content-length: 4656
+content-sha256: 9bcb74b90db74872db68fd022d94a2a07722d6933c7d6fef303d611a723909cc
+content-type: application/xml
+---
+_path: /resource/service/browse/categories
+categories:
+- coreapp
+content-type: application/xml
+---
+_path: /resource/service/browse/category/1
+categories:
+- coreapp
+content-type: application/xml
+---
+_path: /resource/service/browse/latestcontent
+categories:
+- coreapp
+content-type: application/xml
+---
+_path: /resource/service/browse/mostdownloadedcontent
+categories:
+- coreapp
+content-type: application/xml
+---
+_path: /resource/service/browse/topratedcommunity
+categories:
+- coreapp
+content-type: application/xml
 ---
 _path: /resource/service/payload
 categories:
