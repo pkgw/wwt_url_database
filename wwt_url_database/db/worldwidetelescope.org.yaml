@@ -1348,7 +1348,7 @@ content-type: application/javascript
 _path: /webcontrol.aspx
 content-type: text/html
 ---
-_path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
+_path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/DSS.png
 categories:
 - content-type-change-ok
 content-length: 6471
@@ -3343,7 +3343,7 @@ content-length: 36070
 content-sha256: a3cde9aab2a9a185cfab03bee71ecb6f286198b8b0a3fb764ae010b46613f7ca
 content-type: image/png
 ---
-_path: /wwtweb/webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/dss.png
+_path: /wwtweb/webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/DSS.png
 content-length: 6471
 content-sha256: ad76d903c2ae49495630f4e81ab8e68ddd5ea7fcd2e7066c6c9a52f1e80784b8
 content-type: image/png
