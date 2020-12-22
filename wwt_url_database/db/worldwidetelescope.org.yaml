@@ -1181,6 +1181,8 @@ content-sha256: 05002b52a5340688428e5fc23a80b3cfe7ccccda5ad97159756f00423b3c7cdb
 content-type: application/javascript
 ---
 _path: /HTML5TourPlayer.aspx
+categories:
+- deprecated
 content-type: text/html
 ---
 _path: /learn
@@ -1214,11 +1216,13 @@ categories:
 content-type: text/html
 ---
 _path: /m51.txt
+categories:
+- deprecated
 content-length: 1650240
 content-sha256: fd3589aa8a72beb48939de884e3ee5324b510c145003f375c77cd4ecb1a79672
 content-type: text/plain
 ---
-_path: /profile
+_path: /profile/myprofile/get
 categories:
 - coreapp
 content-type: text/html
@@ -1229,8 +1233,6 @@ categories:
 content-type: application/xml
 ---
 _path: /robots.txt
-content-length: 322
-content-sha256: 31b06b9d8d7ba2c31db2dc51bd04993d5c3d5f10fb01cc21cf4b8a8825b9505a
 content-type: text/plain
 ---
 _path: /scripts/wwtsdk.aspx
