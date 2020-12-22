@@ -1415,6 +1415,7 @@ content-type: application/octet-stream
 _path: /wwtweb/bingdemtile2.aspx?q=1,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 4356
 content-sha256: 0e005f90af8e5ab7e51bfbda789bb4055f0402b94615528916f6510908d51244
 content-type: application/octet-stream
@@ -2715,6 +2716,7 @@ content-type: image/png
 _path: /wwtweb/dusttoast.aspx?q=1,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 92719
 content-sha256: 299a657e3359e738fad740cf6f3d2062fff1e4b9d9593e50b371ffcbe11cb3ef
 content-type: image/png
@@ -2722,6 +2724,7 @@ content-type: image/png
 _path: /wwtweb/dusttoast.aspx?q=1,1,1
 categories:
 - coreapp
+- deprecated
 content-length: 99217
 content-sha256: 0b35158e0e8d45e8d25212bf513baf182dd3940023c5585f18a4f52f6ba0248e
 content-type: image/png
@@ -2729,6 +2732,7 @@ content-type: image/png
 _path: /wwtweb/earthblend.aspx?q=1,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 127456
 content-sha256: 4026469c1800076e4fa3084409d90944aa7e9e4564ed9b0c37bdd914226f7ee4
 content-type: image/png
@@ -2917,6 +2921,7 @@ content-type: application/x-wtml
 _path: /wwtweb/halphatoast.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 83106
 content-sha256: 6e5ebe5ba6b1418842329919e78d20c02ab47ca6a7d4c4982d7629f2af70b5c4
 content-type: image/png
@@ -2924,6 +2929,7 @@ content-type: image/png
 _path: /wwtweb/hirisedem.aspx?q=1,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 2052
 content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
 content-type: image/png
@@ -2931,6 +2937,7 @@ content-type: image/png
 _path: /wwtweb/hirisedem.aspx?q=1,1,1
 categories:
 - coreapp
+- deprecated
 content-length: 2052
 content-sha256: 0044c7f0562396363c300c52f5041fca679600d4761936c81788652715699799
 content-type: image/png
@@ -2938,6 +2945,7 @@ content-type: image/png
 _path: /wwtweb/hirisedem2.aspx?q=1,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 2052
 content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
 content-type: text/plain
@@ -2945,6 +2953,7 @@ content-type: text/plain
 _path: /wwtweb/hirisedem3.aspx?q=1,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 2052
 content-sha256: d7fb0f942236e3a082fa237128fcf1e063fbae283acc10a1fabc833d7e96fbf8
 content-type: image/png
@@ -2957,6 +2966,7 @@ content-type: text/plain
 _path: /wwtweb/jupiter.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 169652
 content-sha256: 97e13e110093383a2f9ea42bac564742cb62c0c35cfd9d405ef6b171f5c5d03c
 content-type: image/png
@@ -2978,6 +2988,7 @@ content-type: image/jpeg
 _path: /wwtweb/mandel1.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 10484
 content-sha256: d9eaf5be1ad87f88b30a37da34dde67441cc85140234b7b2442dcb6570b7ceba
 content-type: image/jpeg
@@ -2985,6 +2996,7 @@ content-type: image/jpeg
 _path: /wwtweb/mars.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 142522
 content-sha256: 59b4febb0c3072243453caa4466de0e2c2e263b180e16e194523d65e243948bb
 content-type: image/png
@@ -3069,6 +3081,7 @@ content-type: image/png
 _path: /wwtweb/moonoct.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 147779
 content-sha256: 4ebbf4087ca0471005d922dc3e27b5a40e88f76f7e50e1cb6394ec98949a42a3
 content-type: image/png
@@ -3128,6 +3141,7 @@ content-type: text/xml
 _path: /wwtweb/rasstoast.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 61803
 content-sha256: 26f0d29dd670323e90dffabff49a2c6f418454a3cda1817e07d948720bc83acb
 content-type: image/png
@@ -3154,6 +3168,7 @@ content-type: image/png
 _path: /wwtweb/sdsstoast2.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 20246
 content-sha256: 27790636dda8cbcbabe362409c8b8749ff71a7fbc41f2739fa40d1c1fcbb62a8
 content-type: image/png
@@ -3297,6 +3312,7 @@ content-type: image/png
 _path: /wwtweb/tychooct.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 73748
 content-sha256: c472a1a25d12ffbf030d5a5c0654d2a99ae89fe7966fcfeef2b5e83ef42de4be
 content-type: image/png
@@ -3304,6 +3320,7 @@ content-type: image/png
 _path: /wwtweb/veblend.aspx?q=1
 categories:
 - coreapp
+- deprecated
 content-length: 17237
 content-sha256: 3f03a3958808b4021a7ff6308cb140391421df75833042415599a6b6023e5e54
 content-type: image/jpeg
@@ -3321,6 +3338,7 @@ content-type: text/plain
 _path: /wwtweb/vlsstoast.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 36070
 content-sha256: a3cde9aab2a9a185cfab03bee71ecb6f286198b8b0a3fb764ae010b46613f7ca
 content-type: image/png
@@ -3333,6 +3351,7 @@ content-type: image/png
 _path: /wwtweb/wmap.aspx?q=0,0,0
 categories:
 - coreapp
+- deprecated
 content-length: 187516
 content-sha256: f9d9c6552fbcd5ca5f642d43cc29fab5fab365a8b4af2aa30a7ede39096a0c59
 content-type: image/png
