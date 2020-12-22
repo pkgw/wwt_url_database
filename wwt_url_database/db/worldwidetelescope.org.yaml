@@ -104,11 +104,6 @@ content-length: 18415
 content-sha256: 98fef095c6c0ae16731f845b10cc1206f31200409e92049b282b63d6e9b9dda0
 content-type: text/xml
 ---
-_path: /content/images/addview.jpg
-content-length: 37754
-content-sha256: 2c17b6fa03800f7428b51f33da7edb5542dfb1eb9848aa233da367dcd0867412
-content-type: image/jpeg
----
 _path: /content/images/addview.png
 content-length: 7040
 content-sha256: 66fde3d2cb8885ebe5984274f8e0d7e04163cad8dfb02b29c16d2b226acbd69e
@@ -254,16 +249,6 @@ content-length: 10200
 content-sha256: 3bb8bdaec955eeee16c1184de9a393020e759b7e1bd300c97ff774f1c428b5ab
 content-type: image/png
 ---
-_path: /content/images/eso.jpg
-content-length: 2635
-content-sha256: 63a8ad758750a233c65f3afb9ff469305f2629230c2b930317b618bd20256806
-content-type: image/jpeg
----
-_path: /content/images/eso.png
-content-length: 8894
-content-sha256: 4de5af47d25efd12db5164a73629f5d5616e2998eb7f65ee187b26b9ad170529
-content-type: image/png
----
 _path: /content/images/gbox.png
 content-length: 969
 content-sha256: 998853264295a1febe033b534d971cee4630d670f74940e695d405e64374778a
@@ -289,16 +274,6 @@ content-length: 7429
 content-sha256: 0499adc1837a043c4bcdf3df3f7bf9d6583228e322ec67780000cd674a998d11
 content-type: image/png
 ---
-_path: /content/images/lens-logo-lg.png
-content-length: 69015
-content-sha256: a54b58c5b4342ef695a0f8deddfb6fb2e21a16e4f6505069b8312b47870e3194
-content-type: image/png
----
-_path: /content/images/lens-logo-sm.png
-content-length: 4963
-content-sha256: a6b8e0251527894ad0649d62442456e2f12be15017ff1e10f279e9c477a8d880
-content-type: image/png
----
 _path: /content/images/lifesciencewwtthumbnail.png
 content-length: 13711
 content-sha256: b82161f0fbeb319e9b0ef1773241038fcb5edbd73ee836678a0ed5a54802e9a1
@@ -310,59 +285,37 @@ content-sha256: a6dc5857252f49c4c175df96531b609710820ad21e5477a11a736fda76a25052
 content-type: image/png
 ---
 _path: /content/images/planetariums/go-dome.png
-content-length: 112128
-content-sha256: ee044331190b9206394c0e63e5ce8a08666226717d97247647b0e7035649c368
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_asteroidbelts.png
-content-length: 356434
-content-sha256: b2679215ff6f933d413c057f0ed0982cb44fc469ac212830ebebe73f3a2a65d5
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_asteroids.png
-content-length: 353457
-content-sha256: 27de765c2958eff992737cd82ee18ab6a021084cd33d9ece92e0ec315f035f38
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_calorisbasin.png
-content-length: 766936
-content-sha256: 27673288bbb5fba10e470ac2c4dfebe09460dfbe72cec887cd12408ed1283578
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_craters.png
-content-length: 1488977
-content-sha256: 29689f4dcb5a24f8d6d49d93753f6cf7a712a46869fb4055e508234cbaaaeaec
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_gale.png
-content-length: 469143
-content-sha256: ff1293b6fb112a177a7e3e10a2e39bf5dc329938b6f15b578b43fd9ac6f54284
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_iss.png
-content-length: 1321760
-content-sha256: dd069611c58cb5340288c7636c59e9f58cc2fe723aff08564e429eee99c6b00f
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_manicouagan.png
-content-length: 1230830
-content-sha256: 8a400b2352286e08d8d81d35c7990f37d4ac513f2fdc1e48b8422cba56addb69
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_tour_splash.jpg
-content-length: 477078
-content-sha256: 15df6132f14b680f20d158ee4a9d7340c0c0b3ab802ebfe75b3229d357d07311
-content-type: image/jpeg
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/impacts_tycho.png
-content-length: 641112
-content-sha256: 6f64ad53b091e50e3393d33fcde1308dc8dedf5d3410867aaffadaec748d6957
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetariums/wwt-dome-exterior.png
-content-length: 98654
-content-sha256: 90da63990aa296bbcedbb8ba7dcc2b4e14ce793b9a6fe04d48de812217524a80
-content-type: image/png
+content-type: X-301-Redirect
 ---
 _path: /content/images/planetswwtthumbnail.png
 content-length: 12437
@@ -379,33 +332,8 @@ content-length: 13311
 content-sha256: 8a068884ed64ea6463e65b92076a934c3a59a03318f88e5b1104b832825f44dd
 content-type: image/png
 ---
-_path: /content/images/solutionexplorer.jpg
-content-length: 39572
-content-sha256: 90a5f6dce1863e3ffd65f861b84c08ab0be9397cf59f5cac2266e29ef7c28c1a
-content-type: image/jpeg
----
-_path: /content/images/solutionexplorer.png
-content-length: 7387
-content-sha256: 70d391748fa72a010712ea8ae7edbb4f6fe7c7375df4e73355af80ffdd4023f5
-content-type: image/png
----
-_path: /content/images/wise.png
-content-length: 7130
-content-sha256: 89b399deb036c974d50abfcbfbb7c4dce99d2e95b22e50432d92b2b1e29ae08f
-content-type: image/png
----
-_path: /content/images/wiseobservatory.jpg
-content-length: 2942
-content-sha256: 5f08c5e7128b4ec1e26541219959a64fdcb82c12d91df844b6ed8cc84e7c2b32
-content-type: image/jpeg
----
-_path: /content/images/wiseobservatory.png
-content-length: 7130
-content-sha256: cf0dece01b4e1af5b90c6482c8480bbb690143ac2fe71a0f577367c11c00259a
-content-type: image/png
----
 _path: /content/openwwt/openwwt_development.pdf
-content-type: application/pdf
+content-type: X-301-Redirect
 ---
 _path: /content/print.htm
 content-type: text/html
