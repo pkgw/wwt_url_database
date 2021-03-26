@@ -12,8 +12,8 @@ categories:
 content-type: X-302-Redirect
 ---
 _path: /COMPLETE/WWTCoverageTool.htm
-content-length: 18599
-content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
+content-length: 647
+content-sha256: 8c203eb036f9f78d7880d7cd852c63b0d4d948c48535aef817886d3b422215b1
 content-type: text/html
 ---
 _path: /COMPLETE/WWTCoverageTool5.htm
@@ -22,7 +22,7 @@ content-type: text/html
 _path: /COMPLETE/wwtcomplete.wtml
 content-length: 34245
 content-sha256: 5f383f44dc567a52ecd1ed82a78983c0e775b04e1c4804de02e42502d603cc91
-content-type: application/x-wtml
+content-type: application/octet-stream
 ---
 _path: /HTML5TourPlayer.aspx
 categories:
@@ -122,8 +122,6 @@ content-type: text/html
 _path: /community/permission/profilerequests/1
 categories:
 - coreapp
-content-length: 303
-content-sha256: 9c0d8c3883f35cbd72372d7e3c982f70dc1a881121c42da9240d62e5d58b8ee4
 content-type: application/json
 ---
 _path: /community/tourthumbnail/46ed68e5-e0cb-4092-9bc8-07a05b518856
@@ -194,7 +192,7 @@ content-type: application/x-wtt
 _path: /data/iss.zip
 content-length: 30459330
 content-sha256: e3cc4fc6be7e81f68e1296999db0043fd4af21d7d411ae8d948c6c8f98e80d0d
-content-type: application/x-zip-compressed
+content-type: application/zip
 ---
 _path: /data/isstour.wtt
 categories:
@@ -743,9 +741,7 @@ categories:
 content-type: application/json
 ---
 _path: /equinox/wwtequinoxsetup.msi
-content-length: 21167
-content-sha256: 81138e8fe9f9d9336363162d81f1e216ed3338c286e45286842adf827230975c
-content-type: text/html
+content-type: X-301-Redirect
 ---
 _path: /favicon.ico
 categories:
@@ -764,8 +760,8 @@ content-type: text/plain
 _path: /file/thumbnail/87bbd88f-30ef-4c7d-9433-741db765d4fd
 categories:
 - coreapp
-content-length: 2283
-content-sha256: f38c3aa99f6376fe4ea53dbe5605485075c7451af96af864896dc11063f03aba
+content-length: 2288
+content-sha256: b4ca7641baba2b63b7624150011722a5e000262fb531fca482e1aae75c8c5d05
 content-type: image/jpeg
 ---
 _path: /getinvolved
@@ -839,98 +835,98 @@ categories:
 - frontend
 content-length: 1397438
 content-sha256: bd24984812bea1f5c74998ff9b20530ba364054854211a9e13da4795b5efe294
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/1.0.0/wwtsdk.min.js
 categories:
 - frontend
 content-length: 800588
 content-sha256: 1f7a45f310f2b54b6a30f47aeedb7097ed0959b0faf5a0d11e2b926a95f0149e
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/1.0.1/wwtsdk.js
 categories:
 - frontend
 content-length: 1203611
 content-sha256: 9d07704e64ad28371fc714001a365dee1d95c637ab7dca270b48940cf7e20100
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/1.0.1/wwtsdk.min.js
 categories:
 - frontend
 content-length: 689343
 content-sha256: 2e6bf490905c5a9eaa339012df674994c6b4d99279a2a285f1b098c112017d2b
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/1.1.0/wwtsdk.js
 categories:
 - frontend
 content-length: 1513337
 content-sha256: c6d47175fa007a1eec2436acfe8a1d0264ec45e137769579829194d30d656cc5
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/1.1.0/wwtsdk.min.js
 categories:
 - frontend
 content-length: 875301
 content-sha256: 394a972e40b54870de0e2b75d4a902b77c02b526c6b6a78f6b8151787e6c7b83
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/1.1.0/wwtsdk_v3dhack.js
 categories:
 - frontend
 content-length: 1512194
 content-sha256: 03bb7253ae0d9f676093aa59ea2ffd96196cd5a392252288445787fe7c33f0c2
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/2.0/wwtsdk.js
 categories:
 - frontend
 content-length: 1607751
 content-sha256: dd09bdfebc8c0735320167b4f74e9abf6c4b7e6fc8320b831d415dec42cecf9c
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/2.0/wwtsdk.min.js
 categories:
 - frontend
 content-length: 951963
 content-sha256: a2d7dfccc4837234e12c48516dc5ab293b1fe13b5de659503f20d4650169b2fb
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/ss.js
 categories:
 - frontend
 content-length: 37337
 content-sha256: 10d6e3e87ebc9b87e72bdb528ebd9eeeabb61a40a5c56000b0cef3e66c644678
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/ss.min.js
 categories:
 - frontend
 content-length: 16498
 content-sha256: 3d89a9bffca7b57789192e7e7e65e3c747f71ed19f06e4773b8b073a13fb13ed
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/wwtlib.js
 categories:
 - frontend
 content-length: 1172006
 content-sha256: e193282c9821f31a35d42988e75cc393ff391a6085a7d99b511d31c2db948f08
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/wwtsdk.js
 categories:
 - frontend
 content-length: 1209473
 content-sha256: b044e48a2fcca88f198b2edf63e154edeccb01b9fc80ae68cd54987e91eabca8
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /html5sdk/wwtsdk.min.js
 categories:
 - frontend
 content-length: 687158
 content-sha256: 05002b52a5340688428e5fc23a80b3cfe7ccccda5ad97159756f00423b3c7cdb
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /learn
 categories:
@@ -968,11 +964,6 @@ categories:
 content-length: 1650240
 content-sha256: fd3589aa8a72beb48939de884e3ee5324b510c145003f375c77cd4ecb1a79672
 content-type: text/plain
----
-_path: /profile/myprofile/get
-categories:
-- coreapp
-content-type: text/html
 ---
 _path: /resource/service/browse
 categories:
@@ -1015,8 +1006,8 @@ _path: /robots.txt
 content-type: text/plain
 ---
 _path: /scripts/wwtsdk.aspx
-content-length: 686946
-content-sha256: 5a756767a8c802d4694ca3bbfbc861195aee4984cbf06a630c4441f09086d3fa
+content-length: 686975
+content-sha256: 0563f48c1f3d370e9e317dd350e076649847b3914bfabcc2061c26208007009c
 content-type: text/html
 ---
 _path: /sitemap.xml
@@ -1121,10 +1112,10 @@ _path: /webclient/default.aspx
 content-type: text/html
 ---
 _path: /webclient/sdk/wwtsdk.js
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /webclient/sdk/wwtsdk.min.js
-content-type: application/javascript
+content-type: application/x-javascript
 ---
 _path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/DSS.png
 categories:
@@ -1152,7 +1143,7 @@ _path: /webservices/wwtwebservice.asmx?schema=AstroObjectsDataset
 categories:
 - coreapp
 content-length: 2927
-content-sha256: 7e84e1ce669445a30e78066aa9a2d6127b39dc9c0df9b97e8ee6613dad3c9330
+content-sha256: 771bfe8d42134cb7c398bc8d83461de130d404afa03a21d9628fc769a3e4739c
 content-type: text/xml
 ---
 _path: /wwtweb/2massoct.aspx?q=0,0,0
@@ -2752,15 +2743,15 @@ content-type: image/png
 _path: /wwtweb/mandel.aspx?q=0,0,0
 categories:
 - coreapp
-content-length: 6956
-content-sha256: 39edc97967f77efc41a38919c105c7f3c3245d9e1e0cdd006e6863f3837308e0
+content-length: 7015
+content-sha256: 4c77b4615086925b060d9cfa92e53c9006e67af21b89a08011b52606fdca1fe6
 content-type: image/jpeg
 ---
 _path: /wwtweb/mandel.aspx?q=1,1,1
 categories:
 - coreapp
-content-length: 10264
-content-sha256: e02503772811ddf5886387e66461670acb388b4bcff4036233ee9c8ee6d6d246
+content-length: 9888
+content-sha256: 70ab6174d5bac40b059369765decdf26262f4517494973c0f2f460aad888fc35
 content-type: image/jpeg
 ---
 _path: /wwtweb/mandel1.aspx?q=0,0,0
@@ -2789,29 +2780,29 @@ content-type: application/octet-stream
 _path: /wwtweb/marshirise.aspx?q=0,0,0
 categories:
 - coreapp
-content-length: 174748
-content-sha256: 8d3937c061df07982aec05c95817f1724b77b1df6193dd77cba4c0fb60c76b79
+content-length: 169213
+content-sha256: 8bcdf9a1609ac1d8e44b335980198ff9dfcbe2fa509801d944c833ecb64b504e
 content-type: image/png
 ---
 _path: /wwtweb/marshirise.aspx?q=1,1,1
 categories:
 - coreapp
-content-length: 166641
-content-sha256: 4563155d96a12dd9e0f87840a37e935396ccfeef42cf0f7735111a3a0e48185f
+content-length: 162746
+content-sha256: 07408364475a3b615aed9742153e4c09562d2f8090ae00da963c6ea4e7551ecd
 content-type: image/png
 ---
 _path: /wwtweb/marsmoc.aspx?q=0,0,0
 categories:
 - coreapp
-content-length: 176858
-content-sha256: 5ac1d100ae77ebecfdc8b37540e559267ee9969c241424ec6ccfe623b5cca095
+content-length: 135001
+content-sha256: 29584123240523eef81fce9a5a14e68784483f26d3b5fe8e03ef18df3b641252
 content-type: image/png
 ---
 _path: /wwtweb/marsmoc.aspx?q=1,1,1&v=2
 categories:
 - coreapp
-content-length: 170518
-content-sha256: a053bc7ce1bc2c9a1075828149de3b799c783a81730f4ebcde4a008175f1e4d7
+content-length: 143353
+content-sha256: 8f5e6ebfca386cbd3280088797de4a82f862667310a34320fd0f9fe6272597da
 content-type: image/png
 ---
 _path: /wwtweb/martiantile.aspx?q=0,0,0,mars_base_map
