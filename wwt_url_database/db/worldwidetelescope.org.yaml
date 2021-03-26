@@ -11,6 +11,27 @@ categories:
 - frontend
 content-type: X-302-Redirect
 ---
+_path: /COMPLETE/WWTCoverageTool.htm
+content-length: 18599
+content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
+content-type: text/html
+---
+_path: /COMPLETE/WWTCoverageTool5.htm
+content-type: text/html
+---
+_path: /COMPLETE/wwtcomplete.wtml
+content-length: 34245
+content-sha256: 5f383f44dc567a52ecd1ed82a78983c0e775b04e1c4804de02e42502d603cc91
+content-type: application/x-wtml
+---
+_path: /HTML5TourPlayer.aspx
+categories:
+- deprecated
+content-type: text/html
+---
+_path: /WebControl.aspx
+content-type: text/html
+---
 _path: /about
 categories:
 - frontend
@@ -111,19 +132,6 @@ categories:
 content-length: 3296
 content-sha256: 5fe469f22637472769d280dddbee8bf9ef2082c0414f977ceb9a3adfe265be7e
 content-type: image/jpeg
----
-_path: /COMPLETE/wwtcomplete.wtml
-content-length: 34245
-content-sha256: 5f383f44dc567a52ecd1ed82a78983c0e775b04e1c4804de02e42502d603cc91
-content-type: application/x-wtml
----
-_path: /COMPLETE/WWTCoverageTool.htm
-content-length: 18599
-content-sha256: 7a017ba58a66b57e5a85ea389ea4df99a5ce48183e001c82a9065ac91b9ae31d
-content-type: text/html
----
-_path: /COMPLETE/WWTCoverageTool5.htm
-content-type: text/html
 ---
 _path: /connect
 categories:
@@ -924,11 +932,6 @@ content-length: 687158
 content-sha256: 05002b52a5340688428e5fc23a80b3cfe7ccccda5ad97159756f00423b3c7cdb
 content-type: application/javascript
 ---
-_path: /HTML5TourPlayer.aspx
-categories:
-- deprecated
-content-type: text/html
----
 _path: /learn
 categories:
 - frontend
@@ -1122,9 +1125,6 @@ content-type: application/javascript
 ---
 _path: /webclient/sdk/wwtsdk.min.js
 content-type: application/javascript
----
-_path: /WebControl.aspx
-content-type: text/html
 ---
 _path: /webserviceproxy.aspx?targeturl=http://worldwidetelescope.org/thumbnails/DSS.png
 categories:
