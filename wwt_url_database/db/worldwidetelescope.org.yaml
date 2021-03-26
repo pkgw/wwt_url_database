@@ -1010,9 +1010,6 @@ content-length: 686975
 content-sha256: 0563f48c1f3d370e9e317dd350e076649847b3914bfabcc2061c26208007009c
 content-type: text/html
 ---
-_path: /sitemap.xml
-content-type: text/xml
----
 _path: /support
 categories:
 - frontend
