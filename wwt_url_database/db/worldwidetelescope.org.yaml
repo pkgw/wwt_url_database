@@ -2794,15 +2794,15 @@ content-type: image/png
 _path: /wwtweb/marsmoc.aspx?q=0,0,0
 categories:
 - coreapp
-content-length: 135001
-content-sha256: 29584123240523eef81fce9a5a14e68784483f26d3b5fe8e03ef18df3b641252
+content-length: 149021
+content-sha256: 41fcc40ceb55da508ed934fba520c9adde553f9cbe85dc21a8a06f1f16d1a486
 content-type: image/png
 ---
 _path: /wwtweb/marsmoc.aspx?q=1,1,1&v=2
 categories:
 - coreapp
-content-length: 143353
-content-sha256: 8f5e6ebfca386cbd3280088797de4a82f862667310a34320fd0f9fe6272597da
+content-length: 152804
+content-sha256: 8a10b73c8df7c6e4216ebd5f23898af82c122c623b9d0d0c688f0aa4d38c0988
 content-type: image/png
 ---
 _path: /wwtweb/martiantile.aspx?q=0,0,0,mars_base_map
